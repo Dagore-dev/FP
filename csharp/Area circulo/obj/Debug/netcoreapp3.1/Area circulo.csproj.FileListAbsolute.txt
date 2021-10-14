@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\Area circulo\obj\Debug\netcoreapp3.1\Area circulo.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\Area circulo\obj\Debug\netcoreapp3.1\Area circulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\Area circulo\obj\Debug\netcoreapp3.1\Area circulo.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\Area circulo\obj\Debug\netcoreapp3.1\Area circulo.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\Area circulo\obj\Debug\netcoreapp3.1\Area circulo.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\Area circulo\bin\Debug\netcoreapp3.1\Area circulo.exe
+C:\Users\Dagore\source\repos\Area circulo\bin\Debug\netcoreapp3.1\Area circulo.deps.json
+C:\Users\Dagore\source\repos\Area circulo\bin\Debug\netcoreapp3.1\Area circulo.runtimeconfig.json
+C:\Users\Dagore\source\repos\Area circulo\bin\Debug\netcoreapp3.1\Area circulo.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\Area circulo\bin\Debug\netcoreapp3.1\Area circulo.dll
+C:\Users\Dagore\source\repos\Area circulo\bin\Debug\netcoreapp3.1\Area circulo.pdb
+C:\Users\Dagore\source\repos\Area circulo\obj\Debug\netcoreapp3.1\Area circulo.dll
+C:\Users\Dagore\source\repos\Area circulo\obj\Debug\netcoreapp3.1\Area circulo.pdb
+C:\Users\Dagore\source\repos\Area circulo\obj\Debug\netcoreapp3.1\Area circulo.genruntimeconfig.cache

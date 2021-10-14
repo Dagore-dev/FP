@@ -1,0 +1,14 @@
+C:\Users\dagor\source\repos\Estructurada22\bin\Debug\netcoreapp3.1\Estructurada22.exe
+C:\Users\dagor\source\repos\Estructurada22\bin\Debug\netcoreapp3.1\Estructurada22.deps.json
+C:\Users\dagor\source\repos\Estructurada22\bin\Debug\netcoreapp3.1\Estructurada22.runtimeconfig.json
+C:\Users\dagor\source\repos\Estructurada22\bin\Debug\netcoreapp3.1\Estructurada22.runtimeconfig.dev.json
+C:\Users\dagor\source\repos\Estructurada22\bin\Debug\netcoreapp3.1\Estructurada22.dll
+C:\Users\dagor\source\repos\Estructurada22\bin\Debug\netcoreapp3.1\Estructurada22.pdb
+C:\Users\dagor\source\repos\Estructurada22\obj\Debug\netcoreapp3.1\Estructurada22.csproj.AssemblyReference.cache
+C:\Users\dagor\source\repos\Estructurada22\obj\Debug\netcoreapp3.1\Estructurada22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\repos\Estructurada22\obj\Debug\netcoreapp3.1\Estructurada22.AssemblyInfoInputs.cache
+C:\Users\dagor\source\repos\Estructurada22\obj\Debug\netcoreapp3.1\Estructurada22.AssemblyInfo.cs
+C:\Users\dagor\source\repos\Estructurada22\obj\Debug\netcoreapp3.1\Estructurada22.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\repos\Estructurada22\obj\Debug\netcoreapp3.1\Estructurada22.dll
+C:\Users\dagor\source\repos\Estructurada22\obj\Debug\netcoreapp3.1\Estructurada22.pdb
+C:\Users\dagor\source\repos\Estructurada22\obj\Debug\netcoreapp3.1\Estructurada22.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\enclase\switchYBucles\bin\Debug\netcoreapp3.1\switchYBucles.exe
+C:\Users\Dagore\source\repos\enclase\switchYBucles\bin\Debug\netcoreapp3.1\switchYBucles.deps.json
+C:\Users\Dagore\source\repos\enclase\switchYBucles\bin\Debug\netcoreapp3.1\switchYBucles.runtimeconfig.json
+C:\Users\Dagore\source\repos\enclase\switchYBucles\bin\Debug\netcoreapp3.1\switchYBucles.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\enclase\switchYBucles\bin\Debug\netcoreapp3.1\switchYBucles.dll
+C:\Users\Dagore\source\repos\enclase\switchYBucles\bin\Debug\netcoreapp3.1\switchYBucles.pdb
+C:\Users\Dagore\source\repos\enclase\switchYBucles\obj\Debug\netcoreapp3.1\switchYBucles.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\enclase\switchYBucles\obj\Debug\netcoreapp3.1\switchYBucles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\enclase\switchYBucles\obj\Debug\netcoreapp3.1\switchYBucles.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\enclase\switchYBucles\obj\Debug\netcoreapp3.1\switchYBucles.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\enclase\switchYBucles\obj\Debug\netcoreapp3.1\switchYBucles.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\enclase\switchYBucles\obj\Debug\netcoreapp3.1\switchYBucles.dll
+C:\Users\Dagore\source\repos\enclase\switchYBucles\obj\Debug\netcoreapp3.1\switchYBucles.pdb
+C:\Users\Dagore\source\repos\enclase\switchYBucles\obj\Debug\netcoreapp3.1\switchYBucles.genruntimeconfig.cache

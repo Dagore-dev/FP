@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "El porcentaje de descuento/1.0.0": {
+        "runtime": {
+          "El porcentaje de descuento.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "El porcentaje de descuento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

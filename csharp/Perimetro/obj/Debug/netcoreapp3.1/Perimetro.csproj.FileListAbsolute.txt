@@ -1,0 +1,13 @@
+C:\Users\Dagore\source\repos\Perimetro\bin\Debug\netcoreapp3.1\Perimetro.exe
+C:\Users\Dagore\source\repos\Perimetro\bin\Debug\netcoreapp3.1\Perimetro.deps.json
+C:\Users\Dagore\source\repos\Perimetro\bin\Debug\netcoreapp3.1\Perimetro.runtimeconfig.json
+C:\Users\Dagore\source\repos\Perimetro\bin\Debug\netcoreapp3.1\Perimetro.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\Perimetro\bin\Debug\netcoreapp3.1\Perimetro.dll
+C:\Users\Dagore\source\repos\Perimetro\bin\Debug\netcoreapp3.1\Perimetro.pdb
+C:\Users\Dagore\source\repos\Perimetro\obj\Debug\netcoreapp3.1\Perimetro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\Perimetro\obj\Debug\netcoreapp3.1\Perimetro.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\Perimetro\obj\Debug\netcoreapp3.1\Perimetro.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\Perimetro\obj\Debug\netcoreapp3.1\Perimetro.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\Perimetro\obj\Debug\netcoreapp3.1\Perimetro.dll
+C:\Users\Dagore\source\repos\Perimetro\obj\Debug\netcoreapp3.1\Perimetro.pdb
+C:\Users\Dagore\source\repos\Perimetro\obj\Debug\netcoreapp3.1\Perimetro.genruntimeconfig.cache

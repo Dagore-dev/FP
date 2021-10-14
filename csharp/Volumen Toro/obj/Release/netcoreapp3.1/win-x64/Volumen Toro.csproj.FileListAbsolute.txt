@@ -1,0 +1,13 @@
+C:\Users\Dagore\source\repos\Volumen Toro\bin\Release\netcoreapp3.1\win-x64\Volumen Toro.exe
+C:\Users\Dagore\source\repos\Volumen Toro\bin\Release\netcoreapp3.1\win-x64\Volumen Toro.deps.json
+C:\Users\Dagore\source\repos\Volumen Toro\bin\Release\netcoreapp3.1\win-x64\Volumen Toro.runtimeconfig.json
+C:\Users\Dagore\source\repos\Volumen Toro\bin\Release\netcoreapp3.1\win-x64\Volumen Toro.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\Volumen Toro\bin\Release\netcoreapp3.1\win-x64\Volumen Toro.dll
+C:\Users\Dagore\source\repos\Volumen Toro\bin\Release\netcoreapp3.1\win-x64\Volumen Toro.pdb
+C:\Users\Dagore\source\repos\Volumen Toro\obj\Release\netcoreapp3.1\win-x64\Volumen Toro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\Volumen Toro\obj\Release\netcoreapp3.1\win-x64\Volumen Toro.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\Volumen Toro\obj\Release\netcoreapp3.1\win-x64\Volumen Toro.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\Volumen Toro\obj\Release\netcoreapp3.1\win-x64\Volumen Toro.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\Volumen Toro\obj\Release\netcoreapp3.1\win-x64\Volumen Toro.dll
+C:\Users\Dagore\source\repos\Volumen Toro\obj\Release\netcoreapp3.1\win-x64\Volumen Toro.pdb
+C:\Users\Dagore\source\repos\Volumen Toro\obj\Release\netcoreapp3.1\win-x64\Volumen Toro.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\El porcentaje de descuento\bin\Debug\netcoreapp3.1\El porcentaje de descuento.exe
+C:\Users\Dagore\source\repos\El porcentaje de descuento\bin\Debug\netcoreapp3.1\El porcentaje de descuento.deps.json
+C:\Users\Dagore\source\repos\El porcentaje de descuento\bin\Debug\netcoreapp3.1\El porcentaje de descuento.runtimeconfig.json
+C:\Users\Dagore\source\repos\El porcentaje de descuento\bin\Debug\netcoreapp3.1\El porcentaje de descuento.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\El porcentaje de descuento\bin\Debug\netcoreapp3.1\El porcentaje de descuento.dll
+C:\Users\Dagore\source\repos\El porcentaje de descuento\bin\Debug\netcoreapp3.1\El porcentaje de descuento.pdb
+C:\Users\Dagore\source\repos\El porcentaje de descuento\obj\Debug\netcoreapp3.1\El porcentaje de descuento.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\El porcentaje de descuento\obj\Debug\netcoreapp3.1\El porcentaje de descuento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\El porcentaje de descuento\obj\Debug\netcoreapp3.1\El porcentaje de descuento.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\El porcentaje de descuento\obj\Debug\netcoreapp3.1\El porcentaje de descuento.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\El porcentaje de descuento\obj\Debug\netcoreapp3.1\El porcentaje de descuento.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\El porcentaje de descuento\obj\Debug\netcoreapp3.1\El porcentaje de descuento.dll
+C:\Users\Dagore\source\repos\El porcentaje de descuento\obj\Debug\netcoreapp3.1\El porcentaje de descuento.pdb
+C:\Users\Dagore\source\repos\El porcentaje de descuento\obj\Debug\netcoreapp3.1\El porcentaje de descuento.genruntimeconfig.cache

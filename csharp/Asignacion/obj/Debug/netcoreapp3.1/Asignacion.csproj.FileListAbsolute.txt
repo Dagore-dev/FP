@@ -1,0 +1,13 @@
+C:\Users\Dagore\source\repos\Asignacion\bin\Debug\netcoreapp3.1\Asignacion.exe
+C:\Users\Dagore\source\repos\Asignacion\bin\Debug\netcoreapp3.1\Asignacion.deps.json
+C:\Users\Dagore\source\repos\Asignacion\bin\Debug\netcoreapp3.1\Asignacion.runtimeconfig.json
+C:\Users\Dagore\source\repos\Asignacion\bin\Debug\netcoreapp3.1\Asignacion.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\Asignacion\bin\Debug\netcoreapp3.1\Asignacion.dll
+C:\Users\Dagore\source\repos\Asignacion\bin\Debug\netcoreapp3.1\Asignacion.pdb
+C:\Users\Dagore\source\repos\Asignacion\obj\Debug\netcoreapp3.1\Asignacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\Asignacion\obj\Debug\netcoreapp3.1\Asignacion.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\Asignacion\obj\Debug\netcoreapp3.1\Asignacion.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\Asignacion\obj\Debug\netcoreapp3.1\Asignacion.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\Asignacion\obj\Debug\netcoreapp3.1\Asignacion.dll
+C:\Users\Dagore\source\repos\Asignacion\obj\Debug\netcoreapp3.1\Asignacion.pdb
+C:\Users\Dagore\source\repos\Asignacion\obj\Debug\netcoreapp3.1\Asignacion.genruntimeconfig.cache

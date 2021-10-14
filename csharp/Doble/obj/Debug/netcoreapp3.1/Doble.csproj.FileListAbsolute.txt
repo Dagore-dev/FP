@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\Doble\bin\Debug\netcoreapp3.1\Doble.exe
+C:\Users\Dagore\source\repos\Doble\bin\Debug\netcoreapp3.1\Doble.deps.json
+C:\Users\Dagore\source\repos\Doble\bin\Debug\netcoreapp3.1\Doble.runtimeconfig.json
+C:\Users\Dagore\source\repos\Doble\bin\Debug\netcoreapp3.1\Doble.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\Doble\bin\Debug\netcoreapp3.1\Doble.dll
+C:\Users\Dagore\source\repos\Doble\bin\Debug\netcoreapp3.1\Doble.pdb
+C:\Users\Dagore\source\repos\Doble\obj\Debug\netcoreapp3.1\Doble.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\Doble\obj\Debug\netcoreapp3.1\Doble.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\Doble\obj\Debug\netcoreapp3.1\Doble.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\Doble\obj\Debug\netcoreapp3.1\Doble.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\Doble\obj\Debug\netcoreapp3.1\Doble.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\Doble\obj\Debug\netcoreapp3.1\Doble.dll
+C:\Users\Dagore\source\repos\Doble\obj\Debug\netcoreapp3.1\Doble.pdb
+C:\Users\Dagore\source\repos\Doble\obj\Debug\netcoreapp3.1\Doble.genruntimeconfig.cache

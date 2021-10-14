@@ -1,0 +1,13 @@
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\bin\Debug\netcoreapp3.1\estrucuturada31.exe
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\bin\Debug\netcoreapp3.1\estrucuturada31.deps.json
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\bin\Debug\netcoreapp3.1\estrucuturada31.runtimeconfig.json
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\bin\Debug\netcoreapp3.1\estrucuturada31.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\bin\Debug\netcoreapp3.1\estrucuturada31.dll
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\bin\Debug\netcoreapp3.1\estrucuturada31.pdb
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\obj\Debug\netcoreapp3.1\estrucuturada31.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\obj\Debug\netcoreapp3.1\estrucuturada31.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\obj\Debug\netcoreapp3.1\estrucuturada31.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\obj\Debug\netcoreapp3.1\estrucuturada31.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\obj\Debug\netcoreapp3.1\estrucuturada31.dll
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\obj\Debug\netcoreapp3.1\estrucuturada31.pdb
+C:\Users\Dagore\source\repos\enclase\estrucuturada31\obj\Debug\netcoreapp3.1\estrucuturada31.genruntimeconfig.cache

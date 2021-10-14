@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\IsNoteValid\bin\Debug\netcoreapp3.1\IsNoteValid.exe
+C:\Users\Dagore\source\repos\IsNoteValid\bin\Debug\netcoreapp3.1\IsNoteValid.deps.json
+C:\Users\Dagore\source\repos\IsNoteValid\bin\Debug\netcoreapp3.1\IsNoteValid.runtimeconfig.json
+C:\Users\Dagore\source\repos\IsNoteValid\bin\Debug\netcoreapp3.1\IsNoteValid.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\IsNoteValid\bin\Debug\netcoreapp3.1\IsNoteValid.dll
+C:\Users\Dagore\source\repos\IsNoteValid\bin\Debug\netcoreapp3.1\IsNoteValid.pdb
+C:\Users\Dagore\source\repos\IsNoteValid\obj\Debug\netcoreapp3.1\IsNoteValid.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\IsNoteValid\obj\Debug\netcoreapp3.1\IsNoteValid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\IsNoteValid\obj\Debug\netcoreapp3.1\IsNoteValid.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\IsNoteValid\obj\Debug\netcoreapp3.1\IsNoteValid.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\IsNoteValid\obj\Debug\netcoreapp3.1\IsNoteValid.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\IsNoteValid\obj\Debug\netcoreapp3.1\IsNoteValid.dll
+C:\Users\Dagore\source\repos\IsNoteValid\obj\Debug\netcoreapp3.1\IsNoteValid.pdb
+C:\Users\Dagore\source\repos\IsNoteValid\obj\Debug\netcoreapp3.1\IsNoteValid.genruntimeconfig.cache

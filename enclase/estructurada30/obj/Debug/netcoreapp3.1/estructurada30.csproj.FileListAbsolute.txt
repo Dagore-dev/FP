@@ -1,0 +1,13 @@
+C:\Users\Dagore\source\repos\enclase\estructurada30\bin\Debug\netcoreapp3.1\estructurada30.exe
+C:\Users\Dagore\source\repos\enclase\estructurada30\bin\Debug\netcoreapp3.1\estructurada30.deps.json
+C:\Users\Dagore\source\repos\enclase\estructurada30\bin\Debug\netcoreapp3.1\estructurada30.runtimeconfig.json
+C:\Users\Dagore\source\repos\enclase\estructurada30\bin\Debug\netcoreapp3.1\estructurada30.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\enclase\estructurada30\bin\Debug\netcoreapp3.1\estructurada30.dll
+C:\Users\Dagore\source\repos\enclase\estructurada30\bin\Debug\netcoreapp3.1\estructurada30.pdb
+C:\Users\Dagore\source\repos\enclase\estructurada30\obj\Debug\netcoreapp3.1\estructurada30.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\enclase\estructurada30\obj\Debug\netcoreapp3.1\estructurada30.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\enclase\estructurada30\obj\Debug\netcoreapp3.1\estructurada30.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\enclase\estructurada30\obj\Debug\netcoreapp3.1\estructurada30.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\enclase\estructurada30\obj\Debug\netcoreapp3.1\estructurada30.dll
+C:\Users\Dagore\source\repos\enclase\estructurada30\obj\Debug\netcoreapp3.1\estructurada30.pdb
+C:\Users\Dagore\source\repos\enclase\estructurada30\obj\Debug\netcoreapp3.1\estructurada30.genruntimeconfig.cache

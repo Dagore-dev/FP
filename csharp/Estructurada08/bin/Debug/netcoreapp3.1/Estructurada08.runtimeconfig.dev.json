@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Dagore\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Dagore\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\El conciente y el resto\obj\Debug\netcoreapp3.1\El conciente y el resto.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\El conciente y el resto\obj\Debug\netcoreapp3.1\El conciente y el resto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\El conciente y el resto\obj\Debug\netcoreapp3.1\El conciente y el resto.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\El conciente y el resto\obj\Debug\netcoreapp3.1\El conciente y el resto.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\El conciente y el resto\obj\Debug\netcoreapp3.1\El conciente y el resto.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\El conciente y el resto\bin\Debug\netcoreapp3.1\El conciente y el resto.exe
+C:\Users\Dagore\source\repos\El conciente y el resto\bin\Debug\netcoreapp3.1\El conciente y el resto.deps.json
+C:\Users\Dagore\source\repos\El conciente y el resto\bin\Debug\netcoreapp3.1\El conciente y el resto.runtimeconfig.json
+C:\Users\Dagore\source\repos\El conciente y el resto\bin\Debug\netcoreapp3.1\El conciente y el resto.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\El conciente y el resto\bin\Debug\netcoreapp3.1\El conciente y el resto.dll
+C:\Users\Dagore\source\repos\El conciente y el resto\bin\Debug\netcoreapp3.1\El conciente y el resto.pdb
+C:\Users\Dagore\source\repos\El conciente y el resto\obj\Debug\netcoreapp3.1\El conciente y el resto.dll
+C:\Users\Dagore\source\repos\El conciente y el resto\obj\Debug\netcoreapp3.1\El conciente y el resto.pdb
+C:\Users\Dagore\source\repos\El conciente y el resto\obj\Debug\netcoreapp3.1\El conciente y el resto.genruntimeconfig.cache

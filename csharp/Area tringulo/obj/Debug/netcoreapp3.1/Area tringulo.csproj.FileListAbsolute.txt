@@ -1,0 +1,13 @@
+C:\Users\Dagore\source\repos\Area tringulo\obj\Debug\netcoreapp3.1\Area tringulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\Area tringulo\obj\Debug\netcoreapp3.1\Area tringulo.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\Area tringulo\obj\Debug\netcoreapp3.1\Area tringulo.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\Area tringulo\obj\Debug\netcoreapp3.1\Area tringulo.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\Area tringulo\bin\Debug\netcoreapp3.1\Area tringulo.exe
+C:\Users\Dagore\source\repos\Area tringulo\bin\Debug\netcoreapp3.1\Area tringulo.deps.json
+C:\Users\Dagore\source\repos\Area tringulo\bin\Debug\netcoreapp3.1\Area tringulo.runtimeconfig.json
+C:\Users\Dagore\source\repos\Area tringulo\bin\Debug\netcoreapp3.1\Area tringulo.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\Area tringulo\bin\Debug\netcoreapp3.1\Area tringulo.dll
+C:\Users\Dagore\source\repos\Area tringulo\bin\Debug\netcoreapp3.1\Area tringulo.pdb
+C:\Users\Dagore\source\repos\Area tringulo\obj\Debug\netcoreapp3.1\Area tringulo.dll
+C:\Users\Dagore\source\repos\Area tringulo\obj\Debug\netcoreapp3.1\Area tringulo.pdb
+C:\Users\Dagore\source\repos\Area tringulo\obj\Debug\netcoreapp3.1\Area tringulo.genruntimeconfig.cache

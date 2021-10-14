@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\bin\Debug\netcoreapp3.1\Estructurada08Luis.exe
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\bin\Debug\netcoreapp3.1\Estructurada08Luis.deps.json
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\bin\Debug\netcoreapp3.1\Estructurada08Luis.runtimeconfig.json
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\bin\Debug\netcoreapp3.1\Estructurada08Luis.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\bin\Debug\netcoreapp3.1\Estructurada08Luis.dll
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\bin\Debug\netcoreapp3.1\Estructurada08Luis.pdb
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\obj\Debug\netcoreapp3.1\Estructurada08Luis.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\obj\Debug\netcoreapp3.1\Estructurada08Luis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\obj\Debug\netcoreapp3.1\Estructurada08Luis.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\obj\Debug\netcoreapp3.1\Estructurada08Luis.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\obj\Debug\netcoreapp3.1\Estructurada08Luis.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\obj\Debug\netcoreapp3.1\Estructurada08Luis.dll
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\obj\Debug\netcoreapp3.1\Estructurada08Luis.pdb
+C:\Users\Dagore\source\repos\enclase\Estructurada08Luis\obj\Debug\netcoreapp3.1\Estructurada08Luis.genruntimeconfig.cache

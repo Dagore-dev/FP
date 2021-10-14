@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bucles-for", "bucles-for.csproj", "{C62B382D-5D57-487A-AEC3-A057AF0A1A73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C62B382D-5D57-487A-AEC3-A057AF0A1A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62B382D-5D57-487A-AEC3-A057AF0A1A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62B382D-5D57-487A-AEC3-A057AF0A1A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62B382D-5D57-487A-AEC3-A057AF0A1A73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5EFBAF8-76A8-4A4E-8D34-E4CEE13FD217}
+	EndGlobalSection
+EndGlobal

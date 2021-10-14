@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\enclase\estructurada20\bin\Debug\netcoreapp3.1\estructurada20.exe
+C:\Users\Dagore\source\repos\enclase\estructurada20\bin\Debug\netcoreapp3.1\estructurada20.deps.json
+C:\Users\Dagore\source\repos\enclase\estructurada20\bin\Debug\netcoreapp3.1\estructurada20.runtimeconfig.json
+C:\Users\Dagore\source\repos\enclase\estructurada20\bin\Debug\netcoreapp3.1\estructurada20.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\enclase\estructurada20\bin\Debug\netcoreapp3.1\estructurada20.dll
+C:\Users\Dagore\source\repos\enclase\estructurada20\bin\Debug\netcoreapp3.1\estructurada20.pdb
+C:\Users\Dagore\source\repos\enclase\estructurada20\obj\Debug\netcoreapp3.1\estructurada20.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\enclase\estructurada20\obj\Debug\netcoreapp3.1\estructurada20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\enclase\estructurada20\obj\Debug\netcoreapp3.1\estructurada20.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\enclase\estructurada20\obj\Debug\netcoreapp3.1\estructurada20.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\enclase\estructurada20\obj\Debug\netcoreapp3.1\estructurada20.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\enclase\estructurada20\obj\Debug\netcoreapp3.1\estructurada20.dll
+C:\Users\Dagore\source\repos\enclase\estructurada20\obj\Debug\netcoreapp3.1\estructurada20.pdb
+C:\Users\Dagore\source\repos\enclase\estructurada20\obj\Debug\netcoreapp3.1\estructurada20.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Dagore\source\repos\PositiveOrNegative\bin\Debug\netcoreapp3.1\PositiveOrNegative.exe
+C:\Users\Dagore\source\repos\PositiveOrNegative\bin\Debug\netcoreapp3.1\PositiveOrNegative.deps.json
+C:\Users\Dagore\source\repos\PositiveOrNegative\bin\Debug\netcoreapp3.1\PositiveOrNegative.runtimeconfig.json
+C:\Users\Dagore\source\repos\PositiveOrNegative\bin\Debug\netcoreapp3.1\PositiveOrNegative.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\PositiveOrNegative\bin\Debug\netcoreapp3.1\PositiveOrNegative.dll
+C:\Users\Dagore\source\repos\PositiveOrNegative\bin\Debug\netcoreapp3.1\PositiveOrNegative.pdb
+C:\Users\Dagore\source\repos\PositiveOrNegative\obj\Debug\netcoreapp3.1\PositiveOrNegative.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\PositiveOrNegative\obj\Debug\netcoreapp3.1\PositiveOrNegative.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\PositiveOrNegative\obj\Debug\netcoreapp3.1\PositiveOrNegative.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\PositiveOrNegative\obj\Debug\netcoreapp3.1\PositiveOrNegative.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\PositiveOrNegative\obj\Debug\netcoreapp3.1\PositiveOrNegative.dll
+C:\Users\Dagore\source\repos\PositiveOrNegative\obj\Debug\netcoreapp3.1\PositiveOrNegative.pdb
+C:\Users\Dagore\source\repos\PositiveOrNegative\obj\Debug\netcoreapp3.1\PositiveOrNegative.genruntimeconfig.cache

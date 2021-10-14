@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\ejemploestructurada12\bin\Debug\netcoreapp3.1\ejemploestructurada12.exe
+C:\Users\Dagore\source\repos\ejemploestructurada12\bin\Debug\netcoreapp3.1\ejemploestructurada12.deps.json
+C:\Users\Dagore\source\repos\ejemploestructurada12\bin\Debug\netcoreapp3.1\ejemploestructurada12.runtimeconfig.json
+C:\Users\Dagore\source\repos\ejemploestructurada12\bin\Debug\netcoreapp3.1\ejemploestructurada12.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\ejemploestructurada12\bin\Debug\netcoreapp3.1\ejemploestructurada12.dll
+C:\Users\Dagore\source\repos\ejemploestructurada12\bin\Debug\netcoreapp3.1\ejemploestructurada12.pdb
+C:\Users\Dagore\source\repos\ejemploestructurada12\obj\Debug\netcoreapp3.1\ejemploestructurada12.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\ejemploestructurada12\obj\Debug\netcoreapp3.1\ejemploestructurada12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\ejemploestructurada12\obj\Debug\netcoreapp3.1\ejemploestructurada12.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\ejemploestructurada12\obj\Debug\netcoreapp3.1\ejemploestructurada12.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\ejemploestructurada12\obj\Debug\netcoreapp3.1\ejemploestructurada12.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\ejemploestructurada12\obj\Debug\netcoreapp3.1\ejemploestructurada12.dll
+C:\Users\Dagore\source\repos\ejemploestructurada12\obj\Debug\netcoreapp3.1\ejemploestructurada12.pdb
+C:\Users\Dagore\source\repos\ejemploestructurada12\obj\Debug\netcoreapp3.1\ejemploestructurada12.genruntimeconfig.cache

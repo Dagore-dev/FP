@@ -1,0 +1,2 @@
+C:\Users\Dagore\source\repos\Volumen Toro\bin\Release\netcoreapp3.1\publish\Volumen Toro.pdb
+C:\Users\Dagore\source\repos\Volumen Toro\bin\Release\netcoreapp3.1\publish\Volumen Toro.exe

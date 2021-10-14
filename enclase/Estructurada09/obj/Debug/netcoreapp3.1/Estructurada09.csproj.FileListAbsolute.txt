@@ -1,0 +1,13 @@
+C:\Users\Dagore\source\repos\enclase\Estructurada09\bin\Debug\netcoreapp3.1\Estructurada09.exe
+C:\Users\Dagore\source\repos\enclase\Estructurada09\bin\Debug\netcoreapp3.1\Estructurada09.deps.json
+C:\Users\Dagore\source\repos\enclase\Estructurada09\bin\Debug\netcoreapp3.1\Estructurada09.runtimeconfig.json
+C:\Users\Dagore\source\repos\enclase\Estructurada09\bin\Debug\netcoreapp3.1\Estructurada09.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\enclase\Estructurada09\bin\Debug\netcoreapp3.1\Estructurada09.dll
+C:\Users\Dagore\source\repos\enclase\Estructurada09\bin\Debug\netcoreapp3.1\Estructurada09.pdb
+C:\Users\Dagore\source\repos\enclase\Estructurada09\obj\Debug\netcoreapp3.1\Estructurada09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\enclase\Estructurada09\obj\Debug\netcoreapp3.1\Estructurada09.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\enclase\Estructurada09\obj\Debug\netcoreapp3.1\Estructurada09.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\enclase\Estructurada09\obj\Debug\netcoreapp3.1\Estructurada09.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\enclase\Estructurada09\obj\Debug\netcoreapp3.1\Estructurada09.dll
+C:\Users\Dagore\source\repos\enclase\Estructurada09\obj\Debug\netcoreapp3.1\Estructurada09.pdb
+C:\Users\Dagore\source\repos\enclase\Estructurada09\obj\Debug\netcoreapp3.1\Estructurada09.genruntimeconfig.cache
