@@ -40,3 +40,17 @@ C:\Users\dagor\source\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.cs
 C:\Users\dagor\source\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.dll
 C:\Users\dagor\source\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.pdb
 C:\Users\dagor\source\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.genruntimeconfig.cache
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\bin\Debug\netcoreapp3.1\bucles-for.exe
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\bin\Debug\netcoreapp3.1\bucles-for.deps.json
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\bin\Debug\netcoreapp3.1\bucles-for.runtimeconfig.json
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\bin\Debug\netcoreapp3.1\bucles-for.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\bin\Debug\netcoreapp3.1\bucles-for.dll
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\bin\Debug\netcoreapp3.1\bucles-for.pdb
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.dll
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.pdb
+C:\Users\Dagore\source\repos\FP\csharp\bucles-for\obj\Debug\netcoreapp3.1\bucles-for.genruntimeconfig.cache

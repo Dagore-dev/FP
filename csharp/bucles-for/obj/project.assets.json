@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dagore\\source\\repos\\csharp\\bucles-for\\bucles-for.csproj",
+      "projectUniqueName": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\bucles-for\\bucles-for.csproj",
       "projectName": "bucles-for",
-      "projectPath": "C:\\Users\\Dagore\\source\\repos\\csharp\\bucles-for\\bucles-for.csproj",
+      "projectPath": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\bucles-for\\bucles-for.csproj",
       "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dagore\\source\\repos\\csharp\\bucles-for\\obj\\",
+      "outputPath": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\bucles-for\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",

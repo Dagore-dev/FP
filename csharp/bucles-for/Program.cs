@@ -68,6 +68,12 @@ namespace bucles_for
                 case "37":
                     Estructurada37();
                     return true;
+                case "38":
+                    Estructurada38();
+                    return true;
+                case "39":
+                    Estructurada39();
+                    return true;
                 case "exit":
                     return false;
                 default:
