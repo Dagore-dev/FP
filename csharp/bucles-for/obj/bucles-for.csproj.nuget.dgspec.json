@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\bucles-for\\bucles-for.csproj": {}
+    "C:\\Users\\dagor\\source\\FP\\csharp\\bucles-for\\bucles-for.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\bucles-for\\bucles-for.csproj": {
+    "C:\\Users\\dagor\\source\\FP\\csharp\\bucles-for\\bucles-for.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\bucles-for\\bucles-for.csproj",
+        "projectUniqueName": "C:\\Users\\dagor\\source\\FP\\csharp\\bucles-for\\bucles-for.csproj",
         "projectName": "bucles-for",
-        "projectPath": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\bucles-for\\bucles-for.csproj",
-        "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\bucles-for\\obj\\",
+        "projectPath": "C:\\Users\\dagor\\source\\FP\\csharp\\bucles-for\\bucles-for.csproj",
+        "packagesPath": "C:\\Users\\dagor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dagor\\source\\FP\\csharp\\bucles-for\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dagor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
