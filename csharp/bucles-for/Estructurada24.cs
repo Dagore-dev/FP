@@ -6,13 +6,15 @@ namespace bucles_for
     {
         private static void Estructurada24()
         {
-            //Escribe un programa que nos escriba los números impares comprendidos entre 1 y 10.
+            Console.WriteLine("Escribe un programa que nos escriba los números impares comprendidos entre 1 y 10.");
+            Console.WriteLine();
+
             for (int i = 1; i < 11; i += 2)
             {
                 Console.WriteLine(i);
             }
 
-            Console.WriteLine("\n");
+            Console.WriteLine();
         }
     }
 }

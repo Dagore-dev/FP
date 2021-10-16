@@ -4,14 +4,17 @@ namespace bucles_for
 {
     partial class Program
     {
-        private static void Estructurada23()
+        private static void Estructurada09()
         {
             Console.WriteLine("Escribe un programa que nos escriba los números del 10 al 20.");
             Console.WriteLine();
-            
-            for (int i = 10; i < 21; i++)
+
+            int i = 10;
+
+            while (i < 21)
             {
                 Console.WriteLine(i);
+                i++;
             }
 
             Console.WriteLine();

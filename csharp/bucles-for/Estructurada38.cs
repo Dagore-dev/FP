@@ -7,6 +7,7 @@ namespace bucles_for
         private static void Estructurada38()
         {
             Console.WriteLine("Escribe un programa que calcule el máximo común divisor de 2 números.");
+            Console.WriteLine();
             //El MCD es el primer número que divide al par de manera exacta, entonces empezamos por el número más bajo del par y vamos bajando y comprobando la condición.
             int a, b, i;
 
@@ -25,6 +26,8 @@ namespace bucles_for
             }
 
             Console.WriteLine(i);
+
+            Console.WriteLine();
         }
     }
 }

@@ -6,14 +6,15 @@ namespace bucles_for
     {
         private static void Estructurada28()
         {
-            //Escribe un programa que te pide dos números enteros. Si el primero es menor que el segundo, escribe todos los números comprendidos entre ambos en orden ascendente. Si el primero es mayor que el segundo, escribe todos los números comprendidos entre ambos en orden descendente.
+            Console.WriteLine("Escribe un programa que te pide dos números enteros. Si el primero es menor que el segundo, escribe todos los números comprendidos entre ambos en orden ascendente. Si el primero es mayor que el segundo, escribe todos los números comprendidos entre ambos en orden descendente.");
+            Console.WriteLine();
 
-            Console.WriteLine("Dime un número entero.");
-            int num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Dime otro número entero.");
-            int num2 = int.Parse(Console.ReadLine());
-
-            int min, max;
+            int num1, num2, min, max;
+            
+            Console.Write("Dime un número entero: ");
+            num1 = int.Parse(Console.ReadLine());
+            Console.Write("Dime otro número entero: ");
+            num2 = int.Parse(Console.ReadLine());
 
             if (num1 < num2)
             {
@@ -29,7 +30,7 @@ namespace bucles_for
                 Console.WriteLine(i);
             }
 
-            Console.WriteLine("\n");
+            Console.WriteLine();
         }
     }
 }

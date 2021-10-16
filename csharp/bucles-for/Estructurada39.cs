@@ -7,6 +7,7 @@ namespace bucles_for
         private static void Estructurada39()
         {
             Console.WriteLine("Escribe un programa que calcule el mínimo común múltiplo de 2 números.");
+            Console.WriteLine();
             //El mcm es el menor número que se divide por los del par de forma exacta, por tanto necesitamos empezar por el mayor de los introducidos y seguir sumando hasta alcanzar la condición.
             int a, b, i;
 
@@ -25,6 +26,8 @@ namespace bucles_for
             }
 
             Console.WriteLine(i);
+
+            Console.WriteLine();
         }
     }
 }

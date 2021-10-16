@@ -4,19 +4,19 @@ namespace bucles_for
 {
     partial class Program
     {
-        private static void Estructurada32()
+        private static void Estructurada20()
         {
             Console.WriteLine("Calcular el valor máximo de una serie de 10 números introducidos por teclado.");
             Console.WriteLine();
 
-            int current, max;
+            int cont = 0, current, max;
 
-            Console.WriteLine("Introduce los 10 números debajo de uno en uno, te daré el máximo:");
+            Console.WriteLine("Escribe 10 número enteros debajo, te diré el máximo:");
             current = int.Parse(Console.ReadLine());
-            
+
             max = current;
 
-            for (int i = 1; i < 9; i++)
+            while (cont < 10)
             {
                 current = int.Parse(Console.ReadLine());
 
@@ -24,9 +24,11 @@ namespace bucles_for
                 {
                     max = current;
                 }
+
+                cont++;
             }
 
-            Console.WriteLine(max);
+            Console.WriteLine($"El mayor número de los que has introducido es {max}");
 
             Console.WriteLine();
         }

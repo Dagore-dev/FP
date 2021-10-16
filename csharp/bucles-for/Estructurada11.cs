@@ -4,21 +4,22 @@ namespace bucles_for
 {
     partial class Program
     {
-
-        private static void Estructurada25()
+        private static void Estructurada11()
         {
             Console.WriteLine("Escribe un programa que nos escriba los 10 primeros números pares.");
             Console.WriteLine();
 
-            int counter = 0;
+            int i = 0, acc = 0;
 
-            for (int i = 0; counter < 10; i++)
+            while (acc < 10)
             {
-                if (i % 2 == 0)
+                if (i % 2 != 0)
                 {
                     Console.WriteLine(i);
-                    counter++;
+                    acc++;
                 }
+
+                i++;
             }
 
             Console.WriteLine();

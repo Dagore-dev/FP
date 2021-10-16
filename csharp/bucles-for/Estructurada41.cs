@@ -6,10 +6,11 @@ namespace bucles_for
     {
         private static void Estructurada41()
         {
-            int current, counter = 0;
             
             Console.WriteLine("Generalizar el algoritmo anterior (averiguar si un número es primo o no) para averiguar todos los números primos que existen entre 2 y 1000.");
             Console.WriteLine();
+
+            int current, counter = 0;
 
             for (current = 2; current <= 1000; current++)
             {
@@ -31,6 +32,8 @@ namespace bucles_for
                     counter = 0;
                 }
             }
+
+            Console.WriteLine();
         }
     }
 }

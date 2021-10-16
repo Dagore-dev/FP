@@ -5,12 +5,13 @@ namespace bucles_for
     partial class Program
     {
         private static void Estructurada40()
-        {
-            int number, counter = 0;
-            
+        {   
             Console.WriteLine("Escribe un programa que nos diga si un número es primo o no.");
             Console.WriteLine();
             //Un número primo es aquel que solo es divisible por si mismo y por la unidad.
+
+            int number, counter = 0;
+
             Console.Write("Introduce un número entero para comprobar si es primo: ");
             number = int.Parse(Console.ReadLine());
 

@@ -6,7 +6,8 @@ namespace bucles_for
     {
         private static void Estructurada36()
         {
-            //Escribe un programa que nos escriba los 10 primeros números que no sean múltiplos ni de 2 ni de 3.
+            Console.WriteLine("Escribe un programa que nos escriba los 10 primeros números que no sean múltiplos ni de 2 ni de 3.");
+            Console.WriteLine();
 
             int i = 0, j = 0;
 
@@ -21,7 +22,7 @@ namespace bucles_for
                 j++;
             }
 
-            Console.WriteLine("\n");
+            Console.WriteLine();
         }
     }
 }

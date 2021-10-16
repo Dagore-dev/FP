@@ -6,13 +6,15 @@ namespace bucles_for
     {
         private static void Estructurada29()
         {
-            // Escribir todos los números impares entre dos números enteros A y B introducidos por teclado. Antes habrá que comprobar cuál de los dos números A y B es mayor.
-            Console.WriteLine("Dime un número entero.");
-            int num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Dime otro número entero.");
-            int num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Escribir todos los números impares entre dos números enteros A y B introducidos por teclado. Antes habrá que comprobar cuál de los dos números A y B es mayor.");
+            Console.WriteLine();
 
-            int min, max;
+            int num1, num2, min, max;
+
+            Console.Write("Dime un número entero: ");
+            num1 = int.Parse(Console.ReadLine());
+            Console.Write("Dime otro número entero: ");
+            num2 = int.Parse(Console.ReadLine());
 
             if (num1 < num2)
             {
@@ -31,7 +33,7 @@ namespace bucles_for
                 }
             }
 
-            Console.WriteLine("\n");
+            Console.WriteLine();
         }
     }
 }

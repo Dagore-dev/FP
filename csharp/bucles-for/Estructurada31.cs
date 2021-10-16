@@ -6,7 +6,9 @@ namespace bucles_for
     {
         private static void Estructurada31()
         {
-            //El usuario de este programa será un profesor, que introducirá las notas de sus 30 alumnos de una en una. El algoritmo debe decirle cuántos suspensos y cuántos aprobados hay.
+            Console.WriteLine("El usuario de este programa será un profesor, que introducirá las notas de sus 30 alumnos de una en una. El algoritmo debe decirle cuántos suspensos y cuántos aprobados hay.");
+            Console.WriteLine();
+
             double current;
             int pass = 0;
 
@@ -24,7 +26,7 @@ namespace bucles_for
 
             Console.WriteLine($"Hay {pass} aprobados y {30 - pass} suspensos en la clase.");
 
-            Console.WriteLine("\n");
+            Console.WriteLine();
         }
     }
 }

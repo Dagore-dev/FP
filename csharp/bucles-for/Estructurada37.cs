@@ -6,7 +6,9 @@ namespace bucles_for
     {
         private static void Estructurada37()
         {
-            // Escribe un programa que nos presente un menú con 3 opciones. Eligiendo la opción “a” nos escribirá todos los múltiplos de 11 comprendidos entre 1 y 100. Eligiendo la opción “b” lo mismo, pero con los múltiplos de 17.Eligiendo la opción “c” lo mismo, pero con los múltiplos de 23.
+            Console.WriteLine("Escribe un programa que nos presente un menú con 3 opciones. Eligiendo la opción “a” nos escribirá todos los múltiplos de 11 comprendidos entre 1 y 100. Eligiendo la opción “b” lo mismo, pero con los múltiplos de 17.Eligiendo la opción “c” lo mismo, pero con los múltiplos de 23.");
+            Console.WriteLine();
+
             string option;
             int num = 0;
 
@@ -44,7 +46,7 @@ namespace bucles_for
                 }
             }
 
-            Console.WriteLine("\n");
+            Console.WriteLine();
         }
     }
 }

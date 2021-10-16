@@ -6,7 +6,8 @@ namespace bucles_for
     {
         private static void Estructurada30()
         {
-            //Calcular la suma de todos los números pares entre 1 y 1000. Es decir, 2 + 4 + 6 + ... + 998 + 1000.
+            Console.WriteLine("Calcular la suma de todos los números pares entre 1 y 1000. Es decir, 2 + 4 + 6 + ... + 998 + 1000.");
+
             int sum = 0;
 
             for (int i = 0; i < 1001; i += 2)
@@ -16,7 +17,7 @@ namespace bucles_for
 
             Console.WriteLine(sum);
 
-            Console.WriteLine("\n");
+            Console.WriteLine();
         }
     }
 }
