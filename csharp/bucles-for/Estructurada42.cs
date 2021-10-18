@@ -13,7 +13,7 @@ namespace bucles_for
             int secretNumber, guessNumber, triesNumber = 0;
 
             Random random = new Random();
-            secretNumber = random.Next();
+            secretNumber = random.Next(1,100);
 
             Console.Write("Introduce un número entero positivo: ");
             guessNumber = int.Parse(Console.ReadLine());
