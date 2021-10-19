@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\EjemploFunciones\bin\Debug\netcoreapp3.1\EjemploFunciones.exe
+C:\Users\Dagore\source\repos\EjemploFunciones\bin\Debug\netcoreapp3.1\EjemploFunciones.deps.json
+C:\Users\Dagore\source\repos\EjemploFunciones\bin\Debug\netcoreapp3.1\EjemploFunciones.runtimeconfig.json
+C:\Users\Dagore\source\repos\EjemploFunciones\bin\Debug\netcoreapp3.1\EjemploFunciones.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\EjemploFunciones\bin\Debug\netcoreapp3.1\EjemploFunciones.dll
+C:\Users\Dagore\source\repos\EjemploFunciones\bin\Debug\netcoreapp3.1\EjemploFunciones.pdb
+C:\Users\Dagore\source\repos\EjemploFunciones\obj\Debug\netcoreapp3.1\EjemploFunciones.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\EjemploFunciones\obj\Debug\netcoreapp3.1\EjemploFunciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\EjemploFunciones\obj\Debug\netcoreapp3.1\EjemploFunciones.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\EjemploFunciones\obj\Debug\netcoreapp3.1\EjemploFunciones.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\EjemploFunciones\obj\Debug\netcoreapp3.1\EjemploFunciones.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\EjemploFunciones\obj\Debug\netcoreapp3.1\EjemploFunciones.dll
+C:\Users\Dagore\source\repos\EjemploFunciones\obj\Debug\netcoreapp3.1\EjemploFunciones.pdb
+C:\Users\Dagore\source\repos\EjemploFunciones\obj\Debug\netcoreapp3.1\EjemploFunciones.genruntimeconfig.cache
