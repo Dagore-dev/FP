@@ -1,0 +1,14 @@
+C:\Users\dagor\source\repos\KowBattleReport\bin\Debug\netcoreapp3.1\KowBattleReport.exe
+C:\Users\dagor\source\repos\KowBattleReport\bin\Debug\netcoreapp3.1\KowBattleReport.deps.json
+C:\Users\dagor\source\repos\KowBattleReport\bin\Debug\netcoreapp3.1\KowBattleReport.runtimeconfig.json
+C:\Users\dagor\source\repos\KowBattleReport\bin\Debug\netcoreapp3.1\KowBattleReport.runtimeconfig.dev.json
+C:\Users\dagor\source\repos\KowBattleReport\bin\Debug\netcoreapp3.1\KowBattleReport.dll
+C:\Users\dagor\source\repos\KowBattleReport\bin\Debug\netcoreapp3.1\KowBattleReport.pdb
+C:\Users\dagor\source\repos\KowBattleReport\obj\Debug\netcoreapp3.1\KowBattleReport.csproj.AssemblyReference.cache
+C:\Users\dagor\source\repos\KowBattleReport\obj\Debug\netcoreapp3.1\KowBattleReport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\repos\KowBattleReport\obj\Debug\netcoreapp3.1\KowBattleReport.AssemblyInfoInputs.cache
+C:\Users\dagor\source\repos\KowBattleReport\obj\Debug\netcoreapp3.1\KowBattleReport.AssemblyInfo.cs
+C:\Users\dagor\source\repos\KowBattleReport\obj\Debug\netcoreapp3.1\KowBattleReport.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\repos\KowBattleReport\obj\Debug\netcoreapp3.1\KowBattleReport.dll
+C:\Users\dagor\source\repos\KowBattleReport\obj\Debug\netcoreapp3.1\KowBattleReport.pdb
+C:\Users\dagor\source\repos\KowBattleReport\obj\Debug\netcoreapp3.1\KowBattleReport.genruntimeconfig.cache
