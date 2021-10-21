@@ -15,7 +15,7 @@ namespace Funciones01
         /// </summary>
         /// <param name="number"></param>
         /// <returns>Return true if number is even, false otherwise.</returns>
-        static bool Par (int number)
+        static bool IsEven (int number)
         {
             bool result;
 

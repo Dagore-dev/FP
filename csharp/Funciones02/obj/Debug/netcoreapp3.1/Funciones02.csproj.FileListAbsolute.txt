@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\Funciones02\bin\Debug\netcoreapp3.1\Funciones02.exe
+C:\Users\Dagore\source\repos\Funciones02\bin\Debug\netcoreapp3.1\Funciones02.deps.json
+C:\Users\Dagore\source\repos\Funciones02\bin\Debug\netcoreapp3.1\Funciones02.runtimeconfig.json
+C:\Users\Dagore\source\repos\Funciones02\bin\Debug\netcoreapp3.1\Funciones02.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\Funciones02\bin\Debug\netcoreapp3.1\Funciones02.dll
+C:\Users\Dagore\source\repos\Funciones02\bin\Debug\netcoreapp3.1\Funciones02.pdb
+C:\Users\Dagore\source\repos\Funciones02\obj\Debug\netcoreapp3.1\Funciones02.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\Funciones02\obj\Debug\netcoreapp3.1\Funciones02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\Funciones02\obj\Debug\netcoreapp3.1\Funciones02.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\Funciones02\obj\Debug\netcoreapp3.1\Funciones02.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\Funciones02\obj\Debug\netcoreapp3.1\Funciones02.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\Funciones02\obj\Debug\netcoreapp3.1\Funciones02.dll
+C:\Users\Dagore\source\repos\Funciones02\obj\Debug\netcoreapp3.1\Funciones02.pdb
+C:\Users\Dagore\source\repos\Funciones02\obj\Debug\netcoreapp3.1\Funciones02.genruntimeconfig.cache
