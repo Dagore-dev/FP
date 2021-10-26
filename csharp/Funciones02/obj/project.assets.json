@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Dagore\\.nuget\\packages\\": {}
+    "C:\\Users\\david\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dagore\\source\\repos\\Funciones02\\Funciones02.csproj",
+      "projectUniqueName": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Funciones02\\Funciones02.csproj",
       "projectName": "Funciones02",
-      "projectPath": "C:\\Users\\Dagore\\source\\repos\\Funciones02\\Funciones02.csproj",
-      "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dagore\\source\\repos\\Funciones02\\obj\\",
+      "projectPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Funciones02\\Funciones02.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Funciones02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
