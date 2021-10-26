@@ -12,3 +12,17 @@ C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreap
 C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.dll
 C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.pdb
 C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.genruntimeconfig.cache
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\bin\Debug\netcoreapp3.1\FuncionesAdicionales03.exe
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\bin\Debug\netcoreapp3.1\FuncionesAdicionales03.deps.json
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\bin\Debug\netcoreapp3.1\FuncionesAdicionales03.runtimeconfig.json
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\bin\Debug\netcoreapp3.1\FuncionesAdicionales03.runtimeconfig.dev.json
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\bin\Debug\netcoreapp3.1\FuncionesAdicionales03.dll
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\bin\Debug\netcoreapp3.1\FuncionesAdicionales03.pdb
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.csproj.AssemblyReference.cache
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.AssemblyInfoInputs.cache
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.AssemblyInfo.cs
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.dll
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.pdb
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales03\obj\Debug\netcoreapp3.1\FuncionesAdicionales03.genruntimeconfig.cache

@@ -15,56 +15,65 @@ namespace FuncionesAdicionales03
         static void Calderilla (double money)
         {
             //Monedas de 2 euros, 1 euro, 0.50 euros, 0.20 euros, 0.10 euros, 0.05 euros, 0.02 euros, 0.01 euros
-            double remaining = money;
+            int  remaining = (int) (money * 100);
             int two = 0, one = 0, fifty = 0, twenty = 0, ten = 0, five = 0, twoCents = 0, oneCent = 0;
 
+            Console.WriteLine($"Para devolver {money} emplearía: ");
 
             while (remaining > 0)
             {
-                if(remaining > 2)
+                if(remaining >= 200)
                 {
                     two++;
-                    remaining -= 2;
+                    remaining -= 200;
                 }
-                else if (remaining > 1)
+                else if (remaining >= 100)
                 {
                     one++;
-                    remaining -= 1;
+                    remaining -= 100;
                 }
-                else if (remaining > 1/2)
+                else if (remaining >= 50)
                 {
                     fifty++;
-                    remaining -= 1 / 2;
+                    remaining -= 50;
                 }
-                else if (remaining > 1 / 5)
+                else if (remaining >= 20)
                 {
                     twenty++;
-                    remaining -= 1 / 5;
+                    remaining -= 20;
                 }
-                else if (remaining > 1 / 10)
+                else if (remaining >= 10)
                 {
                     ten++;
-                    remaining -= 1 / 10;
+                    remaining -= 10;
                 }
-                else if (remaining > 1 / 20)
+                else if (remaining >= 5)
                 {
                     five++;
-                    remaining -= 1 / 20;
+                    remaining -= 5;
                 }
-                else if (remaining > 1 / 50)
+                else if (remaining >= 2)
                 {
                     twoCents++;
-                    remaining -= 1 / 50;
+                    remaining -= 2;
                 }
-                else if (remaining < 1 / 100)
+                else
                 {
                     oneCent++;
-                    remaining -= 1 / 100;
+                    remaining -= 1;
                 }
             }
 
-            Console.WriteLine($"Utilizo {two} monedas de 2 euros, {one} monedas de 1 euro, {fifty} monedas de 0.50 euros, {twenty} monedas de 0.20 euros, {ten} monedas de 0.10 euros, {five} monedas de 0.05 euros, {twoCents} monedas de 0.02 euros y {oneCent} monedas de 0.01 euros.");
+            Console.WriteLine($"{two} monedas de 2 euros");
+            Console.WriteLine($"{one} monedas de 1 euro");
+            Console.WriteLine($"{fifty} monedas de 0.50 euros");
+            Console.WriteLine($"{twenty} monedas de 0.20 euros");
+            Console.WriteLine($"{ten} monedas de 0.10 euros");
+            Console.WriteLine($"{five} monedas de 0.05 euros");
+            Console.WriteLine($"{twoCents} monedas de 0.02 euros");
+            Console.WriteLine($"{oneCent} monedas de 0.01 euros.");
 
+            Console.WriteLine();
         }
     }
 }
