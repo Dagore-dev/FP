@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\bin\Debug\netcoreapp3.1\FuncionesAdicionales07.exe
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\bin\Debug\netcoreapp3.1\FuncionesAdicionales07.deps.json
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\bin\Debug\netcoreapp3.1\FuncionesAdicionales07.runtimeconfig.json
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\bin\Debug\netcoreapp3.1\FuncionesAdicionales07.runtimeconfig.dev.json
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\bin\Debug\netcoreapp3.1\FuncionesAdicionales07.dll
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\bin\Debug\netcoreapp3.1\FuncionesAdicionales07.pdb
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\obj\Debug\netcoreapp3.1\FuncionesAdicionales07.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\obj\Debug\netcoreapp3.1\FuncionesAdicionales07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\obj\Debug\netcoreapp3.1\FuncionesAdicionales07.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\obj\Debug\netcoreapp3.1\FuncionesAdicionales07.AssemblyInfo.cs
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\obj\Debug\netcoreapp3.1\FuncionesAdicionales07.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\obj\Debug\netcoreapp3.1\FuncionesAdicionales07.dll
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\obj\Debug\netcoreapp3.1\FuncionesAdicionales07.pdb
+C:\Users\david\source\repos\FP\csharp\FuncionesAdicionales07\obj\Debug\netcoreapp3.1\FuncionesAdicionales07.genruntimeconfig.cache
