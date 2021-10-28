@@ -19,13 +19,13 @@ namespace Funciones15
             min = a < b ? a : b;
             max = a < b ? b : a;
 
-            Console.Write($"Escribe un número entre {a} y {b}: ");
+            Console.Write($"Escribe un número entre {min} y {max}: ");
             number = int.Parse(Console.ReadLine());
 
             while (number < min || number > max)
             {
                 Console.WriteLine("El número introducido no está en el rango.");
-                Console.Write($"Introduce de nuevo un número entre {a} y {b}: ");
+                Console.Write($"Introduce de nuevo un número entre {min} y {max}: ");
                 number = int.Parse(Console.ReadLine());
             }
 

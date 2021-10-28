@@ -11,6 +11,9 @@ namespace Funciones17
             Console.WriteLine(Factorial(5));
             Console.WriteLine(Factorial(0));
 
+            Console.WriteLine(RecursiveFactorial(5));
+            Console.WriteLine(RecursiveFactorial(0));
+
         }
 
         static int Factorial (int number)
@@ -28,6 +31,15 @@ namespace Funciones17
             }
 
             return result;
+        }
+        static int RecursiveFactorial (int number)
+        {
+            if (number == 0)
+            {
+                return 1;
+            }
+
+            return number * RecursiveFactorial(number - 1);
         }
     }
 }

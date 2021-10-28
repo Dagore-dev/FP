@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\bin\Debug\netcoreapp3.1\FuncionesRelacion3.exe
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\bin\Debug\netcoreapp3.1\FuncionesRelacion3.deps.json
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\bin\Debug\netcoreapp3.1\FuncionesRelacion3.runtimeconfig.json
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\bin\Debug\netcoreapp3.1\FuncionesRelacion3.runtimeconfig.dev.json
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\bin\Debug\netcoreapp3.1\FuncionesRelacion3.dll
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\bin\Debug\netcoreapp3.1\FuncionesRelacion3.pdb
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\obj\Debug\netcoreapp3.1\FuncionesRelacion3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\obj\Debug\netcoreapp3.1\FuncionesRelacion3.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\obj\Debug\netcoreapp3.1\FuncionesRelacion3.AssemblyInfo.cs
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\obj\Debug\netcoreapp3.1\FuncionesRelacion3.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\obj\Debug\netcoreapp3.1\FuncionesRelacion3.dll
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\obj\Debug\netcoreapp3.1\FuncionesRelacion3.pdb
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\obj\Debug\netcoreapp3.1\FuncionesRelacion3.genruntimeconfig.cache
+C:\Users\david\source\repos\FP\csharp\FuncionesRelacion3\obj\Debug\netcoreapp3.1\FuncionesRelacion3.csproj.AssemblyReference.cache

@@ -18,7 +18,7 @@ namespace Funciones02
         /// <returns>Returns triangle area.</returns>
         static double TriangleArea(double ground, double height)
         {
-            return (ground * height) / 2;
+            return (ground * height) / 2.0;
         }
         /// <summary>
         /// Given inches in double, returns it in centimeters.
@@ -47,23 +47,30 @@ namespace Funciones02
         {
             string result;
 
-            if (score < 5)
+            if (score >= 0 && score <= 10)
             {
-                result = "Suspenso";
+                if (score < 5)
+                {
+                    result = "Suspenso";
+                }
+                else if (score < 6)
+                {
+                    result = "Suficiente";
+                }
+                else if (score < 7)
+                {
+                    result = "Bien";
+                }
+                else if (score < 9)
+                {
+                    result = "Notable";
+                }
+                else result = "Sobresaliente";
             }
-            else if (score < 6)
+            else
             {
-                result = "Suficiente";
+                result = "ERROR";
             }
-            else if (score < 7)
-            {
-                result = "Bien";
-            }
-            else if (score < 9)
-            {
-                result = "Notable";
-            }
-            else result = "Sobresaliente";
 
             return result;
         }

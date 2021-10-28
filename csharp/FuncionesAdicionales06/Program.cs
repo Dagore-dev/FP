@@ -30,7 +30,7 @@ namespace FuncionesAdicionales06
             Console.Write("Introduce un número natural: ");
             number = int.Parse(Console.ReadLine());
 
-            if (number < 0)
+            if (number < 2)
             {
                 Console.WriteLine("ERROR");
                 number = 0;
