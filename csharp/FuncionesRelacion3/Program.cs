@@ -15,6 +15,7 @@ namespace FuncionesRelacion3
             Console.WriteLine($"Desde 1980 hasta el 28/10/2021 han pasado {DiasTranscurridos1980(28, 10, 2021)} días");
             Console.WriteLine($"Entre el 8/10/2021 y el 28/10/2021 han pasado {DiasEntreFechas(8, 10, 2021, 28, 10, 2021)} días");
             Console.WriteLine($"El 28/10/2021 es {Semana(28, 10, 2021)}");
+            Console.WriteLine($"El 25/10/2021 es {Semana(28, 10, 2021)}");
             Console.WriteLine($"El 1/10/2021 es {Semana(1, 10, 2021)}");
         }
 
