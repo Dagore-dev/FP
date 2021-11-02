@@ -14,8 +14,9 @@ namespace FuncionesRelacion3
             Console.WriteLine($"Desde el principio del año hasta 31/12/2020 han pasado {DiasTranscurridos(2, 3, 2020)} días");
             Console.WriteLine($"Desde 1980 hasta el 28/10/2021 han pasado {DiasTranscurridos1980(28, 10, 2021)} días");
             Console.WriteLine($"Entre el 8/10/2021 y el 28/10/2021 han pasado {DiasEntreFechas(8, 10, 2021, 28, 10, 2021)} días");
+            Console.WriteLine($"El 1/1/2021 es {Semana(1, 1, 2021)}");
             Console.WriteLine($"El 28/10/2021 es {Semana(28, 10, 2021)}");
-            Console.WriteLine($"El 25/10/2021 es {Semana(28, 10, 2021)}");
+            Console.WriteLine($"El 25/10/2021 es {Semana(25, 10, 2021)}");
             Console.WriteLine($"El 1/10/2021 es {Semana(1, 10, 2021)}");
         }
 
@@ -52,12 +53,11 @@ namespace FuncionesRelacion3
         }
         static int DiasMes2 (int month, int year)
         {
-            //Debido a que en los años bisiestos el mes de Febrero tiene 29 días en lugar de 28, necesitaremos también dar el año para conseguir el resultado correcto. Escribe la función “diasMes2” a la que le pasas un mes y un año(ambos enteros) y te dice cuántos días tiene ese mes, teniendo en cuenta si el año es bisiesto o no(NOTA: Podéis usar la función “Bisiesto” que hicimos con anterioridad).
+            //Debido a que en los años bisiestos el mes de Febrero tiene 29 días en lugar de 28, necesitaremos también dar el año para conseguir el resultado correcto. Escribe la función “diasMes2” a la que le pasas un mes y un año(ambos enteros) y te dice cuántos días tiene ese mes, teniendo en cuenta si el año es bisiesto o no (NOTA: Podéis usar la función “Bisiesto” que hicimos con anterioridad).
             int days;
-            if (IsLeapYear(year))
+            if (IsLeapYear(year) && month == 2)
             {
-                int[] monthDays = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-                days = monthDays[month - 1];
+                days = 29;
             }
             else
             {
@@ -85,9 +85,16 @@ namespace FuncionesRelacion3
             //Escribe una función “diasTranscurridos1980” a la que le pasamos un día, mes y año y nos diga cuántos días han transcurrido desde el 01 / 01 / 1980 hasta ese día.
             int acc = 0;
 
-            for (int i = 1980; i < year - 1; i++)
+            for (int i = 1980; i < year; i++)
             {
-                acc += DiasTranscurridos(31, 12, i);
+                if(IsLeapYear(i))
+                {
+                    acc += 366;
+                }
+                else
+                {
+                    acc += 365;
+                }
             }
 
             return acc + DiasTranscurridos(day, month, year);
@@ -101,17 +108,7 @@ namespace FuncionesRelacion3
             //Teniendo en cuenta que el 01/01/1980 era martes, haz una función “diaSemanaFecha” que nos devuelva qué día de la semana corresponde a la fecha(día, mes y año) que le pasamos en 3 parámetros.Nos devolverá un entero que corresponderá al día de la semana(1 = lunes, 2 = martes, etc.).
             int weekDay = 2, numberOfDays = DiasTranscurridos1980(day, month, year);
 
-            for (int i = 0; i <= numberOfDays; i++)
-            {
-                weekDay++;
-
-                if(weekDay > 7)
-                {
-                    weekDay = 1;
-                }
-            }
-
-            return weekDay;
+            return weekDay + (numberOfDays % 7) - 1;//Sumamos lo que sobra de coger semanas enteras y se resta uno porque los días transcurridos cuantan el primer día y el actual.
         }
         static string Semana (int day, int month, int year)
         {
