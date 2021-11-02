@@ -23,7 +23,9 @@ namespace Horas
             Console.Write("5400 segundos son: ");
             EscribeSegundosBonito(5400);
             Console.Write("5402 segundos son: ");
-            EscribeSegundosBonito(5402);
+            EscribeSegundosBonito(5402); 
+            Console.Write("86399 segundos son: ");
+            EscribeSegundosBonito(86399);
 
             Console.WriteLine();
 
@@ -34,19 +36,12 @@ namespace Horas
 
             Console.WriteLine($"Desde el 1/1/1980 hasta el 2/1/1980 a las 12:00:00 pasaron: {SegundosTranscurridos1980(2,1,1980,12,0,0)}");
         }
-
-        static int HoraAMinutos (int h)
-        {
-            return h * 60;
-        }
         static int HoraASegundos (int h, int m, int s)
         {
             //Escribe una función “horaASegundos” a la que le pasas 3 parámetros enteros (hora, minutos y segundos) y te devuelve el total de segundos.
-            int result = s, min;
+            int result = s;
 
-            min = m + HoraAMinutos(h);
-
-            result += (min * 60);
+            result += (m * 60) + (h * 3600);
 
             return result;
         }

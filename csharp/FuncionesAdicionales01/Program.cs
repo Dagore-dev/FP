@@ -26,10 +26,9 @@ namespace FuncionesAdicionales01
         }
         static int MCD (int a, int b)
         {
-            int min, max, i;
+            int min, i;
 
             min = a < b ? a : b;
-            max = a < b ? b : a;
 
             i = min;
 
