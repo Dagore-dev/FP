@@ -1,0 +1,13 @@
+C:\Users\dagor\source\FP\csharp\Rombo\bin\Debug\netcoreapp3.1\Rombo.exe
+C:\Users\dagor\source\FP\csharp\Rombo\bin\Debug\netcoreapp3.1\Rombo.deps.json
+C:\Users\dagor\source\FP\csharp\Rombo\bin\Debug\netcoreapp3.1\Rombo.runtimeconfig.json
+C:\Users\dagor\source\FP\csharp\Rombo\bin\Debug\netcoreapp3.1\Rombo.runtimeconfig.dev.json
+C:\Users\dagor\source\FP\csharp\Rombo\bin\Debug\netcoreapp3.1\Rombo.dll
+C:\Users\dagor\source\FP\csharp\Rombo\bin\Debug\netcoreapp3.1\Rombo.pdb
+C:\Users\dagor\source\FP\csharp\Rombo\obj\Debug\netcoreapp3.1\Rombo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\FP\csharp\Rombo\obj\Debug\netcoreapp3.1\Rombo.AssemblyInfoInputs.cache
+C:\Users\dagor\source\FP\csharp\Rombo\obj\Debug\netcoreapp3.1\Rombo.AssemblyInfo.cs
+C:\Users\dagor\source\FP\csharp\Rombo\obj\Debug\netcoreapp3.1\Rombo.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\FP\csharp\Rombo\obj\Debug\netcoreapp3.1\Rombo.dll
+C:\Users\dagor\source\FP\csharp\Rombo\obj\Debug\netcoreapp3.1\Rombo.pdb
+C:\Users\dagor\source\FP\csharp\Rombo\obj\Debug\netcoreapp3.1\Rombo.genruntimeconfig.cache

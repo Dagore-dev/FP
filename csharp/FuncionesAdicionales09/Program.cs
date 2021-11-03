@@ -11,7 +11,13 @@ namespace FuncionesAdicionales09
         }
         static void BisiestosXXI ()
         {
-
+            for (int year = 2000; year <= 2999; year++)
+            {
+                if (IsLeapYear(year))
+                {
+                    Console.Write(year + " ");
+                }
+            }
         }
         static bool IsLeapYear(int year)
         {
