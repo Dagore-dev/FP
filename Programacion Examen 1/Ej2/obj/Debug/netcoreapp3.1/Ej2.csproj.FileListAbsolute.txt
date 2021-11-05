@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\bin\Debug\netcoreapp3.1\Ej2.exe
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\bin\Debug\netcoreapp3.1\Ej2.deps.json
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\bin\Debug\netcoreapp3.1\Ej2.runtimeconfig.json
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\bin\Debug\netcoreapp3.1\Ej2.runtimeconfig.dev.json
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\bin\Debug\netcoreapp3.1\Ej2.dll
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\bin\Debug\netcoreapp3.1\Ej2.pdb
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\obj\Debug\netcoreapp3.1\Ej2.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\obj\Debug\netcoreapp3.1\Ej2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\obj\Debug\netcoreapp3.1\Ej2.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\obj\Debug\netcoreapp3.1\Ej2.AssemblyInfo.cs
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\obj\Debug\netcoreapp3.1\Ej2.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\obj\Debug\netcoreapp3.1\Ej2.dll
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\obj\Debug\netcoreapp3.1\Ej2.pdb
+C:\Users\david\source\repos\David Gómez Redondo\Ej2\obj\Debug\netcoreapp3.1\Ej2.genruntimeconfig.cache

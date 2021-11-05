@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\bin\Debug\netcoreapp3.1\Ej5.exe
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\bin\Debug\netcoreapp3.1\Ej5.deps.json
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\bin\Debug\netcoreapp3.1\Ej5.runtimeconfig.json
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\bin\Debug\netcoreapp3.1\Ej5.runtimeconfig.dev.json
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\bin\Debug\netcoreapp3.1\Ej5.dll
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\bin\Debug\netcoreapp3.1\Ej5.pdb
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\obj\Debug\netcoreapp3.1\Ej5.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\obj\Debug\netcoreapp3.1\Ej5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\obj\Debug\netcoreapp3.1\Ej5.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\obj\Debug\netcoreapp3.1\Ej5.AssemblyInfo.cs
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\obj\Debug\netcoreapp3.1\Ej5.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\obj\Debug\netcoreapp3.1\Ej5.dll
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\obj\Debug\netcoreapp3.1\Ej5.pdb
+C:\Users\david\source\repos\David Gómez Redondo\Ej5\obj\Debug\netcoreapp3.1\Ej5.genruntimeconfig.cache
