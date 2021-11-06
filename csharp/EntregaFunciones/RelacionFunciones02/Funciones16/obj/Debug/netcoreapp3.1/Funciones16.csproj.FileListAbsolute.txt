@@ -1,0 +1,13 @@
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\bin\Debug\netcoreapp3.1\Funciones16.exe
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\bin\Debug\netcoreapp3.1\Funciones16.deps.json
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\bin\Debug\netcoreapp3.1\Funciones16.runtimeconfig.json
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\bin\Debug\netcoreapp3.1\Funciones16.runtimeconfig.dev.json
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\bin\Debug\netcoreapp3.1\Funciones16.dll
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\bin\Debug\netcoreapp3.1\Funciones16.pdb
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\obj\Debug\netcoreapp3.1\Funciones16.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\obj\Debug\netcoreapp3.1\Funciones16.AssemblyInfoInputs.cache
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\obj\Debug\netcoreapp3.1\Funciones16.AssemblyInfo.cs
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\obj\Debug\netcoreapp3.1\Funciones16.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\obj\Debug\netcoreapp3.1\Funciones16.dll
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\obj\Debug\netcoreapp3.1\Funciones16.pdb
+C:\Users\dagor\source\repos\EntregaFunciones\RelacionFunciones02\Funciones16\obj\Debug\netcoreapp3.1\Funciones16.genruntimeconfig.cache
