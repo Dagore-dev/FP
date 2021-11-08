@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página inicial</title>
+</head>
+<body>
+  <nav>
+    <h2>Zona de navegación de nuestra web.</h2>
+
+    <ol>
+      <li><a href="./index.html">Página principal</a></li>
+      <li><a href="./info/tecnologia/blog.html">Nuestro blog</a></li>
+      <li><a href="./sat/resultados.html">Resultados</a></li>
+      <li><a href="./info/ayuda.html">Ayuda HTML</a></li>
+    </ol>
+  </nav>
+
+  <h1>Encuesta alumando</h1>
+
+  <form action="" method="get" enctype="multipart/form-data">
+
+    <fieldset>
+
+      <legend>
+        Datos iniciales
+      </legend>
+
+      <p>
+        Seleccione a continuación cuáles son los temas de interés:
+      </p>
+
+      <ul>
+        <li>
+          <input type="checkbox" name="HTML" id="HTML" value="HTML">
+          <label for="HTML">HTML</label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="CSS" id="CSS" value="CSS">
+          <label for="CSS">Estilos CSS</label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="JS" id="JS" value="JS">
+          <label for="JS">Javascript</label>
+        </li>
+      </ul>
+      
+      <p>
+        Indique la fecha de incorporación al curso (que debe ser posterior al 17 de septiembre de 2021):
+      </p>
+
+      <input type="date" name="incorporation" id="incorporation" min="2021-09-17">
+
+      <p>
+        Adjunta dos fotos: una tipo DNI y otra de cuerpo entero.
+      </p>
+
+      <input type="file" name="photo" id="photo" multiple>
+
+      <p>
+        Vamos a pintar la clase: selecione su color preferido:
+      </p>
+
+      <input type="color" name="classColor" id="classColor" value="#ff0000">
+
+      <p>
+        Indique, si dispone de ella, su página web:
+      </p>
+
+      <input type="url" name="web" id="web">
+
+      <p>
+        Indique su código de alumno:
+      </p>
+
+      <input type="text" name="code" id="code" placeholder="Ver patrón ..." pattern="[A-Z]{3}\d{1,2}">
+
+      <p>
+        Formato: tres letras mayúsculas seguidas de uno o dos dígitos
+      </p>
+
+      <p>
+        Seleccione la zona donde vive:
+      </p>
+
+      <ul>
+        <li>
+          <input type="radio" name="jerez" id="jerez" value="jerez">
+          <label for="jerez">Jerez</label>
+        </li>
+        <li>
+          <input type="radio" name="district" id="district" value="district">
+          <label for="district">Pedanías</label>
+        </li>
+        <li>
+          <input type="radio" name="other" id="other" value="other">
+          <label for="other">Fuera de Jerez</label>
+        </li>
+      </ul>
+
+      <input type="checkbox" name="notifications" id="notifications" value="notifications" required>
+      <label for="notifications">Acepto recibir notificaciones sobre el estado de la encuesta.</label>
+
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+  </form>
+</body>
+</html>
