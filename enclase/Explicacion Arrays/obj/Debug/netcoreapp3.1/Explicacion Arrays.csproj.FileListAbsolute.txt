@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\bin\Debug\netcoreapp3.1\Explicacion Arrays.exe
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\bin\Debug\netcoreapp3.1\Explicacion Arrays.deps.json
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\bin\Debug\netcoreapp3.1\Explicacion Arrays.runtimeconfig.json
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\bin\Debug\netcoreapp3.1\Explicacion Arrays.runtimeconfig.dev.json
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\bin\Debug\netcoreapp3.1\Explicacion Arrays.dll
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\bin\Debug\netcoreapp3.1\Explicacion Arrays.pdb
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\obj\Debug\netcoreapp3.1\Explicacion Arrays.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\obj\Debug\netcoreapp3.1\Explicacion Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\obj\Debug\netcoreapp3.1\Explicacion Arrays.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\obj\Debug\netcoreapp3.1\Explicacion Arrays.AssemblyInfo.cs
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\obj\Debug\netcoreapp3.1\Explicacion Arrays.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\obj\Debug\netcoreapp3.1\Explicacion Arrays.dll
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\obj\Debug\netcoreapp3.1\Explicacion Arrays.pdb
+C:\Users\david\source\repos\FP\enclase\Explicacion Arrays\obj\Debug\netcoreapp3.1\Explicacion Arrays.genruntimeconfig.cache
