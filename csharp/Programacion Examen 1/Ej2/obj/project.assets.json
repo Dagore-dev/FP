@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\source\\repos\\David Gómez Redondo\\Ej2\\Ej2.csproj",
+      "projectUniqueName": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 1\\Ej2\\Ej2.csproj",
       "projectName": "Ej2",
-      "projectPath": "C:\\Users\\david\\source\\repos\\David Gómez Redondo\\Ej2\\Ej2.csproj",
+      "projectPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 1\\Ej2\\Ej2.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\source\\repos\\David Gómez Redondo\\Ej2\\obj\\",
+      "outputPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 1\\Ej2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
