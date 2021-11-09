@@ -1,0 +1,15 @@
+
+Recorra nuestro sitio web
+
+    Página inicial
+    Recogida de datos
+    Tabla de resultados
+    Nuestro blog
+
+Ejemplo de tabla HTML
+
+En primer lugar observe la siguiente figura:
+
+Ahora codifique una tabla HTML que represente la información de la figura anterior. Le recordamos que lo importante es la semántica, no la presentación.
+
+Aviso: Aquí debe aparecer su tabla HTML.

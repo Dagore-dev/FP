@@ -1,0 +1,28 @@
+
+Recorra nuestro sitio web
+
+    Página inicial
+    Recogida de datos
+    Tabla de resultados
+    Nuestro blog
+
+El blog sobre HTML y CSS
+
+Bjarne Stroustrup dijo:
+
+    "Hay una antigua historia sobre una persona que quería que su ordenador fuese tan fácil de utilizar como su teléfono. Estos deseos se han hecho realidad, ya no sé cómo usar mi teléfono" 
+
+El objetivo de este blog es evitar que se haga realidad esa cita. ;-)
+
+
+Un poco de publicidad
+
+    Avenida arraiz . Equipado y amueblado, alquilo hasta el 30 Mayo, agua u luz incluidas en el precio. También dispongo de habitaciones a 250€ . 3ª Planta. Ascensor. Amueblado. Terraza. Calefacción. Piscina. Jardín. CE: A
+    Particular alquila Piso totalmente reformado. Imprescindible seguro de alquiler, nominas y contrato indefinido Mes de fianza mas mes en curso Dejar datos por mail. Llamaremos el lunes para poder visitarlo desde el mismo lunes. 1ª Planta.
+
+Información sobre los autores
+
+Puede contactar con los autores a través de las redes sociales habituales.
+
+© 2019 Anne Framework.
+Esta imagen enlaza con el buscador GleGoo (www.glegoo.com) 

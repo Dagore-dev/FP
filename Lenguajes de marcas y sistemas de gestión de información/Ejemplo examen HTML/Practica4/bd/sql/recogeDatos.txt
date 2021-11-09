@@ -1,0 +1,24 @@
+
+Recorra nuestro sitio web
+
+    Página inicial
+    Recogida de datos
+    Tabla de resultados
+    Nuestro blog
+
+Formulario de recogida de datos
+Datos de la compra
+
+Seleccione la marca:
+Marca a Marca b Marca c Marca d
+
+Nº de unidades
+
+Adjuntar 2 ficheros: factura de compra y fotocopia del DNI
+
+Fecha Compra
+Datos personales
+
+Usuario
+
+Código de validación * Campo obligatorio. Formato: 2 mayúsculas, un guión, y entre 2 y 5 caracteres que pueden ser indistíntamente minúsculas o dígitos. Por jemplo, AB-123, o ZA-ab12z
