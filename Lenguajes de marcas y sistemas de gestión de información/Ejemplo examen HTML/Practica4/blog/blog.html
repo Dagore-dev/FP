@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <nav>
+      <h2>Recorre nuestro sitio web</h2>
+
+      <ul>
+        <li><a href="/index.html">Página inicial</a></li>
+        <li><a href="/bd/sql/recogeDatos.html">Recogida de datos</a></li>
+        <li><a href="/bd/resultados.html">Tabla de datos</a></li>
+        <li><a href="/blog/blog.html">Nuestro blog</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Hablaremos de dos grandes temas: HTML y CSS</h1>
+
+      <nav>
+        <h2>Índice del blog</h2>
+
+        <ul>
+          <li>
+            <a href="#html">Bloque HTML</a>
+            <ul>
+              <li><a href="#html1">Cerrar etiquetas</a></li>
+              <li><a href="#html2">Evitar estilos inline</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#css">Bloque CSS</a>
+            <ul>
+              <li><a href="#css1">Jerarquía</a></li>
+              <li>
+                <a href="#css2">Fuentes</a>
+                <ul>
+                  <li><a href="#css2_1">Text shadow</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="html">
+        <h2>Bloque HTML</h2>
+
+        <article id="html1">
+          <h3>Artículo 1: Cerrar etiquetas</h3>
+
+          <p>Back in the day, it wasn't uncommon to see things like this:</p>
+
+          <code>
+            <pre>	&lt;li>Some text here.</pre>
+            <pre>	&lt;li>Some new text here.</pre>
+            <pre>	&lt;li>You get the idea.</pre>
+          </code>
+
+					<p>
+						Notice how the wrapping UL/OL tag was omitted. Additionally, many chose to leave off the closing LI tags as well. By today's standards, this is simply bad practice and should be 100% avoided. Always, always close your tags. Otherwise, you'll encounter validation and glitch issues at every turn.
+					</p>
+        </article>
+
+        <article id="html2">
+          <h3>Artículo 2: Never use inline styles</h3>
+
+					<p>
+						When you're hard at work on your markup, sometimes it can be tempting to take the easy route and sneak in a bit of styling. 1
+					</p>
+
+					<code>
+						<pre>    &lt;p style="color: red;">I'm going to make this text red so that it really stands out and makes people take notice! &lt;/p></pre>
+					</code>
+
+					<p>
+						Sure -- it looks harmless enough. However, this points to an error in your coding practices.
+					</p>
+        </article>
+      </section>
+
+      <section id="css">
+        <h2>Bloque CSS</h2>
+
+        <article id="css1">
+          <h3>
+            Artículo 1: Hierarchy provides a clear visual order to content
+          </h3>
+
+					<p>
+						Hierarchy is something you really only notice when it’s not there. In typography, hierarchy refers to the visual difference between various pieces of text. It’s the distinction between headings, paragraphs, links, and other text styles.
+					</p>
+
+					<p>
+						This distinction is made by choosing different fonts, colors, size, capitalization, and other properties for each type of text content. Good hierarchy makes complex information easier to digest and guides users through your content.
+					</p>
+
+					<img src="../figuras/typography_hiearchy-1_vab7fy.jpg" alt="Comparación entre tipografías" width="822" height="354">
+
+					<p>
+						Left: Poor hierarchy. There’s not much differentiation in the size or color of the text to help users digest the content. Right: Better hierarchy that uses more variety in font size, color, and spacing to help users quickly navigate the content.
+					</p>
+        </article>
+
+        <article id="css2">
+          <h3>Artículo 2: Choosing fonts</h3>
+
+					<p>
+						With typography, we need to make sure it is as easy to read as possible. The greatest overall factor in readability is the font you choose—which is a huge topic. There are many factors that determine how "readable" a font is. Some fonts are made specifically to be used as headings or short lines of text; these are called "display" fonts, and they often have more personality than fonts designed to be used for text. Unique flourishes and quirks make display fonts harder to read at small sizes and when part of a large paragraph. As a rule of thumb, use a more straightforward font for text and only use display fonts for headings.
+					</p>
+
+					<p>
+						If you’re in a pinch and need a readable font, try Google Fonts. Add a paragraph of text to the preview field and size it roughly how it will display on your website. You can then narrow down your results to serif or sans-serif and scan the list of fonts for one that is easy to read. Roboto, Noto Sans, Merriweather, and PT Serif are all very readable options.
+					</p>
+
+					<img src="../figuras/googlefonts.gif" alt="Google fonts" width="640" height="477">
+
+          <section id="css2_1">
+            <h4>Text shadow</h4>
+
+						<p>
+							Este código define dos sombras (text shadow) para elementos p. El número de sombras puede ampliarse según se desee; no olvides poner siempre una coma para separar las cifras.
+						</p>
+
+						<p>
+							Los dos primeros elementos determinan la posición de la sombra (primero la coordenada para X y luego para Y). La tercera cifra define el tamaño. Por último se especifica el color de la sombra, ya sea por indicación RGBA (300, 180, 100, 1) como en la primera línea, o por indicación absoluta como en la segunda línea (red). Una vez aplicado el anterior comando CSS, el texto se verá de la siguiente forma:
+						</p>
+
+						<img src="../figuras/css-text-shadow.png" alt="Ejemplo de uso de text shadow" width="334" height="102">
+          </section>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

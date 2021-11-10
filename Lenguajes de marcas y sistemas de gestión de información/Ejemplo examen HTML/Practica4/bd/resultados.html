@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        th, td {
+            border: 1px solid;
+            text-align: center;
+        }
+    </style>
+    <title>Resultados</title>
+</head>
+<body>
+    <nav>
+        <h2>Recorre nuestro sitio web</h2>
+
+        <ul>
+            <li><a href="/index.html">Página inicial</a></li>
+            <li><a href="/bd/sql/recogeDatos.html">Recogida de datos</a></li>
+            <li><a href="/bd/resultados.html">Tabla de datos</a></li>
+            <li><a href="/blog/blog.html">Nuestro blog</a></li>
+        </ul>
+    </nav>
+
+    <h1>Ejemplo de tabla HTML</h1>
+
+    <p>
+        En primer lugar observe <strong>la siguiente figura</strong>:
+    </p>
+
+    <table>
+        <caption>Resultados módulo</caption>
+
+        <thead>
+            <tr>
+                <th>Examen</th>
+                <th>Aprobados</th>
+                <th>Suspensos</th>
+                <th>No presentados</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>1ª Ev</th>
+                <td colspan="2">8</td>
+                <td>14</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <th>2ª Ev</th>
+                <td rowspan="2">9</td>
+                <td>7</td>
+                <td>9</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <th>3ª Ev</th>
+                <td colspan="2" rowspan="2">6</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <th>Final</th>
+                <td>6</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
+        Ahora configure una tabla HTML que represente la información de la figura anterior. Le recordamos que lo importante es la semántica, no la presentación.
+    </p>
+
+    <p>
+        <strong>Aviso</strong>: Aquí debe aparecer su tabla HTML.
+    </p>
+</body>
+</html>
