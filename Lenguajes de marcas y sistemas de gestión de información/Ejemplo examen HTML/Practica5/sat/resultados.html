@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    th, td {
+      border: 1px solid;
+      text-align: center;
+    }
+  </style>
   <title>Resultados</title>
 </head>
 <body>
@@ -11,49 +17,85 @@
     <h2>Zona de navegación de nuestra web.</h2>
 
     <ol>
-      <li><a href="./index.html">Página principal</a></li>
-      <li><a href="./info/tecnologia/blog.html">Nuestro blog</a></li>
-      <li><a href="./sat/resultados.html">Resultados</a></li>
-      <li><a href="./info/ayuda.html">Ayuda HTML</a></li>
+      <li><a href="/index.html">Página principal</a></li>
+      <li><a href="/info/tecnologia/blog.html">Nuestro blog</a></li>
+      <li><a href="/sat/resultados.html">Resultados</a></li>
+      <li><a href="/info/ayuda.html">Ayuda HTML</a></li>
     </ol>
   </nav>
+
+  <h1>Resultados de la encuesta</h1>
+
+  <p>Observe en la siguiente figura los resultados de la encuesta:</p>
+
+  <figure>
+
+    <table>
+      <caption>Resultados encuesta</caption>
+
+      <thead>
+        <tr>
+          <th></th>
+          <th>Trimestre 1</th>
+          <th>Trimestre 2</th>
+          <th>Trimestre 3</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>Zona 1</th>
+          <td colspan="2">8</td>
+          <td>14</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <th>Zona 2</th>
+          <td rowspan="2">9</td>
+          <td>7</td>
+          <td>9</td>
+          <td>26</td>
+        </tr>
+        <tr>
+          <th>Zona 3</th>
+          <td colspan="2" rowspan="2">6</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <th>Zona 4</th>
+          <td>6</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <th>Totales</th>
+          <td>23</td>
+          <td>21</td>
+          <td>29</td>
+          <td>95</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th></th>
+          <th>Trimestre 1</th>
+          <th>Trimestre 2</th>
+          <th>Trimestre 3</th>
+          <th>Total</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <figcaption>Figura 01: Resultados de la encuesta</figcaption>
+  </figure>
+
+  <p>
+    Ahora como ejercicio HTML codificaré una tabla HTML que represente la información de la figura anterior. Le recordamos que lo importante es la semántica, no la presentación..
+  </p>
+
+  <p>
+    <strong>Aviso</strong>: Aquí debe aparecer su tabla HTML.
+  </p>
 </body>
 </html>
-
-
-
-  
-  
-  
-  Encuesta
-
-
-
-  
-    Zona de navegación de nuesta web.
-    
-      Página inicial
-      Nuestro blog
-      Resultados
-      Ayuda HTML
-    
-  
-
-  Resultados encuesta
-
-  Observe en la siguiente figura los resultados de la encuesta:
-
-  
-    
-    Figura 01: resultados de la encuesta
-  
-
-  
-    Ahora como ejercicio HTML codificaré una tabla HTML que represente la
-    información de la figura anterior. Le recordamos que
-    lo importante es la semántica, no la presentación..
-  
-
-  Aviso: Aquí debe aparecer su tabla HTML.
-
-
