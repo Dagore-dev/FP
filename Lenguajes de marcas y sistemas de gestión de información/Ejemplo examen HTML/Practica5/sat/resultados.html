@@ -1,74 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    th, td {
-      border: 1px solid;
-      text-align: center;
-    }
-  </style>
-  <title>Resultados</title>
-</head>
-<body>
-  <nav>
-    <h2>Zona de navegación de nuestra web.</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      th,
+      td {
+        border: 1px solid;
+        text-align: center;
+      }
+    </style>
+    <title>Resultados</title>
+  </head>
+  <body>
+    <nav>
+      <h2>Zona de navegación de nuestra web.</h2>
 
-    <ol>
-      <li><a href="/index.html">Página principal</a></li>
-      <li><a href="/info/tecnologia/blog.html">Nuestro blog</a></li>
-      <li><a href="/sat/resultados.html">Resultados</a></li>
-      <li><a href="/info/ayuda.html">Ayuda HTML</a></li>
-    </ol>
-  </nav>
+      <ol>
+        <li><a href="../index.html">Página principal</a></li>
+        <li><a href="../info/tecnologia/blog.html">Nuestro blog</a></li>
+        <li><a href="resultados.html">Resultados</a></li>
+        <li><a href="../docs/html5-cheat-sheet.png">Ayuda HTML</a></li>
+      </ol>
+    </nav>
 
-  <h1>Resultados de la encuesta</h1>
+    <h1>Resultados de la encuesta</h1>
 
-  <p>Observe en la siguiente figura los resultados de la encuesta:</p>
+    <p>Observe en la siguiente figura los resultados de la encuesta:</p>
 
-  <figure>
+    <figure>
+      <img
+        src="../figuras/resultados.png"
+        alt="Figura 1"
+        width="427"
+        height="143"
+      />
+
+      <figcaption>Figura 01: Resultados de la encuesta</figcaption>
+    </figure>
+
+    <p>
+      Ahora como ejercicio HTML codificaré una tabla HTML que represente la
+      información de la figura anterior.
+      <em>
+        Le recordamos que lo importante es la semántica, no la presentación </em
+      >.
+    </p>
+
+    <p><strong>Aviso</strong>: Aquí debe aparecer su tabla HTML.</p>
 
     <table>
-      <caption>Resultados encuesta</caption>
+      <caption>
+        Resultados encuesta
+      </caption>
 
       <thead>
         <tr>
-          <th></th>
-          <th>Trimestre 1</th>
-          <th>Trimestre 2</th>
-          <th>Trimestre 3</th>
-          <th>Total</th>
+          <td></td>
+          <th scope="col">Trimestre 1</th>
+          <th scope="col">Trimestre 2</th>
+          <th scope="col">Trimestre 3</th>
+          <th scope="col">Total</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <th>Zona 1</th>
+          <th scope="row">Zona 1</th>
           <td colspan="2">8</td>
           <td>14</td>
           <td>30</td>
         </tr>
         <tr>
-          <th>Zona 2</th>
+          <th scope="row">Zona 2</th>
           <td rowspan="2">9</td>
           <td>7</td>
           <td>9</td>
           <td>26</td>
         </tr>
         <tr>
-          <th>Zona 3</th>
+          <th scope="row">Zona 3</th>
           <td colspan="2" rowspan="2">6</td>
           <td>21</td>
         </tr>
         <tr>
-          <th>Zona 4</th>
+          <th scope="row">Zona 4</th>
           <td>6</td>
           <td>18</td>
         </tr>
         <tr>
-          <th>Totales</th>
+          <th scope="row">Totales</th>
           <td>23</td>
           <td>21</td>
           <td>29</td>
@@ -78,24 +100,13 @@
 
       <tfoot>
         <tr>
-          <th></th>
-          <th>Trimestre 1</th>
-          <th>Trimestre 2</th>
-          <th>Trimestre 3</th>
-          <th>Total</th>
+          <td></td>
+          <th scope="col">Trimestre 1</th>
+          <th scope="col">Trimestre 2</th>
+          <th scope="col">Trimestre 3</th>
+          <th scope="col">Total</th>
         </tr>
       </tfoot>
     </table>
-
-    <figcaption>Figura 01: Resultados de la encuesta</figcaption>
-  </figure>
-
-  <p>
-    Ahora como ejercicio HTML codificaré una tabla HTML que represente la información de la figura anterior. Le recordamos que lo importante es la semántica, no la presentación..
-  </p>
-
-  <p>
-    <strong>Aviso</strong>: Aquí debe aparecer su tabla HTML.
-  </p>
-</body>
+  </body>
 </html>

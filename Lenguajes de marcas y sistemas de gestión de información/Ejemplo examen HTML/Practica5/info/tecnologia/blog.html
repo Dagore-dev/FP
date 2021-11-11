@@ -1,202 +1,306 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
-</head>
-<body>
-  <nav>
-    <h2>Zona de navegación de nuestra web.</h2>
-
-    <ol>
-      <li><a href="/index.html">Página principal</a></li>
-      <li><a href="/info/tecnologia/blog.html">Nuestro blog</a></li>
-      <li><a href="/sat/resultados.html">Resultados</a></li>
-      <li><a href="/info/ayuda.html">Ayuda HTML</a></li>
-    </ol>
-  </nav>
-
-  <main>
-    <h1>Blog sobre tecnología y viajes</h1>
-
-    <p>
-      Hola, Soy Jorge Alberto González Barillas. Este blog personal versará sobre dos grandes temas, no relacionados entre ellos: HTML y viajes. Relleno: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam nam non maiores commodi obcaecati voluptate.
-    </p>
-  
-    <p>
-      Y vamos al trabajo, porque como dijo <cite>Franklin D. Roosvelt</cite>:
-    </p>
-  
-    <blockquote>
-      En la vida hay algo peor que el fracaso: el no haber intentado nada.
-    </blockquote>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+  </head>
+  <body>
     <nav>
-      <h2>Accesos directos en esta página</h2>
+      <h2>Zona de navegación de nuestra web.</h2>
 
-      <ul>
-        <li>Artículos sobre HTML
-          <ol>
-            <li><a href="#html1">Estructura</a></li>
-            <li><a href="#html2">Comentarios</a></li>
-            <li><a href="#html3">Accesibilidad</a></li>
-          </ol>
-        </li>
-
-        <li>Artículos sobre Viajes
-          <ol>
-            <li><a href="#travel1">Barbate</a></li>
-            <li><a href="#travel2">Benaocaz</a>
-              <ol>
-                <li><a href="#travel2_1">Salto del cabrero</a></li>
-              </ol>
-            </li>
-          </ol>
-        </li>
-      </ul>
+      <ol>
+        <li><a href="../../index.html">Página principal</a></li>
+        <li><a href="blog.html">Nuestro blog</a></li>
+        <li><a href="../../sat/resultados.html">Resultados</a></li>
+        <li><a href="../../docs/html5-cheat-sheet.png">Ayuda HTML</a></li>
+      </ol>
     </nav>
-    
-    <section>
-      <h2>Artículos sobre HTML</h2>
-      
+
+    <main>
+      <h1>Blog sobre tecnología y viajes</h1>
+
       <p>
-        Selección de artículos sobre HTML.
+        Hola, Soy Jorge Alberto González Barillas. Este blog personal versará
+        sobre dos grandes temas, no relacionados entre ellos:
+        <abbr title="Lenguaje de Marcas de Hipertexto">HTML</abbr> y viajes.
+        Relleno: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Quisquam nam non maiores commodi obcaecati voluptate.
       </p>
 
-      <article id="html1">
-        <h3>Estructura del documento</h3>
+      <p>
+        Y vamos al trabajo, porque como dijo <cite>Franklin D. Roosvelt</cite>:
+      </p>
 
-        <p>
-          Volviendo al código HTML del primer ejemplo, es importante conocer las tres etiquetas principales de un documento HTML:
-        </p>
+      <blockquote>
+        En la vida hay algo peor que el fracaso: el no haber intentado nada.
+      </blockquote>
 
-        <ul>
-          <li><code>&lt;html></code>: indica el comienzo y el final de un documento HTML.</li>
-          <li><code>&lt;head></code>: delimita la parte de la cabecera del documento.</li>
-          <li><code>&lt;body></code>: delimita el cuerpo del documento HTML.</li>
-        </ul>
-
-        <img src="../../figuras/esquema_etiquetas_documento_html.gif" alt="Esquema etiquetas de un documento HTML" width="350" height="138" >
-
-        <p>
-          Y dentro del body ...
-        </p>
-
-        <pre><code>
-          &lt;h1>Ejemplo de título&lt;/h1>
-          &lt;p>Ejemplo de párrafo&lt;/p>
-        </code></pre>
-      </article>
-
-      <article id="html2">
-        <h3>Sobre los comentarios</h3>
-
-        <p>
-          Aunque los comentarios no se muestran por pantalla y por tanto son invisibles para los usuarios, sí que se descargan con el código HTML de la página. Por este motivo, nunca debe incluirse información sensible o confidencial en los comentarios.
-        </p>
-
-        <p>
-          La sintaxis de los comentarios es la siguiente:
-        </p>
+      <nav>
+        <h2>Accesos directos en esta página</h2>
 
         <ul>
-          <li>Apertura del comentario: <code>&lt;!--</code></li>
-          <li>Contenido del comentario: (cualquier texto)</li>
-          <li>Cierre del comentario: <code>--></code></li>
+          <li>
+            Artículos sobre HTML
+            <ol>
+              <li><a href="#html1">Estructura</a></li>
+              <li><a href="#html2">Comentarios</a></li>
+              <li><a href="#html3">Accesibilidad</a></li>
+            </ol>
+          </li>
+
+          <li>
+            Artículos sobre Viajes
+            <ol>
+              <li><a href="#travel1">Barbate</a></li>
+              <li>
+                <a href="#travel2">Benaocaz</a>
+                <ol>
+                  <li><a href="#travel2_1">Salto del cabrero</a></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
         </ul>
-      </article>
+      </nav>
 
-      <article id="html3">
-        <h3>Sobre la accesibilidad</h3>
+      <section>
+        <h2>Artículos sobre HTML</h2>
 
-        <p>
-          El principal objetivo de la accesibilidad web es el de permitir a cualquier usuario, independientemente del tipo de discapacidad que sufra, el acceso a los contenidos del sitio y permitirle la navegación necesaria para realizar las acciones deseadas. Los sitios web accesibles no solamente facilitan el acceso de sus contenidos a los usuarios discapacitados, sino que también permiten ofrecer la misma funcionalidad con dispositivos muy limitados (dispositivos sin pantalla o con pantallas minúsculas, dispositivos sin teclado ni ratón, etc.).
-        </p>
+        <p>Selección de artículos sobre HTML.</p>
 
-        <p>
-          Las cuatro principales ventajas de diseñar un sitio web completamente accesible son las siguientes:
-        </p>
-
-        <ul>
-          <li>Los sitios accesibles separan completamente diseño y contenido.</li>
-          <li>Un sitio accesible puede ser accedido por multitud de dispositivos diferentes sin necesidad de reescribir el código HTML.</li>
-          <li>Los sitios accesibles son los únicos con una audiencia potencial global, ya que permiten el acceso a todos los usuarios y a todos los dispositivos.</li>
-          <li>Generalmente, los sitios accesibles son más fáciles de utilizar también para los usuarios sin discapacidades.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section>
-      <h2>Artículos sobre viajes</h2>
-
-      <article id="travel1">
-        <h3>Barbate</h3>
-
-        <p>
-          Barbate (de 1950 a 1998 fue llamado Barbate de Franco) es un municipio español de la provincia de Cádiz (Andalucía). En 2018 contaba con 22 551 habitantes.1​ Su extensión superficial es de 143,4 km²  y tiene una densidad de 159,42 hab/km². Tiene una altitud media de 10 metros y se encuentra a 64 kilómetros de la capital de provincia, Cádiz.2​ Pertenece a la comarca de La Janda y, a su vez, a la subcomarca de la Janda Litoral.3
-        </p>
-
-        <img src="../../figuras/Barba-5.png" alt="Almadraba" width="250" height="404">
-
-        <p>
-          Se ubica en la desembocadura del río Barbate, en la costa próxima al cabo de Trafalgar, frente al que se desarrolló la batalla del mismo nombre. Tradicionalmente ha sido una población pesquera, dedicándose tanto a la pesca en los caladeros marroquíes como a la pesca del atún mediante el arte tradicional de la almadraba.​
-        </p>
-      </article>
-
-      <article id="travel2">
-        <h3>Benaocaz</h3>
-
-        <p>
-          Benaocaz es un municipio español de la provincia de Cádiz, Andalucía. Se encuentra al noreste de la provincia de Cádiz, en la zona más occidental de la Cordillera Bética, concretamente en la Sierra del Endrinal, al sur del río Tavizna, encontrándose su término municipal dentro del Parque Natural Sierra de Grazalema, a excepción de la zona más occidental que se encuentra en el Parque Natural de Los Alcornocales. Forma parte de la Ruta de los Pueblos Blancos: su término municipal limita al norte con Grazalema; al sur con Ubrique; al Este con Villaluenga del Rosario; y al Oeste con el de El Bosque.
-        </p>
-
-        <article id="travel2_1">
-          <h4>Salto del cabrero</h4>
+        <article id="html1">
+          <h3>Estructura del documento</h3>
 
           <p>
-            El Salto del Cabrero es una formación geológica singular localizada en el Parque natural de la Sierra de Grazalema, cercano a la localidad de Benaocaz. Una falla separa dos cumbres de un mismo desfiladero, realizadas de manera natural en la rocas de composición caliza.
+            Volviendo al código HTML del primer ejemplo, es importante conocer
+            las tres etiquetas principales de un documento HTML:
           </p>
 
-          <img src="../../figuras/SaltoDelCabrero.jpeg" alt="Salto del cabrero" width="319" height="236">
+          <ul>
+            <li>
+              <code>&lt;html></code>: indica el comienzo y el final de un
+              documento HTML.
+            </li>
+            <li>
+              <code>&lt;head></code>: delimita la parte de la cabecera del
+              documento.
+            </li>
+            <li>
+              <code>&lt;body></code>: delimita el cuerpo del documento HTML.
+            </li>
+          </ul>
+
+          <img
+            src="../../figuras/esquema_etiquetas_documento_html.gif"
+            alt="Esquema etiquetas de un documento HTML"
+            width="350"
+            height="138"
+          />
+
+          <p>Y dentro del body ...</p>
+
+          <pre>
+            <code>
+              &lt;h1>Ejemplo de título&lt;/h1>
+              &lt;p>Ejemplo de párrafo&lt;/p>
+            </code>
+          </pre>
+        </article>
+
+        <article id="html2">
+          <h3>Sobre los comentarios</h3>
 
           <p>
-            Existe una leyenda o cuento que parece ser el origen del nombre del lugar. Un pastor de cabras, huyendo de un prestamista para atender a su hijo enfermo, cruzó la falla de un salto.
+            Aunque los comentarios no se muestran por pantalla y por tanto son
+            invisibles para los usuarios, sí que se descargan con el código HTML
+            de la página. Por este motivo, nunca debe incluirse información
+            sensible o confidencial en los comentarios.
+          </p>
+
+          <p>La sintaxis de los comentarios es la siguiente:</p>
+
+          <ul>
+            <li>Apertura del comentario: <code>&lt;!--</code></li>
+            <li>Contenido del comentario: (cualquier texto)</li>
+            <li>Cierre del comentario: <code>--></code></li>
+          </ul>
+        </article>
+
+        <article id="html3">
+          <h3>Sobre la accesibilidad</h3>
+
+          <p>
+            El principal objetivo de la accesibilidad web es el de permitir a
+            cualquier usuario, independientemente del tipo de discapacidad que
+            sufra, el acceso a los contenidos del sitio y permitirle la
+            navegación necesaria para realizar las acciones deseadas. Los sitios
+            web accesibles no solamente facilitan el acceso de sus contenidos a
+            los usuarios discapacitados, sino que también permiten ofrecer la
+            misma funcionalidad con dispositivos muy limitados (dispositivos sin
+            pantalla o con pantallas minúsculas, dispositivos sin teclado ni
+            ratón, etc.).
+          </p>
+
+          <p>
+            Las cuatro principales ventajas de diseñar un sitio web
+            completamente accesible son las siguientes:
+          </p>
+
+          <ul>
+            <li>
+              Los sitios accesibles separan completamente diseño y contenido.
+            </li>
+            <li>
+              Un sitio accesible puede ser accedido por multitud de dispositivos
+              diferentes sin necesidad de reescribir el código HTML.
+            </li>
+            <li>
+              Los sitios accesibles son los únicos con una audiencia potencial
+              global, ya que permiten el acceso a todos los usuarios y a todos
+              los dispositivos.
+            </li>
+            <li>
+              Generalmente, los sitios accesibles son más fáciles de utilizar
+              también para los usuarios sin discapacidades.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <h2>Artículos sobre viajes</h2>
+
+        <article id="travel1">
+          <h3>Barbate</h3>
+
+          <p>
+            Barbate (de 1950 a 1998 fue llamado Barbate de Franco) es un
+            municipio español de la provincia de Cádiz (Andalucía). En 2018
+            contaba con 22 551 habitantes.1​ Su extensión superficial es de
+            143,4 km²  y tiene una densidad de 159,42 hab/km². Tiene una altitud
+            media de 10 metros y se encuentra a 64 kilómetros de la capital de
+            provincia, Cádiz.2​ Pertenece a la comarca de La Janda y, a su vez,
+            a la subcomarca de la Janda Litoral.3
+          </p>
+
+          <img
+            src="../../figuras/Barba-5.png"
+            alt="Almadraba"
+            width="250"
+            height="404"
+          />
+
+          <p>
+            Se ubica en la desembocadura del río Barbate, en la costa próxima al
+            cabo de Trafalgar, frente al que se desarrolló la batalla del mismo
+            nombre. Tradicionalmente ha sido una población pesquera, dedicándose
+            tanto a la pesca en los caladeros marroquíes como a la pesca del
+            atún mediante el arte tradicional de la almadraba.​
           </p>
         </article>
-      </article>
-    </section>
-  </main>
 
-  <footer>
-    <h2>Sobre nosotros</h2>
+        <article id="travel2">
+          <h3>Benaocaz</h3>
 
-    <section>
-      <h3>Contacto</h3>
-    
-      <address>
-        <dl>
-          <dt>Email</dt>
-          <dd>barillas@local.com</dd>
-  
-          <dt>URL</dt>
-          <dd><a href="#">barillas.com</a></dd>
-  
-          <dt>Redes sociales</dt>
-          <dd><a href="#"><img src="../../figuras/facebook_button_blue.png" alt="Facebook" width="32" height="32"></a><a href="#"><img src="../../figuras/Twitter.png" alt="Twitter" width="32" height="32"></a></dd>
-        </dl>
-      </address>
-    </section>
+          <p>
+            Benaocaz es un municipio español de la provincia de Cádiz,
+            Andalucía. Se encuentra al noreste de la provincia de Cádiz, en la
+            zona más occidental de la Cordillera Bética, concretamente en la
+            Sierra del Endrinal, al sur del río Tavizna, encontrándose su
+            término municipal dentro del Parque Natural Sierra de Grazalema, a
+            excepción de la zona más occidental que se encuentra en el Parque
+            Natural de Los Alcornocales. Forma parte de la Ruta de los Pueblos
+            Blancos: su término municipal limita al norte con Grazalema; al sur
+            con Ubrique; al Este con Villaluenga del Rosario; y al Oeste con el
+            de El Bosque.
+          </p>
 
-    <section>
-      <h3>Política de privacidad</h3>
+          <section id="travel2_1">
+            <h4>Salto del cabrero</h4>
 
-      <p>
-        Conforme a lo previsto en el artículo 5 de la LOPD, se informa al USUARIO que, mediante los formularios de registro de la web, se recaban datos, que se almacenan en un fichero, con la exclusiva finalidad de envío de comunicaciones electrónicas, tales como: boletines (newsletters), nuevas entradas (posts), así como otras comunicaciones que elabogadodigital.com entiende interesantes para sus USUARIOS. Los campos marcados como de cumplimentación obligatoria, son imprescindibles para realizar la finalidad expresada.
-      </p>
-    </section>
+            <p>
+              El Salto del Cabrero es una formación geológica singular
+              localizada en el Parque natural de la Sierra de Grazalema, cercano
+              a la localidad de Benaocaz. Una falla separa dos cumbres de un
+              mismo desfiladero, realizadas de manera natural en la rocas de
+              composición caliza.
+            </p>
 
-  </footer>
-</body>
+            <img
+              src="../../figuras/SaltoDelCabrero.jpeg"
+              alt="Salto del cabrero"
+              width="319"
+              height="236"
+            />
+
+            <p>
+              Existe una leyenda o cuento que parece ser el origen del nombre
+              del lugar. Un pastor de cabras, huyendo de un prestamista para
+              atender a su hijo enfermo, cruzó la falla de un salto.
+            </p>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Sobre nosotros</h2>
+
+      <section>
+        <h3>Contacto</h3>
+
+        <address>
+          <dl>
+            <dt>Email</dt>
+            <dd>barillas@local.com</dd>
+
+            <dt>URL</dt>
+            <dd><a href="#">barillas.com</a></dd>
+
+            <dt>Redes sociales</dt>
+            <dd>
+              <a href="#"
+                ><img
+                  src="../../figuras/facebook_button_blue.png"
+                  alt="Facebook"
+                  width="32"
+                  height="32" /></a
+              ><a href="#"
+                ><img
+                  src="../../figuras/Twitter.png"
+                  alt="Twitter"
+                  width="32"
+                  height="32"
+              /></a>
+            </dd>
+          </dl>
+        </address>
+      </section>
+
+      <section>
+        <h3>Política de privacidad</h3>
+
+        <p>
+          Conforme a lo previsto en el artículo 5 de la LOPD, se informa al
+          USUARIO que, mediante los formularios de registro de la web, se
+          recaban datos, que se almacenan en un fichero, con la exclusiva
+          finalidad de envío de comunicaciones electrónicas, tales como:
+          boletines (newsletters), nuevas entradas (posts), así como otras
+          comunicaciones que elabogadodigital.com entiende interesantes para sus
+          USUARIOS. Los campos marcados como de cumplimentación obligatoria, son
+          imprescindibles para realizar la finalidad expresada.
+        </p>
+      </section>
+
+      <a href="#"
+        ><img
+          src="../../figuras/arriba.png"
+          alt="Arriba"
+          width="64"
+          height="64"
+      /></a>
+    </footer>
+  </body>
 </html>

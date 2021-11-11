@@ -1,91 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recogida de datos</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <h2>Recorre nuestro sitio web</h2>
+      <h2>Recorre nuestro sitio web</h2>
 
-        <ul>
-            <li><a href="/index.html">Página inicial</a></li>
-            <li><a href="/bd/sql/recogeDatos.html">Recogida de datos</a></li>
-            <li><a href="/bd/resultados.html">Tabla de datos</a></li>
-            <li><a href="/blog/blog.html">Nuestro blog</a></li>
-        </ul>
+      <ul>
+        <li><a href="../../index.html">Página inicial</a></li>
+        <li><a href="recogeDatos.html">Recogida de datos</a></li>
+        <li><a href="../resultados.html">Tabla de datos</a></li>
+        <li><a href="../../blog/blog.html">Nuestro blog</a></li>
+      </ul>
     </nav>
 
     <h1>Formulario de recogida de datos</h1>
 
     <form action="procesa.php" method="post" enctype="multipart/form-data">
-        
-        <fieldset>
-            <legend>Datos de la compra</legend>
-            
-            <p>
-                Selecione la marca:
-            </p>
+      <fieldset>
+        <legend>Datos de la compra</legend>
 
-            <ul>
-                <li>
-                    <input type="radio" name="marca" id="a" value="a">
-                    <label for="a">Marca a</label>
-                </li>
-                <li>
-                    <input type="radio" name="marca" id="b" value="b">
-                    <label for="b">Marca b</label>
-                </li>
-                <li>
-                    <input type="radio" name="marca" id="c" value="c">
-                    <label for="c">Marca c</label>
-                </li>
-                <li>
-                    <input type="radio" name="marca" id="d" value="d">
-                    <label for="d">Marca d</label>
-                </li>
-            </ul>
+        <p>Selecione la marca:</p>
 
-            <label>
-                Nº de unidades: 
-                <input type="number" name="quantity" id="quantity" value="1">
-            </label>
+        <ul>
+          <li>
+            <input type="radio" name="marca" id="a" value="a" />
+            <label for="a">Marca a</label>
+          </li>
+          <li>
+            <input type="radio" name="marca" id="b" value="b" />
+            <label for="b">Marca b</label>
+          </li>
+          <li>
+            <input type="radio" name="marca" id="c" value="c" />
+            <label for="c">Marca c</label>
+          </li>
+          <li>
+            <input type="radio" name="marca" id="d" value="d" />
+            <label for="d">Marca d</label>
+          </li>
+        </ul>
 
-            <p>
-                <label for="file">Adjuntar 2 ficheros: factura de compra y fotocopia del DNI</label>
-            </p>
-            <input type="file" name="file" id="file">
+        <label>
+          Nº de unidades:
+          <input type="number" name="quantity" id="quantity" value="1" />
+        </label>
 
-            <p>
-                <label for="date">Fecha compra</label>
-            </p>
-            <input type="date" name="date" id="date">
+        <p>
+          <label for="file"
+            >Adjuntar 2 ficheros: factura de compra y fotocopia del DNI</label
+          >
+        </p>
+        <input type="file" name="file" id="file" />
 
-        </fieldset>
+        <p>
+          <label for="date">Fecha compra</label>
+        </p>
+        <input type="date" name="date" id="date" />
+      </fieldset>
 
-        <fieldset>
-            <legend>Datos personales</legend>
+      <fieldset>
+        <legend>Datos personales</legend>
 
-            <div>
-                <label>
-                    Usuario: 
-                    <input type="email" name="email" id="email">
-                </label>
-            </div>
-            
-            <div>
-                <label>
-                    Código de validación
-                    <input name="code" type="text" required pattern="^[A-Z]{2}\-[a-z\|\d]{2,5}$">
-                </label>
-                <span>*Campo obligatorio. Formato: 2 mayúsculas, 1 guión y entre 2 y 5 caracteres (minúsculas o dígitos). Por ejemplo, AB-123 o ZA-ab12z.</span>
-            </div>
-        </fieldset>
+        <div>
+          <label>
+            Usuario:
+            <input type="email" name="email" id="email" />
+          </label>
+        </div>
 
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpiar">
+        <div>
+          <label>
+            Código de validación
+            <input
+              name="code"
+              type="text"
+              required
+              pattern="^[A-Z]{2}\-[a-z\|\d]{2,5}$"
+            />
+          </label>
+          <span
+            >*Campo obligatorio. Formato: 2 mayúsculas, 1 guión y entre 2 y 5
+            caracteres (minúsculas o dígitos). Por ejemplo, AB-123 o
+            ZA-ab12z.</span
+          >
+        </div>
+      </fieldset>
+
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpiar" />
     </form>
-</body>
+  </body>
 </html>
