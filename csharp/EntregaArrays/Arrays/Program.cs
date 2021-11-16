@@ -323,6 +323,95 @@ namespace Arrays
                             EscribeArrays(b);
                         }
                         break;
+                    case 33:
+                        {
+                            int[] a = { 1, 2, 4, 5 };
+                            int number = 3;
+                            int position = 2;
+                            int[] b = new int[0];
+                            int num2 = 1;
+                            int position2 = 0;
+
+                            EscribeArrays(a);
+                            InsertaEnArray(ref a, number, position);
+                            EscribeArrays(a);
+
+                            EscribeArrays(b);
+                            InsertaEnArray(ref b, num2, position2);
+                            EscribeArrays(b);
+                        }
+                        break;
+                    case 34:
+                        {
+                            int[] a = { 0, 1, 3, 2 };
+
+                            EscribeArrays(a);
+                            BorraDeArray(ref a, 2);
+                            EscribeArrays(a);
+                        }
+                        break;
+                    case 35:
+                        {
+                            int[] a = { 0, 1, 2, 3 };
+                            int number = 2;
+
+                            EscribeArrays(a);
+                            Console.WriteLine("Eliminamos el 2");
+                            Elimina1ElementoArray(ref a, number);
+                            EscribeArrays(a);
+                        }
+                        break;
+                    case 36:
+                        {
+                            int[] a = { 1, 2, 1, 2, 1, 1, 1, 2, 2, 1, 1 };
+                            int number = 2;
+
+                            EscribeArrays(a);
+                            EliminaElementoArray(ref a, number);
+                            EscribeArrays(a);
+                        }
+                        break;
+                    case 37:
+                        {
+                            int[] a = { 1, 2, 6, 7 };
+                            int[] b = { 3, 4, 5 };
+                            int position = 2;
+
+                            EscribeArrays(a);
+                            InsertaArrayEnArray(ref a, position, b);
+                            EscribeArrays(a);
+                        }
+                        break;
+                    case 38:
+                        {
+                            int[] a = { 3, 6, 2, 8, 9 };
+                            int start = 1, end = 3;
+
+                            EscribeArrays(a);
+                            Console.WriteLine($"Subarray de {start} a {end}");
+                            EscribeArrays(SubArray(a, start, end));
+                        }
+                        break;
+                    case 39:
+                        {
+                            int[] a = { 3, 6, 2, 8, 9 };
+                            int start = 1, end = 3;
+
+                            EscribeArrays(a);
+                            Console.WriteLine($"Subarray de {start} a {end}");
+                            RecortaArray(ref a, start, end);
+                            EscribeArrays(a);
+                        }
+                        break;
+                    case 40:
+                        {
+                            int[] a = { 3, 9, 4, 6, 8, 1 };
+
+                            EscribeArrays(a);
+                            OrdenaBurbuja(a);
+                            EscribeArrays(a);
+                        }
+                        break;
                     default:
                         Console.WriteLine();
                         break;
@@ -368,6 +457,15 @@ namespace Arrays
             Console.WriteLine("29 - ConcatenaArrays");
             Console.WriteLine("30 - Contiene");
             Console.WriteLine("31 - ConcatenaArraysPro");
+            Console.WriteLine("32 - CopiaArrayPro");
+            Console.WriteLine("33 - CopiaArrayPro");
+            Console.WriteLine("34 - BorraDeArray");
+            Console.WriteLine("35 - Elimina1ElementoArray");
+            Console.WriteLine("36 - EliminaElementoArray");
+            Console.WriteLine("37 - InsertaArrayEnArray");
+            Console.WriteLine("38 - SubArray");
+            Console.WriteLine("39 - RecortaArray");
+            Console.WriteLine("40 - OrdenaBurbuja");
             Console.WriteLine("0 - Salir");
             Console.WriteLine();
             Console.Write("Elige una opción: ");
@@ -915,7 +1013,183 @@ namespace Arrays
         static void InsertaEnArray (ref int[] a, int number, int position)
         {
             //Escribe una función “InsertaEnArray” a la que le pasas tres parámetros: un array de enteros, un valor entero y una posición. La función insertará el valor en la posición indicada, desplazando el resto de valores para hacerle hueco. Ej.: Si tenemos el array [1,2,3,4,5] y queremos insertar el valor “26” en la posición “2”, el resultado será: [1,2,26,3,4,5]. Nota: el array habrá que pasarlo por referencia; esto es necesario siempre que hay que modificar el tamaño de un array.
+
+            Array.Resize(ref a, a.Length + 1);
+
+            int prev = a[position], temp;
+            a[position] = number;
+
+            for (int i = position + 1; i < a.Length; i++)
+            {
+                temp = a[i];
+                a[i] = prev;
+                prev = temp;
+            }
+        }
+        static void BorraDeArray (ref int[] a, int position)
+        {
+            //Escribe una función “BorraDeArray” a la que le pasas dos parámetros: un array de enteros y una posición. La función eliminará el elemento colocado en la posición indicada. Ej.: Si tenemos el array[5, 7, 2, 8, 1] y queremos eliminar la posición 1, el resultado será:[5,2,8,1]. Nota: el array habrá que pasarlo por referencia; esto es necesario siempre que hay que modificar el tamaño de un array.
+
+            for (int i = position; i < a.Length - 1; i++)
+            {
+                a[i] = a[i + 1];
+            }
+
+            Array.Resize(ref a, a.Length - 1);
+        }
+        static void Elimina1ElementoArray (ref int[] a, int number)
+        {
+            //Escribe una función “Elimina1ElementoArray” a la que le pasas dos parámetros: un array de enteros y un valor entero.La función eliminará del array el valor entero independientemente de la posición en la que se encuentre.Si el valor se repite, se eliminará sólo la primera vez que aparece el valor. Nota: el array habrá que pasarlo por referencia; esto es necesario siempre que hay que modificar el tamaño de un array.
+
+            int i = 0, j = -1;
             
+            while ((i < a.Length - 1) && j == -1)
+            {
+                if (a[i] == number)
+                {
+                    j = i;
+                }
+
+                i++;
+            }
+
+            if (j != -1)
+            {
+                BorraDeArray(ref a, j);
+            }
+            else
+            {
+                Console.WriteLine("No se encontró el número en el array.");
+            }
+        }
+        static void EliminaConMultipesBorraDeArray (ref int[] a, int number)
+        {
+            //Escribe una función “EliminaElementosArray” a la que le pasas dos parámetros: un array de enteros y un valor entero.La función eliminará del array el valor entero independientemente de la posición en la que se encuentre.Si el valor se repite, se eliminarán todas las veces que se repite. Nota: el array habrá que pasarlo por referencia; esto es necesario siempre que hay que modificar el tamaño de un array.
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] == number)
+                {
+                    BorraDeArray(ref a, i);
+                }
+            }
+        }
+        static void EliminaElementoArray (ref int[] a, int number)
+        {
+            //Escribe una función “EliminaElementosArray” a la que le pasas dos parámetros: un array de enteros y un valor entero.La función eliminará del array el valor entero independientemente de la posición en la que se encuentre.Si el valor se repite, se eliminarán todas las veces que se repite. Nota: el array habrá que pasarlo por referencia; esto es necesario siempre que hay que modificar el tamaño de un array.
+
+            /*
+                Explicación Luis: Cuando sea un 4, sube un contador. Cuando no sea un 4, mueve a la izquierda tantas posiciones como valor actual del contador.
+                
+                Array   1 2 4 5 4 6 7 8 4
+                Shift   0 0 1 1 2 2 2 2 3
+                Nuevo   1 2 5 6 7 8
+            */
+
+            int counter = 0;
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] == number)
+                {
+                    counter++;
+                }
+                else
+                {
+                    a[i - counter] = a[i];
+                }
+            }
+
+            Array.Resize(ref a, a.Length - counter);
+        }
+        static void InsertaArrayEnArray (ref int[] a, int position, int[] b )
+        {
+            //Escribe una función “InsertaArrayEnArray” a la que le pasas tres parámetros: un array de enteros, una posición de ese array, y otro array de enteros. La función insertará en el primer array, a partir de la posición indicada, todo el contenido del segundo array. Ej.: [6, 2, 1, 3], posición: 2, insertar:[12, 13], resultado = [6, 2, 12, 13, 1, 3]. Nota: el array habrá que pasarlo por referencia; esto es necesario siempre que hay que modificar el tamaño de un array.
+
+            int originalSize = a.Length;
+
+            if (position < a.Length && position >= 0)
+            {
+                Array.Resize(ref a, a.Length + b.Length);
+                EscribeArrays(a);
+
+                for (int i = originalSize; i < a.Length; i++)
+                {
+                    a[i] = a[i - b.Length];
+                }
+
+                for (int i = position; i <= originalSize; i++)
+                {
+                    a[i] = b[i - position];
+                }
+            }
+            else
+            {
+                Console.WriteLine("No existe esa posición en el array.");
+            }
+        }
+        static int[] SubArray (int[] a, int start, int end)
+        {
+            //Escribe una función “SubArray” a la que le pasas un array y dos posiciones. La función te devuelve otro array que contiene los datos comprendidos entre ambas posiciones (incluidas ambas dos). Ej.: [3, 6, 2, 8, 9], posiciones, 1 y 3, resultado = [6, 2, 8].
+
+            int j = start;
+            int[] result = new int[end];
+
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = a[j];
+                j++;
+            }
+
+            return result;
+        }
+        static void RecortaArray (ref int[] a, int start, int end)
+        {
+            //Escribe una función “RecortaArray” a la que le pasas un array y dos posiciones. La función modificará el array inicial quedándose sólo con lo contenido entre ambas posiciones(como el ejercicio anterior pero en vez de devolver un array diferente modifica el array que le pasas).Nota: el array habrá que pasarlo por referencia; esto es necesario siempre que hay que modificar el tamaño de un array
+
+            int j = start;
+            
+            for (int i = 0; i < end; i++)
+            {
+                a[i] = a[j];
+                j++;
+            }
+
+            Array.Resize(ref a, end);
+        }
+        static void OrdenaBurbuja (int[] a)
+        {
+            /*
+            Escribe la función “OrdenaBurbuja” a la que le pasaremos un array de enteros y lo ordenará mediante la ordenación de la burbuja. 
+            La ordenación de la burbuja funciona de la siguiente forma:
+
+                • Si el array tiene N elementos, se realizarán N-1 pasadas (por ejemplo, para un array de 5 elementos tendremos que realizar 4 pasadas para que quede ordenado).
+                • En cada pasada, iremos recorriendo el array de principio a fin comprobando los números por parejas (por ejemplo: el primer y segundo número, el segundo y el tercero, etc.).
+                • Si la pareja de números está en orden (o sea, el primero es menor que el segundo) la dejamos como está y si está desordenada, los intercambiamos.
+                
+            Ejemplo:
+
+            Si el array original es [3, 9, 4, 6, 8, 1], la pasada sería así:
+            
+            [3, 9, 4, 6, 8, 1] -> [3, 4, 9, 6, 8, 1] -> [3, 4, 6, 9, 8, 1] -> [3, 4, 6, 8, 9, 1] -> [3, 4, 6, 8, 1, 9]
+            
+            Podéis comprobar que el array no se ordena con una sola pasada, pero poco a poco va quedando más ordenado. 
+            */
+
+            int temp;
+
+            for (int i = 0; i < a.Length - 1; i++)
+            {
+                for (int j = 0; j < a.Length - 1; j++)
+                {
+                    if (a[j] > a[j + 1])
+                    {
+                        temp = a[j + 1];
+                        a[j + 1] = a[j];
+                        a[j] = temp;
+                    }
+                }
+            }
         }
     }
 }
