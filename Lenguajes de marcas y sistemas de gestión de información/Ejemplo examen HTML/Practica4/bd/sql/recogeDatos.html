@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recogida de datos</title>
+    <style>
+      .radio {
+        list-style-type: none;
+      }
+      .radio__item {
+        display: inline;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -26,20 +34,20 @@
 
         <p>Selecione la marca:</p>
 
-        <ul>
-          <li>
+        <ul class="radio">
+          <li class="radio__item">
             <input type="radio" name="marca" id="a" value="a" />
             <label for="a">Marca a</label>
           </li>
-          <li>
+          <li class="radio__item">
             <input type="radio" name="marca" id="b" value="b" />
             <label for="b">Marca b</label>
           </li>
-          <li>
+          <li class="radio__item">
             <input type="radio" name="marca" id="c" value="c" />
             <label for="c">Marca c</label>
           </li>
-          <li>
+          <li class="radio__item">
             <input type="radio" name="marca" id="d" value="d" />
             <label for="d">Marca d</label>
           </li>
@@ -47,7 +55,7 @@
 
         <label>
           Nº de unidades:
-          <input type="number" name="quantity" id="quantity" value="1" />
+          <input type="number" name="quantity" id="quantity" value="1" min="1" />
         </label>
 
         <p>
@@ -55,7 +63,7 @@
             >Adjuntar 2 ficheros: factura de compra y fotocopia del DNI</label
           >
         </p>
-        <input type="file" name="file" id="file" />
+        <input type="file" name="file" id="file" multiple/>
 
         <p>
           <label for="date">Fecha compra</label>
@@ -80,7 +88,7 @@
               name="code"
               type="text"
               required
-              pattern="^[A-Z]{2}\-[a-z\|\d]{2,5}$"
+              pattern="[A-Z]{2}-[a-z0-9]{2,5}"
             />
           </label>
           <span
