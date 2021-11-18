@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        th, tr, td {
+            border: 1px solid;
+        }
+    </style>
+    <title>Listado de empresas</title>
+</head>
+<body>
+    <nav>
+        <h2>Índice</h2>
+
+        <ol>
+            <li><a href="../../index.html">Página principal</a></li>
+            <li><a href="../altas.html">Altas</a></li>
+            <li><a href="listado.html">Listado empresas</a></li>
+            <li><a href="../../docs/cursos/recursos.html">Recursos</a></li>
+        </ol>
+    </nav>
+
+    <h1>Listado empresas colaboradoras <del>y patrocinadoras</del></h1>
+
+    <p>
+        Tengamos en cuenta esta reflexión de <cite>Richard Stallaman</cite>
+    </p>
+
+    <blockquote>
+        Que las empresas tengan especial influencia en la política significa que la democracia está enferma. El propósito de la democracia es asegurarse de que los ricos no tengan una influencia proporcional a su riqueza. Y si tienen más influencia que tú o que yo, eso significa que la democracia está fallando. Las leyes que obtienen de esta forma no tienen autoridad moral, sino la capacidad de hacer daño.
+    </blockquote>
+
+    <p>
+        En esta sección incluimos empresas que colaboran en nuestra labor social y no están interesadas en la política.
+    </p>
+
+    <section>
+        <h2>Ejercicio</h2>
+
+        <p>
+            Codifique la tabla HTML que se corresponde con la figura que se muestra abajo. Olvide la presentación y tenga en cuenta solo la semántica de los datos.
+        </p>
+
+        <figure>
+            <img src="listado_empresas.png" alt="Tabla con la lista de empresas" width="920" height="206">
+        </figure>
+
+        <p>
+            Espacio reservado para la codificación HTML de la tabla de la figura anterior
+        </p>
+        
+        <figure>
+
+            <table>
+
+                <caption>Datos de empresas colaboradoras</caption>
+
+                <tr>
+                    <th scope="col">Empresa</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Localidad</th>
+                    <th scope="col">Disponibilidad</th>
+                    <th scope="col">Fines de semana</th>
+                    <th scope="col">Valoración</th>
+                </tr>
+
+                <tr>
+                    <th scope="row">Cupones Toledo</th>
+                    <td>
+                        <ol>
+                            <li>Juegos de azar</li>
+                            <li>Reventa</li>
+                        </ol>
+                    </td>
+                    <td colspan="2"><strong>Sin datos actualizados</strong></td>
+                    <td>Sí</td>
+                    <td rowspan="3">7</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Gigante Mental</th>
+                    <td>
+                        <ol>
+                            <li>Juegos de Rol</li>
+                            <li>Videojuegos</li>
+                        </ol>
+                    </td>
+                    <td>Jerez</td>
+                    <td>24 horas</td>
+                    <td>No</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Telares María</th>
+                    <td>Moda</td>
+                    <td>Madrid</td>
+                    <td>9:00 a 18:00</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Jamones Ademán</th>
+                    <td rowspan="2">Alimentación</td>
+                    <td>Valencia</td>
+                    <td colspan="2" rowspan="2"><strong>Sin datos actualizados</strong></td>
+                    <td>6</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Gourmet Sebastiano</th>
+                    <td>Algar</td>
+                    <td>5</td>
+                </tr>
+            </table>
+        </figure>
+    </section>
+</body>
+</html>

@@ -1,0 +1,29 @@
+Índice
+Página principal
+Altas
+Listado empresas
+Recursos
+
+Formulario de altas
+Altas proveedores
+
+CIF (formato: cadena “ES-” seguida de 4 dígitos)
+
+Meses de alta (entre 1 y 24)
+12
+
+Altas clientes
+Correo Electrónico
+
+Tipo Cliente
+Local
+Regional
+Nacional
+
+Datos comunes
+Indique su satisfacción con la atención recibida
+1  5
+
+Acepta condiciones de registro (obligatorio)
+
+ 

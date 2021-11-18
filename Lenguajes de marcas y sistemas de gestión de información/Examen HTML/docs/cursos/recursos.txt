@@ -1,0 +1,86 @@
+Índice
+Página principal
+Altas
+Listado empresas
+Recursos
+
+
+Cursos: recursos
+
+Python
+Básico
+Django
+Despliegue
+
+Angular
+JavaScript
+Entorno
+
+
+Curso Python
+
+Texto de relleno: Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, esse nemo. Quae consectetur eos quas accusamus, reiciendis architecto voluptas provident cupiditate hic reprehenderit dolorem quaerat minus harum dolor in doloribus!
+
+Texto de relleno: Nihil vel consequatur veniam illum modi nesciunt enim ducimus aspernatur possimus in. Vel pariatur, distinctio hic, eius atque nemo ad deleniti laudantium enim itaque quae provident at assumenda doloremque. Earum!
+
+Básico
+
+            # Python program to display all the prime numbers within an interval
+
+            lower = 900
+            upper = 1000
+            
+            print("Prime numbers between", lower, "and", upper, "are:")
+            
+            for num in range(lower, upper + 1):
+               # all prime numbers are greater than 1
+               if num > 1:
+                   for i in range(2, num):
+                       if (num % i) == 0:
+                           break
+                   else:
+                       print(num)
+
+        
+Django
+
+Texto de relleno: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam culpa natus, voluptas, autem odit modi beatae deserunt mollitia dicta iste nesciunt tempore magni, voluptate neque doloremque. Sit dicta laborum accusamus incidunt. Incidunt, hic nam? Libero sequi ipsa veniam accusantium pariatur, odio eos deserunt. Culpa, officiis vitae repudiandae temporibus iusto optio?
+
+
+Despliegue
+
+Ejemplo de inclusión de código HTML
+
+ 
+
+            <h5>Ejemplo de cabecera</h5>
+            <pre>Y uso de   ¡¡¡ pre   !!!
+                línea 1
+                línea 2
+                línea 3
+            </pre>
+
+            
+         
+Texto de relleno: Nihil, necessitatibus cupiditate voluptatibus et aspernatur cumque nostrum suscipit. Esse porro rem itaque debitis mollitia animi numquam doloribus? Ipsa culpa id officia incidunt quibusdam repellat eius, quod odio provident sint. Voluptatum obcaecati explicabo, culpa numquam rerum laboriosam sunt ab dignissimos fugiat, sed autem ipsam iste facere nesciunt est in quidem?
+
+Texto de relleno: Quae vero velit, nam blanditiis consequatur fugit tenetur esse illo eligendi eius consequuntur deserunt distinctio? In laboriosam ipsum adipisci id veniam sit accusantium, quos debitis aliquam ab ut incidunt ea ullam dolor cumque alias aspernatur quibusdam nobis rerum cupiditate ducimus. Illum unde doloremque nam porro quaerat quia sequi ab perferendis.
+
+Curso Angular
+
+Texto de relleno: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odit, quo quia aspernatur molestias nihil atque nostrum ex amet voluptatibus nulla, quaerat illo veniam voluptates reiciendis natus delectus recusandae autem.
+
+Texto de relleno: Blanditiis, quasi in laboriosam ducimus reiciendis odit asperiores saepe dolore assumenda accusamus aspernatur perspiciatis modi voluptatum corrupti eos est voluptatem autem veniam voluptates labore officiis magni? Deleniti error porro nulla!
+
+JavaScript
+
+Texto de relleno: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reprehenderit harum ullam dignissimos aspernatur necessitatibus eum ab fugiat mollitia expedita error et ea, esse iusto quisquam! Eaque praesentium necessitatibus velit!
+
+Entorno
+
+Texto de relleno: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa beatae voluptatibus atque sed impedit perferendis architecto illo, laborum deleniti a, nisi dolor qui! Fugit corporis itaque ab earum dolorem quo qui rerum eius voluptates quia, possimus nulla, ut cumque culpa dolores aliquid accusantium esse architecto exercitationem incidunt? Nobis, laboriosam culpa?
+
+Texto de relleno: Quasi officiis in architecto perferendis ipsa optio, quidem veritatis temporibus blanditiis, dicta odio, quod maiores. Dolor animi debitis laboriosam iusto odit blanditiis id eligendi nostrum velit, explicabo eos adipisci, vel ullam saepe soluta placeat impedit nisi mollitia. Neque, totam at blanditiis est ad nisi nam iste assumenda distinctio minus magni.
+
+Texto de relleno: Aspernatur veniam molestiae quo ratione aliquid ut aperiam, quaerat exercitationem sint dolores laboriosam. Cupiditate vel reiciendis dicta repellat unde autem minima maxime corrupti consectetur. Laudantium tempora sequi, corporis quod facilis laboriosam veritatis vero, harum est maxime libero quaerat. Hic animi accusamus aut omnis voluptatem molestiae labore reprehenderit quia suscipit molestias?
+

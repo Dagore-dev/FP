@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altas</title>
+</head>
+<body>
+    <nav>
+        <h2>Índice</h2>
+
+        <ol>
+            <li><a href="../index.html">Página principal</a></li>
+            <li><a href="altas.html">Altas</a></li>
+            <li><a href="empresa/listado.html">Listado empresas</a></li>
+            <li><a href="../docs/cursos/recursos.html">Recursos</a></li>
+        </ol>
+    </nav>
+
+    <h1>Formulario de altas</h1>
+
+    <form action="../altas.php" method="get">
+        
+        <fieldset>
+            <legend>Altas proveedores</legend>
+
+            <p>
+                <label for="cif">CIF (formato: cadena “ES-” seguida de 4 dígitos)</label>
+            </p>
+            <input type="text" name="cif" id="cif" pattern="ES-[0-9]{4}">
+
+            <p>
+                <label for="mesesAlta">Meses de alta (entre 1 y 24)</label>
+            </p>
+            <input type="number" name="mesesAlta" id="mesesAlta" min="1" max="24" value="12">
+        </fieldset>
+
+        <fieldset>
+            <legend>Altas clientes</legend>
+
+            <p>
+                <label for="email">Correo Electrónico</label>
+            </p>
+            <input type="email" name="email" id="email">
+
+            <p>
+                Tipo Cliente
+            </p>
+            
+            <ul>
+                <li>
+                    <label for="local">Local</label>
+                    <input type="radio" name="tipo" id="local" value="local">
+                </li>
+                <li>
+                    <label for="regional">Regional</label>
+                    <input type="radio" name="tipo" id="regional" value="regional">
+                </li>
+                <li>
+                    <label for="nacional">Nacional</label>
+                    <input type="radio" name="tipo" id="nacional" value="nacional">
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos comunes</legend>
+
+            <p>
+                <label for="satisfaccion">Indique su satisfacción con la atención recibida</label>
+            </p>
+            
+            <span>1</span>
+            <input type="range" name="satisfaccion" id="satisfaccion" min="1" max="5">
+            <span>5</span>
+
+            <div>
+                <input type="checkbox" name="acepta" id="acepta" required>
+                <label for="acepta">Acepta condiciones de registro (obligatorio)</label>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>

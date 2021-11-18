@@ -1,0 +1,20 @@
+Índice
+Página principal
+Altas
+Listado empresas
+Recursos
+
+Listado empresas colaboradoras y patrocinadoras
+
+Tengamos en cuenta esta reflexión de Richard Stallaman
+
+Que las empresas tengan especial influencia en la política significa que la democracia está enferma. El propósito de la democracia es asegurarse de que los ricos no tengan una influencia proporcional a su riqueza. Y si tienen más influencia que tú o que yo, eso significa que la democracia está fallando. Las leyes que obtienen de esta forma no tienen autoridad moral, sino la capacidad de hacer daño.
+En esta sección incluimos empresas que colaboran en nuestra labor social y no están interesadas en la política.
+
+Ejercicio
+
+Codifique la tabla HTML que se corresponde con la figura que se muestra abajo. Olvide la presentación y tenga en cuenta solo la semántica de los datos.
+
+
+
+Espacio reservado para la codificación HTML de la tabla de la figura anterior
