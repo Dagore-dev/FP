@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\bin\Debug\netcoreapp3.1\ArraysAdicionales.exe
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\bin\Debug\netcoreapp3.1\ArraysAdicionales.deps.json
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\bin\Debug\netcoreapp3.1\ArraysAdicionales.runtimeconfig.json
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\bin\Debug\netcoreapp3.1\ArraysAdicionales.runtimeconfig.dev.json
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\bin\Debug\netcoreapp3.1\ArraysAdicionales.dll
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\bin\Debug\netcoreapp3.1\ArraysAdicionales.pdb
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\obj\Debug\netcoreapp3.1\ArraysAdicionales.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\obj\Debug\netcoreapp3.1\ArraysAdicionales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\obj\Debug\netcoreapp3.1\ArraysAdicionales.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\obj\Debug\netcoreapp3.1\ArraysAdicionales.AssemblyInfo.cs
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\obj\Debug\netcoreapp3.1\ArraysAdicionales.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\obj\Debug\netcoreapp3.1\ArraysAdicionales.dll
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\obj\Debug\netcoreapp3.1\ArraysAdicionales.pdb
+C:\Users\david\source\repos\FP\csharp\ArraysAdicionales\obj\Debug\netcoreapp3.1\ArraysAdicionales.genruntimeconfig.cache

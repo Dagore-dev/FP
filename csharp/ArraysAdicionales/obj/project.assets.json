@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\source\\repos\\FP\\csharp\\EntregaArrays\\Arrays\\Arrays.csproj",
-      "projectName": "Arrays",
-      "projectPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\EntregaArrays\\Arrays\\Arrays.csproj",
+      "projectUniqueName": "C:\\Users\\david\\source\\repos\\FP\\csharp\\ArraysAdicionales\\ArraysAdicionales.csproj",
+      "projectName": "ArraysAdicionales",
+      "projectPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\ArraysAdicionales\\ArraysAdicionales.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\EntregaArrays\\Arrays\\obj\\",
+      "outputPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\ArraysAdicionales\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -642,11 +642,11 @@ namespace Arrays
         }
         static void RellenaEnOrden (int[] a)
         {
-            //. Escribe una función “RellenaEnOrden” que nos rellena un array de enteros con los números desde el 1 en adelante(1, 2, 3, 4... hasta el tamaño del array).
+            //Escribe una función “RellenaEnOrden” que nos rellena un array de enteros con los números desde el 1 en adelante(1, 2, 3, 4... hasta el tamaño del array).
             
-            for (int i = 1; i <= a.Length - 1; i++)
+            for (int i = 0; i < a.Length; i++)
             {
-                a[i] = i;
+                a[i] = i + 1;
             }
         }
         static void RellenaEnOrdenDescendente (int[] a)
@@ -676,6 +676,21 @@ namespace Arrays
         {
             //Escribe una función “EstaOrdenado” a la que le pasas un array de enteros y te devuelve un booleano que será verdadero si los elementos del array se encuentran en orden ascendente.
 
+            bool result = true;
+
+            for (int i = 0; i < a.Length -1; i++)
+            {
+                if (a[i] > a[i + 1])
+                {
+                    result = false;
+                    i = a.Length;
+                }
+            }
+
+            return result;
+        }
+        static bool EsConsecutivo(int[] a)
+        {
             int prev = a[0] - 1, counter = 0;
             bool result;
 
@@ -712,9 +727,9 @@ namespace Arrays
         static int MinArray (int[] a)
         {
             //Escribe una función “minArray” a la que le pasas un array y te devuelve el valor más pequeño de los contenidos en dicho array
-            int min = int.MaxValue;
+            int min = a[0];
 
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 1; i < a.Length; i++)
             {
                 if (a[i] < min)
                 {
@@ -728,9 +743,9 @@ namespace Arrays
         {
             //Escribe una función “maxArray” que te devuelve el más grande.
 
-            int max = int.MinValue;
+            int max = a[0];
 
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 1; i < a.Length; i++)
             {
                 if (a[i] > max)
                 {
