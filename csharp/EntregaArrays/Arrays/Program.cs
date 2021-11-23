@@ -364,7 +364,7 @@ namespace Arrays
                     case 36:
                         {
                             int[] a = { 1, 2, 1, 2, 1, 1, 1, 2, 2, 1, 1 };
-                            int number = 2;
+                            int number = 1;
 
                             EscribeArrays(a);
                             EliminaElementoArray(ref a, number);
