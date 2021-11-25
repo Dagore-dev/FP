@@ -155,7 +155,8 @@ namespace ArraysAdicionales
                         break;
                     case 14:
                         {
-                            NumerosPrimosPro(25);
+                            Console.WriteLine("Números primos hasta 100:");
+                            NumerosPrimosPro(100);
                         }
                         break;
                     default:
@@ -806,15 +807,12 @@ namespace ArraysAdicionales
                 if (a[i] == 0)
                 {
                     Console.WriteLine(i);
-
                     for (int j = i + i; j < a.Length; j += i)
                     {
                         a[j] = -1;
                     }
                 }
             }
-
-            EscribeArrays(a);
         }
     }
 }

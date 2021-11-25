@@ -333,6 +333,7 @@ namespace Arrays
                             int position2 = 0;
 
                             EscribeArrays(a);
+                            Console.WriteLine($"Inserta un {number} en la posición {position}.");
                             InsertaEnArray(ref a, number, position);
                             EscribeArrays(a);
 
@@ -394,8 +395,8 @@ namespace Arrays
                         break;
                     case 39:
                         {
-                            int[] a = { 3, 6, 2, 8, 9 };
-                            int start = 1, end = 3;
+                            int[] a = { 1, 2, 3, 4, 5, 6, 7 };
+                            int start = 2, end = 5;
 
                             EscribeArrays(a);
                             Console.WriteLine($"Subarray de {start} a {end}");
@@ -458,7 +459,7 @@ namespace Arrays
             Console.WriteLine("30 - Contiene");
             Console.WriteLine("31 - ConcatenaArraysPro");
             Console.WriteLine("32 - CopiaArrayPro");
-            Console.WriteLine("33 - CopiaArrayPro");
+            Console.WriteLine("33 - InsertaEnArray");
             Console.WriteLine("34 - BorraDeArray");
             Console.WriteLine("35 - Elimina1ElementoArray");
             Console.WriteLine("36 - EliminaElementoArray");
@@ -818,11 +819,14 @@ namespace Arrays
         static void CopiaArrayInvertido (int[] a, int[] b)
         {
             //Escribe una función “CopiaArrayInvertido” a la que le pasas dos arrays por parámetro y te copia el contenido del primer array al segundo array pero en orden inverso(Ej.: si el primero es[5, 6, 7, 8, 9], en el segundo se copiará[9, 8, 7, 6, 5]).
+            int i, j = a.Length - 1;
+
             if (a.Length == b.Length)
             {
-                for (int i = 0; i < a.Length; i++)
+                for (i = 0; i < a.Length; i++)
                 {
-                    b[i] = a[a.Length - i - 1];
+                    b[i] = a[j];
+                    j--;
                 }
             }
             else
@@ -860,36 +864,33 @@ namespace Arrays
         }
         static void InvierteArray (int[] a)
         {
-            // Escribe una función “InvierteArray” a la que le pasamos un array de enteros y modifica su contenido invirtiendo la posición de sus elementos(Ej.: [1,2,3] -> [3,2,1]).
-            int[] temp = new int[a.Length];
+            //Escribe una función “InvierteArray” a la que le pasamos un array de enteros y modifica su contenido invirtiendo la posición de sus elementos(Ej.: [1,2,3] -> [3,2,1]).
+            int i = 0, j = a.Length - 1, temp;
 
-            for (int i = 0; i < temp.Length; i++)
+            while (i < j)
             {
-                temp[i] = a[i];
+                temp = a[i];
+                a[i] = a[j];
+                a[j] = temp;
+                
+                i++;
+                j--;
             }
-            
-            for (int i = 0; i < a.Length; i++)
-            {
-                a[i] = temp[a.Length - i - 1];
-            }
+
         }
         static bool ComparaArrays (int[] a, int[] b)
         {
             //Escribe una función “ComparaArrays” a la que le pasamos dos arrays y nos devuelve un boolean que será verdadero si los dos arrays tienen el mismo tamaño y contienen los mismos datos.
-            int i = 0;
             bool result = true;
 
             if (a.Length == b.Length)
             {
-                while (i < a.Length && result == true)
+                for (int i = 0; i < a.Length; i++)
                 {
-                    if (a[i] == b[i])
-                    {
-                        i++;
-                    }
-                    else
+                    if (a[i] != b[i])
                     {
                         result = false;
+                        i = a.Length;
                     }
                 }
             }
@@ -1031,15 +1032,12 @@ namespace Arrays
 
             Array.Resize(ref a, a.Length + 1);
 
-            int prev = a[position], temp;
-            a[position] = number;
-
-            for (int i = position + 1; i < a.Length; i++)
+            for (int i = a.Length - 1; i > position; i--)
             {
-                temp = a[i];
-                a[i] = prev;
-                prev = temp;
+                a[i] = a[i - 1];
             }
+
+            a[position] = number;
         }
         static void BorraDeArray (ref int[] a, int position)
         {
@@ -1170,7 +1168,7 @@ namespace Arrays
                 j++;
             }
 
-            Array.Resize(ref a, end);
+            Array.Resize(ref a, end - 1);
         }
         static void OrdenaBurbuja (int[] a)
         {
