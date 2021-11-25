@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntregaCadenas", "EntregaCadenas.csproj", "{5642635B-91C7-4C73-9FF8-F71AE2298027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5642635B-91C7-4C73-9FF8-F71AE2298027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5642635B-91C7-4C73-9FF8-F71AE2298027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5642635B-91C7-4C73-9FF8-F71AE2298027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5642635B-91C7-4C73-9FF8-F71AE2298027}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09B4F9D1-A3EE-4A11-BBC4-93B3DE5AE1A4}
+	EndGlobalSection
+EndGlobal
