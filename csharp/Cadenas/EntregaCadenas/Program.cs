@@ -157,10 +157,11 @@ namespace EntregaCadenas
                     break;
                 case 17:
                     {
-                        string s = "ABBA BAAB ABBA BAAB ABBA BAAB";
+                        string s = "ABBA BAAB ABBA BAAB ABBA BAAB", s2 = "Hola,  ¿Qué tal     David  ? ¿Qué es de ti David?";
 
                         Console.WriteLine($"{s} --> {SustituyePalabra(s, "ABBA", "BAAB")}");
                         Console.WriteLine($"{s} --> {SustituyePalabra(s, "BAAB", "ABBA")}");
+                        Console.WriteLine($"{s2} --> {SustituyePalabra(s2, "David", "Javi")}");
                     }
                     break;
                 case 18:
@@ -537,13 +538,22 @@ namespace EntregaCadenas
         static string SustituyePalabra (string s, string word1, string word2)
         {
             //Escribe la función “SustituyePalabra” a la que le pasamos una cadena y dos palabras y nos devuelve otra cadena en la que haya que sustituir la primera por la segunda.
-            
-            if (!s.Contains(word1))
+
+            string result = s;
+            string[] words = RemoveExtraWhitespaces(OnlyLettersAndSpaces(s)).Split(' ');
+            int position = -1;
+
+            for (int i = 0; i < words.Length; i++)
             {
-                return s;
+                position = result.IndexOf(words[i]);
+
+                if (position != -1)
+                {
+                    result = result.Substring(0, position) + (words[i].Equals(word1) ? word2 : words[i]) + result.Substring(position + words[i].Length);
+                }
             }
 
-            return SustituyePalabra(s.Replace(word1, word2), word1, word2);
+            return result;
         }
         static string OnlyLettersAndSpaces (string s)
         {

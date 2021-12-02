@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.exe
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.deps.json
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.runtimeconfig.json
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.runtimeconfig.dev.json
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.dll
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.pdb
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.AssemblyInfo.cs
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.dll
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.pdb
+C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.genruntimeconfig.cache
