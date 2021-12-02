@@ -148,27 +148,44 @@ namespace EntregaCadenas
                     break;
                 case 16:
                     {
+                        string s1 = "¿Hola, qué tal?", s2 = "hola, qué tal", s3 = "  hola, qué tal";
 
+                        Console.WriteLine($"{s1} --> {MayusculaPrimera(s1)}");
+                        Console.WriteLine($"{s2} --> {MayusculaPrimera(s2)}");
+                        Console.WriteLine($"{s3} --> {MayusculaPrimera(s3)}");
                     }
                     break;
                 case 17:
                     {
+                        string s = "ABBA BAAB ABBA BAAB ABBA BAAB";
 
+                        Console.WriteLine($"{s} --> {SustituyePalabra(s, "ABBA", "BAAB")}");
+                        Console.WriteLine($"{s} --> {SustituyePalabra(s, "BAAB", "ABBA")}");
                     }
                     break;
                 case 18:
                     {
+                        string s = "Hola, ¿Qué tal?", s2 = "hola adios hola adios";
 
+                        Console.WriteLine($"{s} --> {InviertePalabras(s)}");
+                        Console.WriteLine($"{s2} --> {InviertePalabras(s2)}");
                     }
                     break;
                 case 19:
                     {
-
+                        string s = "Hola, buenas tardes. Mi nombre es David. Hola, buenas tardes. Mi nombre es Juan.";
+                        
+                        Console.WriteLine(s);
+                        Console.WriteLine();
+                        Console.WriteLine(MarcaSubCadena(s, "Hola, buenas tardes"));
                     }
                     break;
                 case 20:
                     {
+                        string s = " ¡  Esto es una frase   cualquiera !  ";
 
+                        Console.WriteLine(s);
+                        Console.WriteLine(QuitaEspaciosSobrantes(s));
                     }
                     break;
                 default:
@@ -415,7 +432,7 @@ namespace EntregaCadenas
         {
             //Escribe la función “QuitaAcentos” a la que le pasas una cadena con caracteres acentuados y te devuelve la cadena con los acentos quitados(esto se hace para algunos programas que no se enteran de los acentos).
 
-            string acentos = "áéióúàèìòùâêîôû", sinAcentos = "aeiouaeiouaeiou", result = s;
+            string acentos = "áéióúàèìòùâêîôûäëïöüÁÉÍÓÚÀÈÌÒÙÂÊÎÔÛÄËÏÖÜ", sinAcentos = "aeiouaeiouaeiouaeiouAEIOUAEIOUAEIOUAEIOU", result = s;
             int position = -1;
 
             for (int i = 0; i < result.Length; i++)
@@ -492,16 +509,97 @@ namespace EntregaCadenas
         static string MayusculaPrimera (string s)
         {
             //Escribe la función “MayusculasPrimera” a la que le pasas una cadena y te devuelve la cadena con la primera letra de cada palabra puesta en mayúsculas.
+            string result = "", minus = "qwertyuiopasdfghjklñzxcvbnm", mayus = "QWERTYUIOPASDFGHJKLÑZXCVBNM";
 
-            string result = s, mayus = "QWERTYUIOPASDFGHJKLÑZXCVBNM", minus = "qwertyuiopasdfghjklñzxcvbnm";
-            int position = -1;
-
-            for (int i = 0; i < result.Length; i++)
+            if (char.IsLetter(s[0]))
             {
+                result += mayus[minus.IndexOf(s[0])];
+            }
+            else
+            {
+                result += s[0];
+            }
+
+            for (int i = 1; i < s.Length; i++)
+            {
+                if (char.IsLetter(s[i]) && !char.IsLetter(s[i - 1]) && minus.Contains(s[i]))
+                {
+                    result += mayus[minus.IndexOf(s[i])];
+                }
+                else
+                {
+                    result += s[i];
+                }
+            }
+
+            return result;
+        }
+        static string SustituyePalabra (string s, string word1, string word2)
+        {
+            //Escribe la función “SustituyePalabra” a la que le pasamos una cadena y dos palabras y nos devuelve otra cadena en la que haya que sustituir la primera por la segunda.
+            
+            if (!s.Contains(word1))
+            {
+                return s;
+            }
+
+            return SustituyePalabra(s.Replace(word1, word2), word1, word2);
+        }
+        static string OnlyLettersAndSpaces (string s)
+        {
+            string result = "";
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (char.IsLetter(s[i]) || char.IsWhiteSpace(s[i]))
+                {
+                    result += s[i];
+                }
+            }
+
+            return result;
+        }
+        static string InviertePalabras (string s)
+        {
+            //Escribe una función “InviertePalabras” a la que la pasamos una cadena y nos devuelve otra en la que están invertidas todas las palabras (no la cadena entera, sino cada palabra independientemente).
+
+            string result = s;
+            string[] words = RemoveExtraWhitespaces(OnlyLettersAndSpaces(s)).Split();
+            int position = -1;
+            
+            for (int i = 0; i < words.Length; i++)
+            {
+                position = result.IndexOf(words[i]);
+
+                if (position != -1)
+                {
+                    result = result.Substring(0, position) + InvierteCadena(words[i]) + result.Substring(position + words[i].Length);
+                }
 
             }
 
             return result;
+        }
+        static string MarcaSubCadena (string s1, string s2)
+        {
+            //Escribe una función “MarcaSubCadena” a la que le pasamos dos cadenas y nos busca la segunda cadena dentro de la primera. Nos devolverá otra cadena igual que la primera, pero en la que se cambiará la primera letra de cada vez que aparece la subcadena por un asterisco.
+
+            if (s1.IndexOf(s2) == -1)
+            {
+                return s1;
+            }
+
+            return MarcaSubCadena(s1.Substring(0, s1.IndexOf(s2)) + '*' + s1.Substring(s1.IndexOf(s2) + 1), s2);
+        }
+        static string QuitaEspaciosSobrantes (string s)
+        {
+            //Escribe la función “QuitaEspaciosSobrantes” a la que le pasamos una cadena por parámetro y nos devuelve otra.La cadena que le pasamos podrá tener espacios delante y detrás, además de espacios entre las palabras. Para obtener la cadena resultado, tendremos que quitar los espacios de delante y de detrás y si entre dos palabras hay más de un espacio, deberemos dejar sólo uno. Ej.: “~~~Mi~~mamá~~~~me~mima~~” -> “Mi~mamá~me~mima” (~ = espacio)
+            if (s.IndexOf("  ") == -1)
+            {
+                return s;
+            }
+
+            return RemoveExtraWhitespaces(s.Remove(s.IndexOf("  "), 1));
         }
     }
 }
