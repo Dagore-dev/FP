@@ -1,0 +1,14 @@
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\bin\Debug\netcoreapp3.1\FuncionesAdicionales15.exe
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\bin\Debug\netcoreapp3.1\FuncionesAdicionales15.deps.json
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\bin\Debug\netcoreapp3.1\FuncionesAdicionales15.runtimeconfig.json
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\bin\Debug\netcoreapp3.1\FuncionesAdicionales15.runtimeconfig.dev.json
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\bin\Debug\netcoreapp3.1\FuncionesAdicionales15.dll
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\bin\Debug\netcoreapp3.1\FuncionesAdicionales15.pdb
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\obj\Debug\netcoreapp3.1\FuncionesAdicionales15.csproj.AssemblyReference.cache
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\obj\Debug\netcoreapp3.1\FuncionesAdicionales15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\obj\Debug\netcoreapp3.1\FuncionesAdicionales15.AssemblyInfoInputs.cache
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\obj\Debug\netcoreapp3.1\FuncionesAdicionales15.AssemblyInfo.cs
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\obj\Debug\netcoreapp3.1\FuncionesAdicionales15.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\obj\Debug\netcoreapp3.1\FuncionesAdicionales15.dll
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\obj\Debug\netcoreapp3.1\FuncionesAdicionales15.pdb
+C:\Users\dagor\source\FP\csharp\FuncionesAdicionales\FuncionesAdicionales15\obj\Debug\netcoreapp3.1\FuncionesAdicionales15.genruntimeconfig.cache
