@@ -12,3 +12,17 @@ C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netco
 C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.dll
 C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.pdb
 C:\Users\david\source\repos\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.genruntimeconfig.cache
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.exe
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.deps.json
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.runtimeconfig.json
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.runtimeconfig.dev.json
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.dll
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\bin\Debug\netcoreapp3.1\CadenasAdicionales.pdb
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.csproj.AssemblyReference.cache
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.AssemblyInfoInputs.cache
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.AssemblyInfo.cs
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.dll
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.pdb
+C:\Users\dagor\source\FP\csharp\Cadenas\CadenasAdicionales\obj\Debug\netcoreapp3.1\CadenasAdicionales.genruntimeconfig.cache

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace CadenasAdicionales
 {
@@ -36,29 +37,44 @@ namespace CadenasAdicionales
                     break;
                 case 3:
                     {
-                        string s = "Hola, mi nombre es David. Tengo 26 años ¿Y tú?";
+                        string s = "Hola, mi nombre es David. Tengo 26 años ¿Y tú?...";
 
-                        Console.WriteLine(MayusculasMinusculas(s, 4));
+                        Console.WriteLine(MayusculasMinusculas(s, 1));
+                        Console.WriteLine(MayusculasMinusculas(s, 2));
+                        Console.WriteLine(MayusculasMinusculas(s, 3));
+                        Console.WriteLine(MayusculasMinusculas(MayusculasMinusculas(s, 2), 4));
                     }
                     break;
                 case 4:
                     {
+                        string s = "<p>Esto es texto normal <strong>y esto es texto en negrita</strong>.</p>";
 
+                        Console.WriteLine(s);
+                        Console.WriteLine(EliminaTags(s));
                     }
                     break;
                 case 5:
                     {
+                        string s = "hola,don,pepito,pasó,usted,ya,por,casa";
 
+                        Console.WriteLine(s);
+                        Console.WriteLine(OrdenaPalabrasComa(s));
                     }
                     break;
                 case 6:
                     {
+                        string s = "<p>Esto es texto normal <strong>y esto es texto en negrita</strong>.</p>";
 
+                        Console.WriteLine(s);
+                        Console.WriteLine(AcentosHTML(s));
                     }
                     break;
                 case 7:
                     {
+                        string s = "Amanda tiene tres serpientes.";
 
+                        Console.WriteLine(s);
+                        EscribeArraysString(PalabrasMismaLetra(s));
                     }
                     break;
                 case 8:
@@ -112,6 +128,30 @@ namespace CadenasAdicionales
             Console.WriteLine("13 - FiltraArrayPalabras");
             Console.WriteLine(" 0 - Salir");
         }
+        #region Utils
+        static string OnlyLettersAndSpaces(string s)
+        {
+            string result = "";
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (char.IsLetter(s[i]) || char.IsWhiteSpace(s[i]))
+                {
+                    result += s[i];
+                }
+            }
+
+            return result;
+        }
+        static string RemoveExtraWhitespaces(string s)
+        {
+            if (s.IndexOf("  ") == -1)
+            {
+                return s;
+            }
+
+            return RemoveExtraWhitespaces(s.Remove(s.IndexOf("  "), 1));
+        }
         static void EscribeArrays(int[] a)
         {
             string result = "";
@@ -126,6 +166,28 @@ namespace CadenasAdicionales
                 }
 
                 result += $"{a[a.Length - 1]}]";
+            }
+            else
+            {
+                result += "[]";
+            }
+
+            Console.WriteLine(result);
+        }
+        static void EscribeArraysString(string[] s)
+        {
+            string result = "";
+
+            if (s.Length > 0)
+            {
+                result += "[";
+
+                for (int i = 0; i < s.Length - 1; i++)
+                {
+                    result += s[i] + ", ";
+                }
+
+                result += $"{s[s.Length - 1]}]";
             }
             else
             {
@@ -173,33 +235,7 @@ namespace CadenasAdicionales
 
             return result;
         }
-        static string MayusculaPrimera(string s)
-        {
-            string result = "";
-
-            if (char.IsLetter(s[0]))
-            {
-                result += char.ToUpper(s[0]);
-            }
-            else
-            {
-                result += s[0];
-            }
-
-            for (int i = 1; i < s.Length; i++)
-            {
-                if (char.IsLetter(s[i]) && !char.IsLetter(s[i - 1]))
-                {
-                    result += char.ToUpper(s[i]);
-                }
-                else
-                {
-                    result += s[i];
-                }
-            }
-
-            return result;
-        }
+        #endregion
         static void EscribeNombres (string s)
         {
             //Escribe la función EscribeNombres a la que le pasamos una cadena por parámetro y nos la escribe por la pantalla con el siguiente formato: la cadena contendrá varias palabras separadas por espacios, con el siguiente formato: “apellido1 apellido2 nombre apellido1 apellido2 nombre(…)” y deberemos escribirla por pantalla de la siguiente forma:
@@ -213,11 +249,10 @@ namespace CadenasAdicionales
 
             for (int i = 0; i < words.Length; i += 3)
             {
-                Console.WriteLine($"{words[i]} {words[i + 1]} {words[i + 2]}");
+                Console.WriteLine($"{words[i + 2]} {words[i]} {words[i + 1]}");
             }
-            //REVISAR!!!!!!
         }
-        static int CuentaLetra (string s, char c)
+        static int CuentaLetra(string s, char c)
         {
             int result = 0;
 
@@ -246,7 +281,7 @@ namespace CadenasAdicionales
 
             return result;
         }
-        static string MayusculaFrase (string s)
+        static string MayusculaPrimera(string s)
         {
             string result = "";
 
@@ -259,7 +294,38 @@ namespace CadenasAdicionales
                 result += s[0];
             }
 
-            //SIN FINALIZAR
+            for (int i = 1; i < s.Length; i++)
+            {
+                if (char.IsLetter(s[i]) && !char.IsLetter(s[i - 1]))
+                {
+                    result += char.ToUpper(s[i]);
+                }
+                else
+                {
+                    result += s[i];
+                }
+            }
+
+            return result;
+        }
+        static string MayusculaFrase (string s)
+        {
+            string result;
+            string[] phrases = s.Split('.');
+
+            for (int i = 0; i < phrases.Length; i++)
+            {
+                for (int j = 0; j < phrases[i].Length; j++)
+                {
+                    if (char.IsLetter(phrases[i][j]))
+                    {
+                        phrases[i] = phrases[i].Substring(0, j) + char.ToUpper(phrases[i][j]) + phrases[i].Substring(j + 1);
+                        j = phrases[i].Length;
+                    }
+                }
+            }
+
+            result = String.Join('.', phrases);
 
             return result;
         }
@@ -292,6 +358,106 @@ namespace CadenasAdicionales
                 default:
                     result = "ERROR: No seleccionó ninguna de las opciones disponibles.";
                     break;
+            }
+
+            return result;
+        }
+        static string RecursiveRemove (string s, Regex pattern)
+        {
+            Match match = pattern.Match(s);
+
+            if (!match.Success)
+            {
+                return s;
+            }
+
+            return EliminaTags(s.Remove(s.IndexOf(match.Value), match.Value.Length));
+        }
+        static string EliminaTags (string s)
+        {
+            /*
+            Escribe la función EliminaTags a la que le pasamos una cadena que contiene tags (como los de XML) y los elimina dejando sólo el texto (nos devuelve una cadena con el resultado).
+            Ej.: <p>Esto es texto normal <b>y esto es texto en negrita</b>.</p>
+            Nos devolvería: Esto es texto normal y esto es texto en negrita. 
+            */
+
+            Regex pattern = new Regex("<\\/?[a-zA-Z]+>");
+
+            return RecursiveRemove(s, pattern);
+        }
+        static string OrdenaPalabrasComa (string s)
+        {
+            string temp;
+            string[] splitted = s.Split(',');
+
+            for (int i = 0; i < splitted.Length - 1; i++)
+            {
+                for (int j = 0; j < splitted.Length - 1; j++)
+                {
+                    if (splitted[j + 1].CompareTo(splitted[j]) < 0)
+                    {
+                        temp = splitted[j];
+                        splitted[j] = splitted[j + 1];
+                        splitted[j + 1] = temp;
+                    }
+                }
+            }
+
+            return String.Join(',', splitted);
+        }
+        static string AcentosHTML (string s)
+        {
+            /*
+            Escribe la función AcentosHTML que te sustituye los caracteres acentuados que le paséis por el código HTML correspondiente. La función recibirá una cadena por parámetro y nos devolverá otra cadena con el resultado.
+            */
+
+            string result = s;
+            int position;
+            char[] characters = { '&', '<', '>', '"', 'á', 'Á', 'é', 'É', 'í', 'Í', 'ó', 'Ó', 'ú', 'Ú', 'ñ', 'Ñ', 'ü', 'Ü' };
+            string[] entities = { "&amp;", "&lt;", "&gt;", "&quot;", "&aacute;", "&Aacute;", "&aecute;", "&Eacute;", "&iacute;", "&Iacute;", "&oacute;", "&Oacute;", "&uacute;", "&Uacute;", "&ntilde;", "&Ntilde;", "&uuml;", "&Uuml;" };
+
+            for (int i = 0; i < characters.Length; i++)
+            {
+                position = result.IndexOf(characters[i]);
+
+                while (position != -1)
+                {
+                    result = result.Substring(0, position) + entities[i] + result.Substring(position + 1);
+                    position = result.IndexOf(characters[i]);
+                }
+            }
+
+            return result;
+        }
+        static string[] PalabrasMismaLetra (string s)
+        {
+            /*
+            Escribe la función PalabrasMismaLetra a la que le pasamos una cadena y nos devolverá un array de cadenas que contendrá las palabras que empiezan y acaban por la misma letra. A la hora de contar las palabras, habrá que ignorar los símbolos de puntuación y las mayúsculas y minúsculas.
+            Ej.: “Amanda tiene tres serpientes.” devolvería {amanda, serpientes} 
+            */
+
+            string[] result;
+            int counter = 0;
+            string[] words = RemoveExtraWhitespaces(OnlyLettersAndSpaces(s)).ToLower().Split(' ');
+
+            foreach (string word in words)
+            {
+                if (word[0] == word[word.Length - 1])
+                {
+                    counter++;
+                }
+            }
+
+            result = new string[counter];
+            counter = 0;
+
+            foreach (string word in words)
+            {
+                if (word[0] == word[word.Length - 1])
+                {
+                    result[counter] = word;
+                    counter++;
+                }
             }
 
             return result;
