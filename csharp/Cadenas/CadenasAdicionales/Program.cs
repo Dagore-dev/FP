@@ -51,6 +51,11 @@ namespace CadenasAdicionales
 
                         Console.WriteLine(s);
                         Console.WriteLine(EliminaTags(s));
+
+                        Console.WriteLine();
+
+                        Console.WriteLine(s);
+                        Console.WriteLine(EliminaTagsSinRegExp(s));
                     }
                     break;
                 case 5:
@@ -79,7 +84,10 @@ namespace CadenasAdicionales
                     break;
                 case 8:
                     {
-
+                        for (int i = 0; i < 100; i++)
+                        {
+                            Console.WriteLine($"{i} - {NumeroTexto99(i)}");
+                        }
                     }
                     break;
                 case 9:
@@ -377,13 +385,54 @@ namespace CadenasAdicionales
         {
             /*
             Escribe la función EliminaTags a la que le pasamos una cadena que contiene tags (como los de XML) y los elimina dejando sólo el texto (nos devuelve una cadena con el resultado).
-            Ej.: <p>Esto es texto normal <b>y esto es texto en negrita</b>.</p>
-            Nos devolvería: Esto es texto normal y esto es texto en negrita. 
+            Ej.: 
+                <p>Esto es texto normal <b>y esto es texto en negrita</b>.</p>
+                Nos devolvería: Esto es texto normal y esto es texto en negrita. 
             */
 
             Regex pattern = new Regex("<\\/?[a-zA-Z]+>");
 
             return RecursiveRemove(s, pattern);
+        }
+        static string EliminaTagsSinRegExp (string s)
+        {
+            string result = "";
+            bool isInTag = false;
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (s[i] == '<')
+                {
+                    isInTag = true;
+                }
+                else
+                {
+                    if (s[i] == '>')
+                    {
+                        isInTag = false;
+                    }
+                    else
+                    {
+                        if (!isInTag)
+                        {
+                            result += s[i];
+                        }
+                    }
+                }
+            }
+
+            return result;
+        }
+        static string EliminaTagsIndexOf (string s)
+        {
+            while (s.Contains('<'))
+            {
+                int possition1 = s.IndexOf('<');
+                int possition2 = s.IndexOf('>', possition1);
+
+                s = s.Remove(possition1, possition2 - possition1 + 1);
+            }
+            return s;
         }
         static string OrdenaPalabrasComa (string s)
         {
@@ -408,7 +457,7 @@ namespace CadenasAdicionales
         static string AcentosHTML (string s)
         {
             /*
-            Escribe la función AcentosHTML que te sustituye los caracteres acentuados que le paséis por el código HTML correspondiente. La función recibirá una cadena por parámetro y nos devolverá otra cadena con el resultado.
+            Escribe la función AcentosHTML que te sustituye los caracteres acentuados que le paséis por el código HTML correspondiente. La función recibirá una cadena por parámetro y nos devolverá otra cadena con el resultado. ES MAS SENCILLO COPIAR EN UNA CADENA.
             */
 
             string result = s;
@@ -457,6 +506,83 @@ namespace CadenasAdicionales
                 {
                     result[counter] = word;
                     counter++;
+                }
+            }
+
+            return result;
+        }
+        static string NumeroTexto9 (int n)
+        {
+            string[] numbers = { "cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve" };
+            
+            return numbers[n];
+        }
+        static string DiezToDiecinueve (int n)
+        {
+            string result;
+            string[] numbers = { "diez", "once", "doce", "trece", "catorce", "quince", "dieciseis", "diecisiete", "dieciocho", "diecinueve" };
+
+            return numbers[n - 10];
+        }
+        static string Veintes (int n)
+        {
+            string result;
+
+            if (n == 20)
+            {
+                result = "veinte";
+            }
+            else
+            {
+                result = "veinti" + NumeroTexto9(n - 20);
+            }
+
+            return result;
+        }
+        static string DecenasEnTexto (int tens)
+        {
+            string[] numbers = { "diez", "veinte", "treinta", "cuarenta", "cincuenta", "sesenta", "setenta", "ochenta", "noventa" };
+
+            return numbers[tens - 1];
+        }
+        static string NumeroTexto99  (int n)
+        {
+            /*
+             Escribe una función NumeroTexto99 a la que le pasamos un entero y nos devuelve una cadena con ese número puesto como texto (p.ej.: 76 = “setenta y seis”).
+            - El número deberá estar comprendido entre 0 y 99. En caso contrario, devuelve una cadena vacía.
+            - Se recomienda escribir la función NumeroTexto9 que hace lo mismo, pero sólo con números de 1 cifra, y usarla para simplificar esta función.
+            - Si me ponéis un switch de 100 elementos os echo de clase directamente.
+            - Si no sabéis como se escriben los números del uno al noventa y nueve, os mando de vuelta a la ESO.
+            - OPCIONAL: Escribir la función NumeroTexto999.
+            */
+
+            int tens = n / 10, units = n % 10;
+            string result;
+
+            if (n < 10)
+            {
+                result = NumeroTexto9(n);
+            }
+            else
+            {
+                if (n < 30)
+                {
+                    if (n < 20)
+                    {
+                        result = DiezToDiecinueve(n);
+                    }
+                    else
+                    {
+                        result = Veintes(n);
+                    }
+                }
+                else
+                {
+                    result = DecenasEnTexto(tens);
+                    if (units > 0)
+                    {
+                        result += " y " + NumeroTexto9(units);
+                    }
                 }
             }
 

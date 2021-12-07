@@ -148,7 +148,7 @@ namespace EntregaCadenas
                     break;
                 case 16:
                     {
-                        string s1 = "¿Hola, qué tal?", s2 = "hola, qué tal", s3 = "  hola, qué tal";
+                        string s1 = "¿Hola,  qué tal?", s2 = "hola, qué tal", s3 = "  hola, qué tal";
 
                         Console.WriteLine($"{s1} --> {MayusculaPrimera(s1)}");
                         Console.WriteLine($"{s2} --> {MayusculaPrimera(s2)}");
@@ -174,11 +174,21 @@ namespace EntregaCadenas
                     break;
                 case 19:
                     {
-                        string s = "Hola, buenas tardes. Mi nombre es David. Hola, buenas tardes. Mi nombre es Juan.";
+                        string s = "Hola, buenas tardes. Mi nombre es David. Hola, buenas tardes. Mi nombre es Juan.", s1 = "Hola la caracola", s2 = "Hola lalalala caracolalala";
                         
                         Console.WriteLine(s);
-                        Console.WriteLine();
                         Console.WriteLine(MarcaSubCadena(s, "Hola, buenas tardes"));
+                        Console.WriteLine();
+
+                        Console.WriteLine(s);
+                        Console.WriteLine(MarcaSubCadena(s, "om"));
+                        Console.WriteLine();
+
+                        Console.WriteLine(s1);
+                        Console.WriteLine(MarcaSubCadena(s1, "la"));
+
+                        Console.WriteLine(s2);
+                        Console.WriteLine(MarcaSubCadena(s2, "la"));
                     }
                     break;
                 case 20:
@@ -187,6 +197,14 @@ namespace EntregaCadenas
 
                         Console.WriteLine(s);
                         Console.WriteLine(QuitaEspaciosSobrantes(s));
+
+                        Console.WriteLine();
+
+                        Console.WriteLine(s);
+                        Console.WriteLine(QuitaEspaciosSobrantesSinRecursividad(s));
+
+                        Console.WriteLine(s);
+                        Console.WriteLine(QuitaEspaciosSombrantesSplit(s));
                     }
                     break;
                 default:
@@ -510,11 +528,11 @@ namespace EntregaCadenas
         static string MayusculaPrimera (string s)
         {
             //Escribe la función “MayusculasPrimera” a la que le pasas una cadena y te devuelve la cadena con la primera letra de cada palabra puesta en mayúsculas.
-            string result = "", minus = "qwertyuiopasdfghjklñzxcvbnm", mayus = "QWERTYUIOPASDFGHJKLÑZXCVBNM";
+            string result = "";
 
             if (char.IsLetter(s[0]))
             {
-                result += mayus[minus.IndexOf(s[0])];
+                result += char.ToUpper(s[0]);
             }
             else
             {
@@ -523,9 +541,9 @@ namespace EntregaCadenas
 
             for (int i = 1; i < s.Length; i++)
             {
-                if (char.IsLetter(s[i]) && !char.IsLetter(s[i - 1]) && minus.Contains(s[i]))
+                if (char.IsLetter(s[i]) && !char.IsLetter(s[i - 1]))
                 {
-                    result += mayus[minus.IndexOf(s[i])];
+                    result += char.ToUpper(s[i]);
                 }
                 else
                 {
@@ -600,6 +618,17 @@ namespace EntregaCadenas
             }
 
             return MarcaSubCadena(s1.Substring(0, s1.IndexOf(s2)) + '*' + s1.Substring(s1.IndexOf(s2) + 1), s2);
+            /*
+             for (int i = 0; i < s.Length - s2.Length + 1; i++)
+            {
+                if (cadena.Substring(i, s2.Length) == sub) 
+                {
+                    s = s.Substring(0, i) + "*" + s.Substring(i + 1);
+                }
+            }
+
+            return s;
+             */
         }
         static string QuitaEspaciosSobrantes (string s)
         {
@@ -610,6 +639,24 @@ namespace EntregaCadenas
             }
 
             return RemoveExtraWhitespaces(s.Remove(s.IndexOf("  "), 1));
+        }
+        static string QuitaEspaciosSobrantesSinRecursividad (string s)
+        {
+            string result = "", sample = s.Trim();
+
+            for (int i = 0; i < sample.Length; i++)
+            {
+                if (!char.IsWhiteSpace(sample[i]) || !char.IsWhiteSpace(sample[i + 1]))
+                {
+                    result += sample[i];
+                }
+            }
+
+            return result;
+        }
+        static string QuitaEspaciosSombrantesSplit (string s)
+        {
+            return string.Join(' ', s.Split(' ', StringSplitOptions.RemoveEmptyEntries));
         }
     }
 }

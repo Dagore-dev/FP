@@ -282,7 +282,7 @@ namespace ArraysAdicionales
             Console.WriteLine("19 - SumaPosicionesPares");
             Console.WriteLine("20 - ArrayCapicua");
             Console.WriteLine("21 - TroceaArray");
-            Console.WriteLine("0 - Salir");
+            Console.WriteLine(" 0 - Salir");
             Console.WriteLine();
             Console.Write("Elige una opción: ");
         }
