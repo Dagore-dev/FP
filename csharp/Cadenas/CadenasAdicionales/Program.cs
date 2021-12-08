@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace CadenasAdicionales
@@ -92,27 +93,40 @@ namespace CadenasAdicionales
                     break;
                 case 9:
                     {
+                        string s = "Hola, ¿qué tal? Soy amigo de Poti-Poti.";
 
+                        Console.WriteLine($"{s} => {LimpiaCadena(s)}");
                     }
                     break;
                 case 10:
                     {
+                        string s = "very.common@example.com", s2 = "Esto no es un email@", s3 = "admin@mailserver1", s4 = ".very.common@example.com-", s5 = "very.com mon@example.com";
 
+                        Console.WriteLine($"{s} => {CompruebaEmail(s)}");
+                        Console.WriteLine($"{s2} => {CompruebaEmail(s2)}");
+                        Console.WriteLine($"{s3} => {CompruebaEmail(s3)}");
+                        Console.WriteLine($"{s4} => {CompruebaEmail(s4)}");
+                        Console.WriteLine($"{s5} => {CompruebaEmail(s5)}");
                     }
                     break;
                 case 11:
                     {
+                        string s = "El perro de San Roque";
 
+                        Console.WriteLine($"{s} => {PalabrasImpares(s)}");
                     }
                     break;
                 case 12:
                     {
-
+                        CuentaDiptongos();
                     }
                     break;
                 case 13:
                     {
+                        string[] a = { "patata", "c3po", "5874", "tomate", "pimiento?" };
 
+                        EscribeArraysString(a);
+                        EscribeArraysString(FiltraArrayPalabras(a));
                     }
                     break;
                 default:
@@ -519,7 +533,6 @@ namespace CadenasAdicionales
         }
         static string DiezToDiecinueve (int n)
         {
-            string result;
             string[] numbers = { "diez", "once", "doce", "trece", "catorce", "quince", "dieciseis", "diecisiete", "dieciocho", "diecinueve" };
 
             return numbers[n - 10];
@@ -587,6 +600,154 @@ namespace CadenasAdicionales
             }
 
             return result;
+        }
+        static string LimpiaCadena (string s)
+        {
+            /*
+             Escribe la función LimpiaCadena a la que le pasamos una cadena que incluirá letras y signos de puntuación. La función quitará todos los símbolos de la cadena, dejando tan solo un espacio entre cada palabra, y devolverá la cadena resultante.
+            Ejemplo: Si le pasamos “Hola, ¿qué tal? Soy amigo de Poti-Poti.” Nos devolvería “Hola qué tal Soy amigo de Poti Poti”.
+            */
+
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (char.IsWhiteSpace(s[i]) || char.IsLetterOrDigit(s[i]))
+                {
+                    sb.Append(s[i]);
+                }
+            }
+            
+            return sb.ToString();
+        }
+        static bool CompruebaEmail (string s)
+        {
+            /*
+            Escribe la función CompruebaEmail, a la que le pasamos un string con una dirección de correo electrónico y nos devuelve true si es válida y false si no lo es.
+            Para que una dirección de correo sea correcta se tienen que dar las siguientes condiciones:
+                - Tiene que tener una arroba ‘@’ y solamente una. Además, la arroba no podrá estar ni al principio ni al final (la arroba divide las dos partes de la dirección).
+                - Cada una de las dos partes de la dirección de email se compondrá de los siguientes caracteres:
+                    • Letras minúsculas y mayúsculas (sin acentos y sin la eñe)
+                    • Números
+                    • El guion ‘-’, aunque no podrá estar ni al principio ni al final de cada parte.
+                    • El punto ‘.’, que no podrá estar ni al principio ni al final de cada parte ni haber dos puntos seguidos.
+            
+            Ejemplos: very.common@example.com, admin@mailserver1
+            */
+
+            string group = "[A-Za-z0-9]", groupWithPuntuation = "[A-Za-z0-9\\.-]", component = $"{group}+({group}+{groupWithPuntuation}{group}+)*";
+            Regex regex = new Regex($"^{component}@{component}$");
+
+            return regex.IsMatch(s);
+        }
+        static string PalabrasImpares (string s)
+        {
+            /*
+            Escribe la función PalabrasImpares a la que le pasamos una cadena de caracteres y nos devuelve otra cadena de caracteres con el resultado. La función contará el número de letras de cada palabra y dejará dentro de la cadena sólo las palabras con un número de letras impar.
+            Ej.: “El perro de San Roque” -> “perro San Roque” 
+            */
+
+            string[] words = s.Split(' '), evenWords;
+            int even = 0, i, j;
+
+            for (i = 0; i < words.Length; i++)
+            {
+                if (words[i].Length % 2 != 0)
+                {
+                    even++;
+                }
+            }
+
+            evenWords = new string[even];
+            i = 0;
+
+            for (j = 0; j < words.Length; j++)
+            {
+                if (words[j].Length % 2 != 0)
+                {
+                    evenWords[i] = words[j];
+                    i++;
+                }
+            }
+
+            return string.Join(' ', evenWords);
+        }
+        static void CuentaDiptongos ()
+        {
+            /*
+            Escribe la función CuentaDiptongos a la que le pasamos una cadena de caracteres y nos devuelve un entero, que será el número de diptongos que hay en la cadena. Para los que se saltaron la ESO, un diptongo es cuando hay dos vocales seguidas, siempre y cuando las dos vocales no sean fuertes (o sea, “ae”, “ea”, “ao”, “oa”, “eo” y “oe” no son diptongos).
+                Ej.: 
+                “Puede caer una bien buena” -> 3 diptongos
+                Para que el ejercicio esté completo, se han de tener en cuenta también:
+                    - Los acentos: comió -> sí, oído -> no
+                    - La semivocal ‘y’: voy -> sí, yo -> no
+                Opcional: para subir nota, podéis intentar hacerlo con estas excepciones:
+                    - La ‘u’ muda: queso -> no, guepardo -> no
+                    - La ‘u’ con diéresis: cigüeña -> sí
+                    - La ‘h’ intercalada: ahijado -> sí 
+            */
+
+            Console.WriteLine("Esto es un peñazo increíble y no lo voy a hacer.");
+        }
+        static string[] FiltraArrayPalabras (string[] a)
+        {
+            /*
+            Escribe la función FiltraArrayPalabras, a la que le pasamos un array de cadenas de caracteres (que generalmente será resultante de hacer un split) y nos devolverá otro array de cadenas en el que sólo aparecerán las cadenas que estén compuestas íntegramente por letras. Es decir, si una cadena de nuestro array contiene números, signos de puntuación u otros símbolos, no aparecerá en el array que devolvemos.
+            
+            Ej.: Si le pasamos el array: [“patata”, “c3po”, “5874”, “tomate”, “pimiento?”], nos devolverá: [“patata”, “tomate”] 
+            */
+
+            bool isOnlyLetters = true;
+            int counter = 0;
+            string[] filteredA;
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                for (int j = 0; j < a[i].Length; j++)
+                {
+                    if (!char.IsLetter(a[i][j]))
+                    {
+                        isOnlyLetters = false;
+                        j = a[i].Length;
+                    }
+                }
+
+                if (isOnlyLetters)
+                {
+                    counter++;
+                }
+                else
+                {
+                    isOnlyLetters = true;
+                }
+            }
+
+            filteredA = new string[counter];
+            counter = 0;
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                for (int j = 0; j < a[i].Length; j++)
+                {
+                    if (!char.IsLetter(a[i][j]))
+                    {
+                        isOnlyLetters = false;
+                        j = a[i].Length;
+                    }
+                }
+
+                if (isOnlyLetters)
+                {
+                    filteredA[counter] = a[i];
+                    counter++;
+                }
+                else
+                {
+                    isOnlyLetters = true;
+                }
+            }
+
+            return filteredA;
         }
     }
 }
