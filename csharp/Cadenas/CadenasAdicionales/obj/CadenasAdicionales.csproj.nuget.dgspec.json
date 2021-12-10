@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dagor\\source\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj": {}
+    "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dagor\\source\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj": {
+    "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dagor\\source\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj",
+        "projectUniqueName": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj",
         "projectName": "CadenasAdicionales",
-        "projectPath": "C:\\Users\\dagor\\source\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj",
-        "packagesPath": "C:\\Users\\dagor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dagor\\source\\FP\\csharp\\Cadenas\\CadenasAdicionales\\obj\\",
+        "projectPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dagor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
