@@ -49,7 +49,7 @@ namespace Ej4
             int result = 1, team1 = 0, team2 = 0, mvp1 = MaxArray(a1), mvp2 = MaxArray(a2);
 
             //Reparto de puntos regular
-            for (int i = 0; i < a1.Length; i += 2)
+            for (int i = 0; i < a1.Length; i++)
             {
                 if (a1[i] > a2[i])
                 {

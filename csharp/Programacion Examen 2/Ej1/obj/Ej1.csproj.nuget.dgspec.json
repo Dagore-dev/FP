@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\Desktop\\examen-arrays-cadenas\\Ej1\\Ej1.csproj": {}
+    "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 2\\Ej1\\Ej1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\Desktop\\examen-arrays-cadenas\\Ej1\\Ej1.csproj": {
+    "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 2\\Ej1\\Ej1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\Desktop\\examen-arrays-cadenas\\Ej1\\Ej1.csproj",
+        "projectUniqueName": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 2\\Ej1\\Ej1.csproj",
         "projectName": "Ej1",
-        "projectPath": "C:\\Users\\david\\Desktop\\examen-arrays-cadenas\\Ej1\\Ej1.csproj",
+        "projectPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 2\\Ej1\\Ej1.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\Desktop\\examen-arrays-cadenas\\Ej1\\obj\\",
+        "outputPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 2\\Ej1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",

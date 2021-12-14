@@ -14,7 +14,7 @@ namespace Ej3
         }
         static string MayusculasAlternas (string s)
         {
-            string[] splitted = s.ToLower().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            string[] splitted = s.ToLower().Split(' ');
 
             for (int i = 0; i < splitted.Length; i++)
             {

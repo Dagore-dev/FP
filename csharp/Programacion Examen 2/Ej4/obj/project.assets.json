@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Desktop\\examen-arrays-cadenas\\Ej4\\Ej4.csproj",
+      "projectUniqueName": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 2\\Ej4\\Ej4.csproj",
       "projectName": "Ej4",
-      "projectPath": "C:\\Users\\david\\Desktop\\examen-arrays-cadenas\\Ej4\\Ej4.csproj",
+      "projectPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 2\\Ej4\\Ej4.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\Desktop\\examen-arrays-cadenas\\Ej4\\obj\\",
+      "outputPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Programacion Examen 2\\Ej4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
