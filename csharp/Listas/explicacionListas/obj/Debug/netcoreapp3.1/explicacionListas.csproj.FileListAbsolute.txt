@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\bin\Debug\netcoreapp3.1\explicacionListas.exe
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\bin\Debug\netcoreapp3.1\explicacionListas.deps.json
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\bin\Debug\netcoreapp3.1\explicacionListas.runtimeconfig.json
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\bin\Debug\netcoreapp3.1\explicacionListas.runtimeconfig.dev.json
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\bin\Debug\netcoreapp3.1\explicacionListas.dll
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\bin\Debug\netcoreapp3.1\explicacionListas.pdb
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\obj\Debug\netcoreapp3.1\explicacionListas.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\obj\Debug\netcoreapp3.1\explicacionListas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\obj\Debug\netcoreapp3.1\explicacionListas.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\obj\Debug\netcoreapp3.1\explicacionListas.AssemblyInfo.cs
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\obj\Debug\netcoreapp3.1\explicacionListas.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\obj\Debug\netcoreapp3.1\explicacionListas.dll
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\obj\Debug\netcoreapp3.1\explicacionListas.pdb
+C:\Users\david\source\repos\FP\csharp\Listas\explicacionListas\obj\Debug\netcoreapp3.1\explicacionListas.genruntimeconfig.cache
