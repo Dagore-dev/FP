@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace EntregaListas
 {
@@ -141,25 +142,87 @@ namespace EntregaListas
                     break;
                 case 12:
                     {
-
+                        EscribeLista(SorteoBonoloto());
+                        EscribeLista(SorteoBonoloto());
+                        EscribeLista(SorteoBonoloto());
+                        EscribeLista(SorteoBonoloto());
+                        EscribeLista(SorteoBonoloto());
                     }
                     break;
                 case 13:
                     {
+                        int[] a1 = { }, a2 = { 1, 1, 22, 2, 33, 3, 2, 22 }, a3 = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
 
+                        EscribeArrays(a1);
+                        EscribeArrays(EliminaRepetidos(a1));
+                        EscribeArrays(a2);
+                        EscribeArrays(EliminaRepetidos(a2));
+                        EscribeArrays(a3);
+                        EscribeArrays(EliminaRepetidos(a3));
                     }
                     break;
                 case 14:
                     {
+                        List<int> l1 = new List<int> { 1, 2, 3, 4 }, l2 = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, l3 = new List<int> { 6, 7, 8, 9 };
 
+                        EscribeLista(l1);
+                        EscribeLista(l2);
+                        EscribeLista(UnionListas(l1, l2));
+
+                        Console.WriteLine();
+
+                        EscribeLista(l2);
+                        EscribeLista(l3);
+                        EscribeLista(UnionListas(l2, l3));
                     }
                     break;
                 case 15:
                     {
+                        List<int> l1 = new List<int> { 1, 2, 3, 4 }, l2 = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, l3 = new List<int> { 6, 7, 8, 9 };
 
+                        EscribeLista(l1);
+                        EscribeLista(l2);
+                        EscribeLista(InterseccionListas(l1, l2));
+
+                        Console.WriteLine();
+
+                        EscribeLista(l2);
+                        EscribeLista(l3);
+                        EscribeLista(InterseccionListas(l2, l3));
                     }
                     break;
                 case 16:
+                    {
+                        List<int> l1 = new List<int> { 1, 2, 3, 4 }, l2 = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, l3 = new List<int> { 6, 7, 8, 9 };
+
+                        EscribeLista(l1);
+                        EscribeLista(DesordenaLista(l1));
+
+                        Console.WriteLine();
+
+                        EscribeLista(l2);
+                        EscribeLista(DesordenaLista(l2));
+
+                        Console.WriteLine();
+
+                        EscribeLista(l3);
+                        EscribeLista(DesordenaLista(l3));
+
+                        Console.WriteLine();
+                    }
+                    break;
+                case 17:
+                    {
+                        List<int> l1 = new List<int> { 1, 2, 3, 1, 5, 6, 4, 4 }, l2 = new List<int> { 1, 2, 3, 1, 5, 6, 4, 1, 4 };
+
+                        EscribeLista(l1);
+                        Console.WriteLine($"Moda = {ModaLista(l1)}");
+
+                        EscribeLista(l2);
+                        Console.WriteLine($"Moda = {ModaLista(l2)}");
+                    }
+                    break;
+                case 18:
                     {
 
                     }
@@ -260,6 +323,25 @@ namespace EntregaListas
 
             Console.Write(">");
             Console.WriteLine();
+        }
+        static List<int> ListFill (int a, int b)
+        {
+            int temp;
+            List<int> result = new List<int>();
+
+            if (a > b)
+            {
+                temp = a;
+                a = b;
+                b = temp;
+            }
+
+            for (int i = a; i < b; i++)
+            {
+                result.Add(i);
+            }
+
+            return result;
         }
         #endregion
         #region Ejercicios
@@ -504,11 +586,124 @@ namespace EntregaListas
         static List<int> SorteoBonoloto ()
         {
             //Escribe la función SorteoBonoloto que nos da los 6 números que van a tocar en el próximo sorteo. Para ello, meteremos en una lista los 49 números, elegiremos una posición al azar, guardaremos el número en otra lista y lo eliminaremos de la primera (para que no pueda volver a salir). Al terminar de sortear los 6 números, devolveremos una lista que contenga el resultado.
-            List<int> result = new List<int>();
-
             
+            List<int> result = new List<int>(), balls = new List<int>(ListFill(1, 49));
+            int temp;
+            Random random = new Random();
+
+            for (int i = 0; i < 6; i++)
+            {
+                temp = random.Next(0, balls.Count);
+
+                result.Add(balls[temp]);
+                balls.RemoveAt(temp);
+            }
             
             return result;
+        }
+        static int[] EliminaRepetidos (int[] a)
+        {
+            //Escribe la función EliminaRepetidos a la que le pasamos un array (en el que puede que aparezcan elementos repetidos) y nos devuelve otro array en el que no hay repetidos. Podemos usar listas para que sea más sencillo.
+            List<int> result = new List<int>();
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (!result.Contains(a[i]))
+                {
+                    result.Add(a[i]);
+                }
+            }
+            
+            return result.ToArray();
+        }
+        static List<int> UnionListas (List<int> l1, List<int> l2)
+        {
+            //Escribe la función UnionListas a la que le pasas dos listas (que representan conjuntos) y que te devuelve otra lista que representará la unión de ambos conjuntos. Esto es, los elementos que estén o en la primera lista o en la segunda(si están en las dos, sólo hay que meterlos una vez).
+            List<int> result = new List<int>();
+
+            for (int i = 0; i < l1.Count; i++)
+            {
+                if (!result.Contains(l1[i]))
+                {
+                    result.Add(l1[i]);
+                }
+            }
+
+            for (int i = 0; i < l2.Count; i++)
+            {
+                if (!result.Contains(l2[i]))
+                {
+                    result.Add(l2[i]);
+                }
+            }
+
+            return result;
+        }
+        static List<int> InterseccionListas (List<int> l1, List<int> l2)
+        {
+            //Escribe la función InterseccionListas a la que le pasas dos listas (que representan conjuntos) y que te devuelve otra lista que representará la intersección de ambos conjuntos.Esto es, los elementos que estén tanto en la primera lista como en la segunda.
+            List<int> result = new List<int>();
+
+            for (int i = 0; i < l1.Count; i++)
+            {
+                if (l2.Contains(l1[i]) && !result.Contains(l1[i]))
+                {
+                    result.Add(l1[i]);
+                }
+            }
+
+            return result;
+        }
+        static List<int> DesordenaLista (List<int> l)
+        {
+            //Escribe la función DesordenaLista a la que le pasas una lista y te la desordena. Para ello, iremos cogiendo al azar elementos de la lista y poniéndolos en otra lista(quitándolos de la primera).La segunda lista, contendrá los elementos al azar.
+            List<int> result = new List<int>();
+            Random r = new Random();
+            int randomIndex;
+
+            while (l.Count > 0)
+            {
+                randomIndex = r.Next(0, l.Count);
+                result.Add(l[randomIndex]);
+                l.RemoveAt(randomIndex);
+            }
+            
+            return result;
+        }
+        static int ModaLista (List<int> l)
+        {
+            //Escribe la función ModaLista que nos devuelva la moda (el valor que más veces se repite) de una lista de enteros.
+            List<int> set = new List<int>(), count = new List<int>();
+            int index = -1, max;
+
+            for (int i = 0; i < l.Count; i++)
+            {
+                index = set.IndexOf(l[i]);
+
+                if (index != -1)
+                {
+                    count[index]++;
+                }
+                else
+                {
+                    set.Add(l[i]);
+                    count.Add(1);
+                }
+            }
+
+            max = count[0];
+            index = 0;
+
+            for (int i = 1; i < count.Count; i++)
+            {
+                if (count[i] > max)
+                {
+                    max = count[i];
+                    index = i;
+                }
+            }
+
+            return set[index];
         }
         #endregion
     }

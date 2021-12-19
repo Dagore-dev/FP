@@ -12,3 +12,17 @@ C:\Users\david\source\repos\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3
 C:\Users\david\source\repos\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.dll
 C:\Users\david\source\repos\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.pdb
 C:\Users\david\source\repos\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.genruntimeconfig.cache
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\bin\Debug\netcoreapp3.1\EntregaListas.exe
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\bin\Debug\netcoreapp3.1\EntregaListas.deps.json
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\bin\Debug\netcoreapp3.1\EntregaListas.runtimeconfig.json
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\bin\Debug\netcoreapp3.1\EntregaListas.runtimeconfig.dev.json
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\bin\Debug\netcoreapp3.1\EntregaListas.dll
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\bin\Debug\netcoreapp3.1\EntregaListas.pdb
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.csproj.AssemblyReference.cache
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.AssemblyInfoInputs.cache
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.AssemblyInfo.cs
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.dll
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.pdb
+C:\Users\dagor\source\FP\csharp\Listas\EntregaListas\obj\Debug\netcoreapp3.1\EntregaListas.genruntimeconfig.cache
