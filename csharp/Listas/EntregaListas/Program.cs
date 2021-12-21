@@ -213,13 +213,25 @@ namespace EntregaListas
                     break;
                 case 17:
                     {
-                        List<int> l1 = new List<int> { 1, 2, 3, 1, 5, 6, 4, 4 }, l2 = new List<int> { 1, 2, 3, 1, 5, 6, 4, 1, 4 };
+                        List<int> l1 = new List<int> { 1, 2, 3, 1, 4, 5, 6, 4, 4 }, l2 = new List<int> { 1, 2, 3, 1, 5, 6, 4, 1, 4 };
 
                         EscribeLista(l1);
                         Console.WriteLine($"Moda = {ModaLista(l1)}");
 
+                        Console.WriteLine();
+
                         EscribeLista(l2);
                         Console.WriteLine($"Moda = {ModaLista(l2)}");
+
+                        Console.WriteLine();
+
+                        EscribeLista(l1);
+                        Console.WriteLine($"Moda = {ModaListaConDict(l1)}");
+
+                        Console.WriteLine();
+
+                        EscribeLista(l2);
+                        Console.WriteLine($"Moda = {ModaListaConDict(l2)}");
                     }
                     break;
                 case 18:
@@ -706,6 +718,34 @@ namespace EntregaListas
             }
 
             return set[index];
+        }
+        static int ModaListaConDict (List<int> l)
+        {
+            int count = 0, result = 0;
+            Dictionary<int, int> dict = new Dictionary<int, int>();
+
+            for (int i = 0; i < l.Count; i++)
+            {
+                if (dict.ContainsKey(l[i]))
+                {
+                    dict[l[i]]++;
+                }
+                else
+                {
+                    dict.Add(l[i], 1);
+                }
+            }
+
+            foreach (KeyValuePair<int, int> item in dict)
+            {
+                if (item.Value > count)
+                {
+                    count = item.Value;
+                    result = item.Key;
+                }   
+            }
+
+            return result;
         }
         static double PuntuacionesTrampolin (List<double> l)
         {
