@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\Listas\\EntregaListas\\EntregaListas.csproj",
-      "projectName": "EntregaListas",
-      "projectPath": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\Listas\\EntregaListas\\EntregaListas.csproj",
+      "projectUniqueName": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\Listas\\ListasAdicionales\\ListasAdicionales.csproj",
+      "projectName": "ListasAdicionales",
+      "projectPath": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\Listas\\ListasAdicionales\\ListasAdicionales.csproj",
       "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\Listas\\EntregaListas\\obj\\",
+      "outputPath": "C:\\Users\\Dagore\\source\\repos\\FP\\csharp\\Listas\\ListasAdicionales\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",

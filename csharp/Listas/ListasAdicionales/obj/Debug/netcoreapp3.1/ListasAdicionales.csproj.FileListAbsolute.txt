@@ -1,0 +1,14 @@
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\bin\Debug\netcoreapp3.1\ListasAdicionales.exe
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\bin\Debug\netcoreapp3.1\ListasAdicionales.deps.json
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\bin\Debug\netcoreapp3.1\ListasAdicionales.runtimeconfig.json
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\bin\Debug\netcoreapp3.1\ListasAdicionales.runtimeconfig.dev.json
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\bin\Debug\netcoreapp3.1\ListasAdicionales.dll
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\bin\Debug\netcoreapp3.1\ListasAdicionales.pdb
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\obj\Debug\netcoreapp3.1\ListasAdicionales.csproj.AssemblyReference.cache
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\obj\Debug\netcoreapp3.1\ListasAdicionales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\obj\Debug\netcoreapp3.1\ListasAdicionales.AssemblyInfoInputs.cache
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\obj\Debug\netcoreapp3.1\ListasAdicionales.AssemblyInfo.cs
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\obj\Debug\netcoreapp3.1\ListasAdicionales.csproj.CoreCompileInputs.cache
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\obj\Debug\netcoreapp3.1\ListasAdicionales.dll
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\obj\Debug\netcoreapp3.1\ListasAdicionales.pdb
+C:\Users\Dagore\source\repos\FP\csharp\Listas\ListasAdicionales\obj\Debug\netcoreapp3.1\ListasAdicionales.genruntimeconfig.cache

@@ -224,7 +224,9 @@ namespace EntregaListas
                     break;
                 case 18:
                     {
+                        List<double> l = new List<double> { 5, 5, 5, 10, 7, 1, 3 };
 
+                        Console.WriteLine(PuntuacionesTrampolin(l));
                     }
                     break;
                 default:
@@ -704,6 +706,35 @@ namespace EntregaListas
             }
 
             return set[index];
+        }
+        static double PuntuacionesTrampolin (List<double> l)
+        {
+            //Escribe la función PuntuacionesTrampolin. La función recibirá una lista con siete números reales que se corresponderán a las notas obtenidas por un saltador de trampolín de 3 metros. En este deporte, para calcular la nota final, se eliminan las dos notas más altas y las dos más bajas, sumándose las tres que quedan. Por tanto, nuestra función eliminará los dos valores más altos y los dos más bajos del la lista y, además, devolverá un real que será la suma de los tres valores que quedan.
+
+            bool isCorrect = true;
+
+            for (int i = 0; i < l.Count; i++)
+            {
+                if (l[i] < 0 || l[i] > 10)
+                {
+                    isCorrect = false;
+                    i = l.Count;
+                }
+            }
+
+            if (l.Count == 7 && isCorrect)
+            {
+                l.Remove(l.Min());
+                l.Remove(l.Min());
+                l.Remove(l.Max());
+                l.Remove(l.Max());  
+            }
+            else
+            {
+                Console.WriteLine("ERROR");
+            }
+
+            return l.Aggregate((item, acc) => acc += item);
         }
         #endregion
     }
