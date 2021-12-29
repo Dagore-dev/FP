@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales09\\FuncionesAdicionales09.csproj": {}
+    "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales\\FuncionesAdicionales09\\FuncionesAdicionales09.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales09\\FuncionesAdicionales09.csproj": {
+    "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales\\FuncionesAdicionales09\\FuncionesAdicionales09.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales09\\FuncionesAdicionales09.csproj",
+        "projectUniqueName": "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales\\FuncionesAdicionales09\\FuncionesAdicionales09.csproj",
         "projectName": "FuncionesAdicionales09",
-        "projectPath": "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales09\\FuncionesAdicionales09.csproj",
+        "projectPath": "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales\\FuncionesAdicionales09\\FuncionesAdicionales09.csproj",
         "packagesPath": "C:\\Users\\dagor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales09\\obj\\",
+        "outputPath": "C:\\Users\\dagor\\source\\FP\\csharp\\FuncionesAdicionales\\FuncionesAdicionales09\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dagor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
