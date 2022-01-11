@@ -1,0 +1,14 @@
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\bin\Debug\netcoreapp3.1\ExplicacionMultidimensionales.exe
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\bin\Debug\netcoreapp3.1\ExplicacionMultidimensionales.deps.json
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\bin\Debug\netcoreapp3.1\ExplicacionMultidimensionales.runtimeconfig.json
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\bin\Debug\netcoreapp3.1\ExplicacionMultidimensionales.runtimeconfig.dev.json
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\bin\Debug\netcoreapp3.1\ExplicacionMultidimensionales.dll
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\bin\Debug\netcoreapp3.1\ExplicacionMultidimensionales.pdb
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\obj\Debug\netcoreapp3.1\ExplicacionMultidimensionales.csproj.AssemblyReference.cache
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\obj\Debug\netcoreapp3.1\ExplicacionMultidimensionales.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\obj\Debug\netcoreapp3.1\ExplicacionMultidimensionales.AssemblyInfoInputs.cache
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\obj\Debug\netcoreapp3.1\ExplicacionMultidimensionales.AssemblyInfo.cs
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\obj\Debug\netcoreapp3.1\ExplicacionMultidimensionales.csproj.CoreCompileInputs.cache
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\obj\Debug\netcoreapp3.1\ExplicacionMultidimensionales.dll
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\obj\Debug\netcoreapp3.1\ExplicacionMultidimensionales.pdb
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\ExplicacionMultidimensionales\obj\Debug\netcoreapp3.1\ExplicacionMultidimensionales.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\bin\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.exe
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\bin\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.deps.json
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\bin\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.runtimeconfig.json
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\bin\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.runtimeconfig.dev.json
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\bin\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.dll
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\bin\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.pdb
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\obj\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.csproj.AssemblyReference.cache
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\obj\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\obj\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.AssemblyInfoInputs.cache
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\obj\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.AssemblyInfo.cs
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\obj\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.csproj.CoreCompileInputs.cache
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\obj\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.dll
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\obj\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.pdb
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\EntregaArraysMultidimensionales\obj\Debug\netcoreapp3.1\EntregaArraysMultidimensionales.genruntimeconfig.cache
