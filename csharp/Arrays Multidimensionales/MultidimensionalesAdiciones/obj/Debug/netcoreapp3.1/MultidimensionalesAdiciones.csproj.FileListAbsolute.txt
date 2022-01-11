@@ -1,0 +1,14 @@
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.exe
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.deps.json
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.runtimeconfig.json
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.runtimeconfig.dev.json
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.dll
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.pdb
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.csproj.AssemblyReference.cache
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.AssemblyInfoInputs.cache
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.AssemblyInfo.cs
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.csproj.CoreCompileInputs.cache
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.dll
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.pdb
+G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.genruntimeconfig.cache
