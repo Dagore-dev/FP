@@ -84,6 +84,7 @@ public class Main {
                 Romboide(5,7);
                 Romboide(3,10);
             }
+            case 13 -> CalculaNotaFinal();
         }
     }
     static void ShowMenu () {
@@ -99,6 +100,7 @@ public class Main {
         System.out.println("10 - EscribeSerieNumeros3.");
         System.out.println("11 - Maximo, Minimo y Medio.");
         System.out.println("12 - Romboide.");
+        System.out.println("13 - CalculaNotaFinal.");
         System.out.print("Introduce una opción: ");
     }
     static boolean PrimosRelativos (int n1, int n2) {
@@ -332,5 +334,33 @@ public class Main {
         for (int i = 0; i < rows; i++) {
             System.out.println(RomboideRowContent(rows, stars, i));
         }
+    }
+    static void CalculaNotaFinal () {
+        Scanner sc = new Scanner(System.in);
+        double acc = 0, current, mean;
+        int fails = 0;
+
+        System.out.println("Introduce las 7 notas a continuación pulsado Enter tra cada nota:");
+
+        for (int i = 0; i < 7; i++) {
+            current = Double.parseDouble(sc.nextLine());
+            if (current > 10 || current < 0) {
+                System.out.println("Error en la última nota, vuelve a introducirla.");
+                i--;
+            }
+            else {
+                acc += current;
+                if (current < 5) {
+                    fails++;
+                }
+            }
+        }
+        mean = acc / 7;
+
+        if (mean > 4 && fails > 1) {
+            mean = 4;
+        }
+
+        System.out.println(mean);
     }
 }
