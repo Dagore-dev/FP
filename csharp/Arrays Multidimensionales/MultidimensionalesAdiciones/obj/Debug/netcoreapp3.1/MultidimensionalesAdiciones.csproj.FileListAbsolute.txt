@@ -12,3 +12,17 @@ G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\
 G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.dll
 G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.pdb
 G:\Repositorios\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.genruntimeconfig.cache
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.exe
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.deps.json
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.runtimeconfig.json
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.runtimeconfig.dev.json
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.dll
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\bin\Debug\netcoreapp3.1\MultidimensionalesAdiciones.pdb
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.csproj.AssemblyReference.cache
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.AssemblyInfoInputs.cache
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.AssemblyInfo.cs
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.dll
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.pdb
+C:\Users\dagor\source\FP\csharp\Arrays Multidimensionales\MultidimensionalesAdiciones\obj\Debug\netcoreapp3.1\MultidimensionalesAdiciones.genruntimeconfig.cache
