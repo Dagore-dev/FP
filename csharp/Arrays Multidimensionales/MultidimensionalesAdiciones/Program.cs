@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MultidimensionalesAdiciones
 {
@@ -49,11 +50,26 @@ namespace MultidimensionalesAdiciones
                     break;
                 case 3:
                     {
+                        int[,] a1 = { { 1, 1, 1 }, { 1, 1, 1 }, { 1, 1, 1 } }, a2 = { { 8, 1, 6 }, { 3, 5, 7 }, { 4, 9, 2 } }, a3 = { { 6, 1, 1 }, { 4, -2, 5 }, { 2, 8, 7 } };
 
+                        EscribeArrayBi(a1);
+                        Console.WriteLine(CuadradoMagico(a1));
+
+                        Console.WriteLine("----------------------");
+
+                        EscribeArrayBi(a2);
+                        Console.WriteLine(CuadradoMagico(a2));
+                        
+                        Console.WriteLine("----------------------");
+
+                        EscribeArrayBi(a3);
+                        Console.WriteLine(CuadradoMagico(a3));
                     }
                     break;
                 case 4:
                     {
+                        int[,] a = { { 8, 1, 6 }, { 3, 5, 7 }, { 4, 9, 2 } };
+
 
                     }
                     break;
@@ -74,8 +90,8 @@ namespace MultidimensionalesAdiciones
             Console.WriteLine("2 - CalculaDeterminante");
             Console.WriteLine("3 - CuadradoMagico");
             Console.WriteLine("4 - CompruebaSudoku");
-            Console.WriteLine("4 - RellenaBordeBidimensional");
-            Console.WriteLine("5 - HundirLaFlota");
+            Console.WriteLine("5 - RellenaBordeBidimensional");
+            Console.WriteLine("6 - HundirLaFlota");
             Console.Write("Introduzca su opción: ");
         }
         #region utils
@@ -116,9 +132,61 @@ namespace MultidimensionalesAdiciones
                 Console.WriteLine();
             }
         }
-        static bool IsInDiagonal(int i, int j)
+        static void CopiaArray(int[] a, int[] b)
         {
-            return i == j;
+            if (a.Length == b.Length)
+            {
+                for (int i = 0; i < a.Length; i++)
+                {
+                    b[i] = a[i];
+                }
+            }
+            else
+            {
+                Console.WriteLine("Los arrays no tienen la misma longitud.");
+            }
+        }
+        static void EliminaConcurrencias(ref int[] a, int number)
+        {
+            bool first = false;
+            int counter = 0;
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] == number)
+                {
+                    if (!first)
+                    {
+                        first = true;
+                    }
+                    else
+                    {
+                        counter++;
+                    }
+                }
+                else
+                {
+                    a[i - counter] = a[i];
+                }
+            }
+
+            Array.Resize(ref a, a.Length - counter);
+        }
+        static int[] EliminaRepetidos(int[] a)
+        {
+            //Escribe la función EliminaRepetidos a la que le pasas un array y te devuelve otro array en el que se han eliminado los elementos que estén repetidos.
+            //Ej: [1, 5, 9, 2, 3, 4, 1, 1, 2] => [1, 5, 9, 2, 3, 4]
+
+            int[] copy = new int[a.Length];
+
+            CopiaArray(a, copy);
+
+            for (int i = 0; i < copy.Length; i++)
+            {
+                EliminaConcurrencias(ref copy, a[i]);
+            }
+
+            return copy;
         }
         #endregion
         static void InvierteBI (int[,] a)
@@ -181,5 +249,166 @@ namespace MultidimensionalesAdiciones
 
             return result;
         }
+        static bool CuadradoMagico (int[,] a)
+        {
+            int row = a.GetLength(0), col = a.GetLength(1), k = 0;
+            int[] sums;
+            bool result = true;
+
+            if (row == 3 && col == 3)
+            {
+                sums = new int[8];
+
+                for (int i = 0; i < row; i++)
+                {
+                    sums[k] = SumRow(a, i);
+                    k++;
+                }
+
+                for (int i = 0; i < col; i++)
+                {
+                    sums[k] = SumCol(a, i);
+                    k++;
+                }
+
+                //Primera diagonal
+                for (int i = 0; i < row; i++)
+                {
+                    sums[k] += a[i, i];
+                }
+                k++;
+
+                //Segunda diagonal
+                for (int i = 0; i < row; i++)
+                {
+                    sums[k] += a[i, row - 1 - i];//(0,2), (1,1), (2,0)
+                }
+
+                for (int i = 0; i < sums.Length; i++)
+                {
+                    if (sums[0] != sums[i])
+                    {
+                        result = false;
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("ERROR: No es una matrix 3x3.");
+                result = false;
+            }
+
+            return result;
+        }
+        static int SumRow (int[,] a, int row)
+        {
+            int result = 0, col = a.GetLength(1);
+
+            for (int i = 0; i < col; i++)
+            {
+                result += a[row, i];
+            }
+            
+            return result;
+        }
+        static int SumCol(int[,] a, int col)
+        {
+            int result = 0, row = a.GetLength(0);
+
+            for (int i = 0; i < row; i++)
+            {
+                result += a[i, col];
+            }
+
+            return result;
+        }
+        static bool CompruebaSudoku (int[,] a)
+        {
+            int row = a.GetLength(0), col = a.GetLength(1);
+            bool result = true;
+
+            if (row == 9 && col == 9)
+            {
+
+            }
+            else
+            {
+                Console.WriteLine("ERROR: No es un sudoku 9x9.");
+            }
+
+            return result;
+        }
+        static int[] RowFromMatrix (int[,] aa, int row)
+        {
+            int col = aa.GetLength(1);
+            int[] slice = new int[col];
+
+            for (int i = 0; i < col; i++)
+            {
+                slice[i] = aa[row, i];
+            }
+
+            return slice;
+        }
+        static int[] ColFromMatrix (int[,] aa, int col)
+        {
+            int row = aa.GetLength(0);
+            int[] slice = new int[row];
+
+            for (int i = 0; i < row; i++)
+            {
+                slice[i] = aa[i, col];
+            }
+
+            return slice;
+        }
+        static int[] MatrixToArray (int[,] matrix)
+        {
+            int row = matrix.GetLength(0), col = matrix.GetLength(1);
+            List<int> l = new List<int>();
+
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < col; j++)
+                {
+                    l.Add(matrix[i, j]);
+                }
+            }
+
+            return l.ToArray();
+        }
+        static bool CompruebaArray19 (int[] a)
+        {
+            int current, length = a.Length;
+            int[] set;
+            bool result = true;
+
+            if (length == 8)
+            {
+                set = EliminaRepetidos(a);
+                if (length != set.Length)
+                {
+                    for (int i = 0; i < length; i++)
+                    {
+                        current = a[i];
+                        if (current < 1 || current > 9)
+                        {
+                            result = false;
+                            i = length;
+                        }
+                    }
+                }
+                else
+                {
+                    result = false;
+                }
+            }
+            else
+            {
+                Console.WriteLine("ERROR: No tiene nueve elementos.");
+            }
+
+            return result;
+        } 
     }
 }
