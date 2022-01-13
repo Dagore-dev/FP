@@ -1,0 +1,14 @@
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\bin\Debug\netcoreapp3.1\ExplicacionDiccionarios.exe
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\bin\Debug\netcoreapp3.1\ExplicacionDiccionarios.deps.json
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\bin\Debug\netcoreapp3.1\ExplicacionDiccionarios.runtimeconfig.json
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\bin\Debug\netcoreapp3.1\ExplicacionDiccionarios.runtimeconfig.dev.json
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\bin\Debug\netcoreapp3.1\ExplicacionDiccionarios.dll
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\bin\Debug\netcoreapp3.1\ExplicacionDiccionarios.pdb
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\obj\Debug\netcoreapp3.1\ExplicacionDiccionarios.csproj.AssemblyReference.cache
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\obj\Debug\netcoreapp3.1\ExplicacionDiccionarios.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\obj\Debug\netcoreapp3.1\ExplicacionDiccionarios.AssemblyInfoInputs.cache
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\obj\Debug\netcoreapp3.1\ExplicacionDiccionarios.AssemblyInfo.cs
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\obj\Debug\netcoreapp3.1\ExplicacionDiccionarios.csproj.CoreCompileInputs.cache
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\obj\Debug\netcoreapp3.1\ExplicacionDiccionarios.dll
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\obj\Debug\netcoreapp3.1\ExplicacionDiccionarios.pdb
+G:\Repositorios\FP\csharp\Diccionarios\ExplicacionDiccionarios\obj\Debug\netcoreapp3.1\ExplicacionDiccionarios.genruntimeconfig.cache
