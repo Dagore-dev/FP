@@ -68,20 +68,54 @@ namespace MultidimensionalesAdiciones
                     break;
                 case 4:
                     {
-                        int[,] 
+                        int[,]
                             a1 = { { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, { 1, 2, 3, 4, 5, 6, 7, 8, 9 } },
-                            a2 = { { 4,1,7,6,3,9,2,8,5}, {6,5,2,8,1,4,3,9,7}, { 3,9,8,5,7,2,1,6,4}, {2,3,4,9,6,7,8,5,1 }, { 9,8,1,2,5,3,4,7,6}, { 5,7,6,4,8,1,9,3,2}, {7,2,3,1,9,5,6,4,8 }, { 8,4,9,7,2,6,5,1,3}, { 1,6,5,3,4,8,7,2,9} };
+                            a2 = { { 4, 1, 7, 6, 3, 9, 2, 8, 5 }, { 6, 5, 2, 8, 1, 4, 3, 9, 7 }, { 3, 9, 8, 5, 7, 2, 1, 6, 4 }, { 2, 3, 4, 9, 6, 7, 8, 5, 1 }, { 9, 8, 1, 2, 5, 3, 4, 7, 6 }, { 5, 7, 6, 4, 8, 1, 9, 3, 2 }, { 7, 2, 3, 1, 9, 5, 6, 4, 8 }, { 8, 4, 9, 7, 2, 6, 5, 1, 3 }, { 1, 6, 5, 3, 4, 8, 7, 2, 9 } },
+                            a3 = { { 1, 4, 3, 9, 8, 6, 2, 5, 7 }, { 6, 7, 9, 4, 2, 5, 3, 8, 1 }, { 2, 8, 5, 7, 3, 1, 6, 9, 4 }, { 9, 6, 2, 3, 5, 4, 1, 7, 8 }, { 3, 5, 7, 6, 1, 8, 9, 4, 2 }, { 4, 1, 8, 2, 7, 9, 5, 6, 3 }, { 8, 2, 1, 5, 6, 7, 4, 3, 9 }, { 7, 9, 6, 1, 4, 3, 8, 2, 5 }, { 5, 3, 4, 8, 9, 2, 7, 1, 6 } },
+                            a4 = { {5, 3, 4, 6, 7, 8, 9, 1, 2}, {6, 7, 2, 1, 9, 5, 3, 4, 8}, {1, 9, 8, 3, 4, 2, 5, 6, 7}, {8, 5, 9, 7, 6, 1, 4, 2, 3}, {4, 2, 6, 8, 5, 3, 7, 9, 1}, {7, 1, 3, 9, 2, 4, 8, 5, 6}, {9, 6, 1, 5, 3, 7, 2, 8, 4}, {2, 8, 7, 4, 1, 9, 6, 3, 5}, {3, 4, 5, 2, 8, 6, 1, 7, 9} },
+                            a5 = { {5, 3, 4, 6, 7, 8, 9, 1, 2}, {6, 7, 2, 1, 9, 0, 3, 4, 8}, {1, 0, 0, 3, 4, 2, 5, 6, 0}, {8, 5, 9, 7, 6, 1, 0, 2, 0}, {4, 2, 6, 8, 5, 3, 7, 9, 1}, {7, 1, 3, 9, 2, 4, 8, 5, 6}, {9, 0, 1, 5, 3, 7, 2, 1, 4}, {2, 8, 7, 4, 1, 9, 6, 3, 5}, {3, 0, 0, 4, 8, 1, 1, 7, 9} },
+                            a6 = { { 5, 1, 4, 6, 7, 8, 9, 1, 2 }, { 6, 7, 2, 1, 9, 5, 3, 4, 8 }, { 1, 9, 8, 3, 4, 2, 5, 6, 7 }, { 8, 5, 9, 7, 6, 1, 4, 2, 3 }, { 4, 2, 6, 8, 5, 3, 7, 9, 1 }, { 7, 1, 3, 9, 2, 4, 8, 5, 6 }, { 9, 6, 1, 5, 3, 7, 2, 8, 4 }, { 2, 8, 7, 4, 1, 9, 6, 3, 5 }, { 3, 4, 5, 2, 8, 6, 1, 7, 9 } };
 
+                        Console.WriteLine("Se espera false:");
                         EscribeArrayBi(a1);
                         Console.WriteLine(CompruebaSudoku(a1));
                         Console.WriteLine();
+
+                        Console.WriteLine("Se espera true:");
                         EscribeArrayBi(a2);
                         Console.WriteLine(CompruebaSudoku(a2));
+                        Console.WriteLine();
+
+                        Console.WriteLine("Se espera true:");
+                        EscribeArrayBi(a3);
+                        Console.WriteLine(CompruebaSudoku(a3));
+                        Console.WriteLine();
+
+                        Console.WriteLine("Se espera true:");
+                        EscribeArrayBi(a4);
+                        Console.WriteLine(CompruebaSudoku(a4));
+                        Console.WriteLine();
+
+                        Console.WriteLine("Se espera false:");
+                        EscribeArrayBi(a5);
+                        Console.WriteLine(CompruebaSudoku(a5));
+                        Console.WriteLine();
+
+                        Console.WriteLine("Se espera false:");
+                        EscribeArrayBi(a6);
+                        Console.WriteLine(CompruebaSudoku(a6));
                     }
                     break;
                 case 5:
                     {
-
+                        int[,] a1 = new int[4, 6];
+                        RellenaBordeBidimensional(a1, 1, 0);
+                        EscribeArrayBi(a1);
+                    }
+                    break;
+                case 6:
+                    {
+                        HundirLaFlota();
                     }
                     break;
                 default:
@@ -470,6 +504,105 @@ namespace MultidimensionalesAdiciones
                     index++;
                 }
             }
+        }
+        static void RellenaBordeBidimensional (int[,] aa, int border, int inside)
+        {
+            int row = aa.GetLength(0), col = aa.GetLength(1);
+            
+            if (row > 2 && col > 2)
+            {
+                for (int i = 0; i < row; i++)
+                {
+                    for (int j = 0; j < col; j++)
+                    {
+                        if (i == 0 || i == row -1 || j == 0 || j == col - 1)
+                        {
+                            aa[i, j] = border;
+                        }
+                        else
+                        {
+                            aa[i, j] = inside;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("ERROR: No cumple con las dimensiones mínimas de 3x3");
+            }
+        }
+        static void HundirLaFlota ()
+        {
+            //1 barco de 4, 2 de 3 y 3 de 2.
+            int row, col;
+            bool ships = true;
+            int[,] playground = new int[8, 8],
+                shadow = { 
+                { 0, 0, 0, 0, 0, 0, 1, 1 },
+                { 0, 0, 0, 0, 0, 1, 0, 0 },
+                { 0, 0, 1, 0, 0, 1, 0, 0 },
+                { 0, 0, 1, 0, 0, 1, 0, 0 },
+                { 0, 0, 0, 1, 1, 1, 1, 0 },
+                { 0, 0, 0, 0, 1, 1, 0, 0 },
+                { 0, 1, 1, 1, 0, 0, 0, 0 },
+                { 0, 0, 0, 0, 0, 0, 0, 0 }
+            };
+
+            NewGame();
+
+            while (ships)
+            {
+                EscribeArrayBi(playground);
+                Console.WriteLine();
+
+                Console.Write("Introduce la fila que quieres bombardear: ");
+                row = int.Parse(Console.ReadLine());
+
+                Console.Write("Introduzca la columna que quieres bombardear: ");
+                col = int.Parse(Console.ReadLine());
+
+                Console.WriteLine($"Coordenadas introducidas : ({row}, {col})");
+                if (col < 8 && row < 8)
+                {
+                    if (shadow[row, col] == 0 || shadow[row, col] == 1)
+                    {
+                        playground[row, col] = shadow[row, col] + 100;
+                        shadow[row, col] += 100;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Esas coordenadas no existen.");
+                }
+                ships = AreThereShips(shadow);
+            }
+        }
+        static void NewGame ()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Comienza el juego: te muestro el tablero y luego me das coordenadas para ir bombardeando los barcos.");
+            Console.WriteLine("0: Agua.");
+            Console.WriteLine("1: Barco.");
+            Console.WriteLine("100: Agua ya bombardeada.");
+            Console.WriteLine("101: Barco ya bombarbeado.");
+        }
+        static bool AreThereShips (int[,] shadow)
+        {
+            bool ships = false;
+            int row = shadow.GetLength(0), col = shadow.GetLength(1);
+            
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < col; j++)
+                {
+                    if (shadow[i, j] == 1)
+                    {
+                        ships = true;
+                    }
+                }
+            }
+
+            return ships;
         }
     }
 }
