@@ -451,7 +451,7 @@ namespace EntregaCadenas
         {
             //Escribe la función “QuitaAcentos” a la que le pasas una cadena con caracteres acentuados y te devuelve la cadena con los acentos quitados(esto se hace para algunos programas que no se enteran de los acentos).
 
-            string acentos = "áéióúàèìòùâêîôûäëïöüÁÉÍÓÚÀÈÌÒÙÂÊÎÔÛÄËÏÖÜ", sinAcentos = "aeiouaeiouaeiouaeiouAEIOUAEIOUAEIOUAEIOU", result = s;
+            string acentos = "áéíóúàèìòùâêîôûäëïöüÁÉÍÓÚÀÈÌÒÙÂÊÎÔÛÄËÏÖÜ", sinAcentos = "aeiouaeiouaeiouaeiouAEIOUAEIOUAEIOUAEIOU", result = s;
             int position = -1;
 
             for (int i = 0; i < result.Length; i++)

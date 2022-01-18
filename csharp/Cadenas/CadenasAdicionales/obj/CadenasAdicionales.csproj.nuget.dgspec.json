@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj": {}
+    "G:\\Repositorios\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj": {
+    "G:\\Repositorios\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj",
+        "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj",
         "projectName": "CadenasAdicionales",
-        "projectPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj",
+        "projectPath": "G:\\Repositorios\\FP\\csharp\\Cadenas\\CadenasAdicionales\\CadenasAdicionales.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\source\\repos\\FP\\csharp\\Cadenas\\CadenasAdicionales\\obj\\",
+        "outputPath": "G:\\Repositorios\\FP\\csharp\\Cadenas\\CadenasAdicionales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",

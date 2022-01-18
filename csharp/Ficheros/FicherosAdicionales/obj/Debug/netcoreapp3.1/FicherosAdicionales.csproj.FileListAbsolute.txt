@@ -1,0 +1,14 @@
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\bin\Debug\netcoreapp3.1\FicherosAdicionales.exe
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\bin\Debug\netcoreapp3.1\FicherosAdicionales.deps.json
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\bin\Debug\netcoreapp3.1\FicherosAdicionales.runtimeconfig.json
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\bin\Debug\netcoreapp3.1\FicherosAdicionales.runtimeconfig.dev.json
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\bin\Debug\netcoreapp3.1\FicherosAdicionales.dll
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\bin\Debug\netcoreapp3.1\FicherosAdicionales.pdb
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\obj\Debug\netcoreapp3.1\FicherosAdicionales.csproj.AssemblyReference.cache
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\obj\Debug\netcoreapp3.1\FicherosAdicionales.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\obj\Debug\netcoreapp3.1\FicherosAdicionales.AssemblyInfoInputs.cache
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\obj\Debug\netcoreapp3.1\FicherosAdicionales.AssemblyInfo.cs
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\obj\Debug\netcoreapp3.1\FicherosAdicionales.csproj.CoreCompileInputs.cache
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\obj\Debug\netcoreapp3.1\FicherosAdicionales.dll
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\obj\Debug\netcoreapp3.1\FicherosAdicionales.pdb
+G:\Repositorios\FP\csharp\Ficheros\FicherosAdicionales\obj\Debug\netcoreapp3.1\FicherosAdicionales.genruntimeconfig.cache

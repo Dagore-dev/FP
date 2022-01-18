@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Repositorios\\FP\\csharp\\Cadenas\\EntregaCadenas\\EntregaCadenas.csproj": {}
+    "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\FicherosAdicionales.csproj": {}
   },
   "projects": {
-    "G:\\Repositorios\\FP\\csharp\\Cadenas\\EntregaCadenas\\EntregaCadenas.csproj": {
+    "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\FicherosAdicionales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Cadenas\\EntregaCadenas\\EntregaCadenas.csproj",
-        "projectName": "EntregaCadenas",
-        "projectPath": "G:\\Repositorios\\FP\\csharp\\Cadenas\\EntregaCadenas\\EntregaCadenas.csproj",
+        "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\FicherosAdicionales.csproj",
+        "projectName": "FicherosAdicionales",
+        "projectPath": "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\FicherosAdicionales.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "G:\\Repositorios\\FP\\csharp\\Cadenas\\EntregaCadenas\\obj\\",
+        "outputPath": "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
