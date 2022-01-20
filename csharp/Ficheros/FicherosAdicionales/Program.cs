@@ -30,12 +30,32 @@ namespace FicherosAdicionales
                         LeeFicheroTexto("notasProcesadas.csv");
                     }
                     break;
+                case 3:
+                    {
+                        EscribeArrayBiChar(LeeSopaLetras("sopa1.txt"));
+                        Console.WriteLine();
+                        EscribeArrayBiChar(LeeSopaLetras("sopa2.txt"));
+                        Console.WriteLine();
+                        EscribeArrayBiChar(LeeSopaLetras("sopamal.txt"));
+                    }
+                    break;
                 default:
                     break;
             }
 
         }
         #region utils
+        static void EscribeArrayBiChar(char[,] a)
+        {
+            for (int i = 0; i < a.GetLength(0); i++)
+            {
+                for (int j = 0; j < a.GetLength(1); j++)
+                {
+                    Console.Write($"{a[i, j]}\t");
+                }
+                Console.WriteLine();
+            }
+        }
         static void LeeFicheroTexto(string filename)
         {
             StreamReader streamReader = new StreamReader(filename);
@@ -94,6 +114,9 @@ namespace FicherosAdicionales
             Console.WriteLine("MENU:");
             Console.WriteLine(" 1 - CuentaVocalesFichero");
             Console.WriteLine(" 2 - EscribeSumasCSV");
+            Console.WriteLine(" 3 - LeeSopaDeletras");
+
+            Console.Write("Introduce la opción: ");
         }
         static int[] CuentaVocalesFichero (string filename)
         {
@@ -183,7 +206,7 @@ namespace FicherosAdicionales
             }
 
         }
-        static int[,] LeeSopaLetras (string filename)
+        static char[,] LeeSopaLetras (string filename)
         {
             /*
               Escribe la función LeeSopaLetras, que nos leerá una sopa de letras de un archivo de texto cuyo nombre le pasamos por parámetro y nos devolverá un array bidimensional de caracteres con la sopa de letras.
@@ -199,7 +222,74 @@ namespace FicherosAdicionales
             La función deberá comprobar si todas las líneas son iguales. En caso contrario, nos devolverá un array vacío (char[0][0]).
             Se recomienda adaptar la función EscribeArrayBidimensional para poder ver si se ha leído correctamente la sopa de letras.
              */
+            char[,] soup;
+            int rows = 0, cols = 0;
 
+            if (AreLinesEqual(filename))
+            {
+                SoupSize(filename, ref rows, ref cols);
+                soup = new char[rows, cols];
+                FillCharArray(filename, soup);
+            }
+            else
+            {
+                soup = new char[0, 0];
+            }
+
+            return soup;
+        }
+        static bool AreLinesEqual (string filename)
+        {
+            StreamReader sr = new StreamReader(filename);
+            bool result = true;
+            int length = sr.ReadLine().Length;
+
+            while (!sr.EndOfStream)
+            {
+                if (sr.ReadLine().Length != length)
+                {
+                    result = false;
+                }
+            }
+
+            sr.Close();
+            return result;
+        }
+        static void SoupSize (string filename, ref int rows, ref int cols)
+        {
+            StreamReader sr = new StreamReader(filename);
+            int numberOfRows = 1,
+                numberOfCols = sr.ReadLine().Trim().Length;
+
+            while (!sr.EndOfStream)
+            {
+                sr.ReadLine();
+                numberOfRows++;
+            }
+
+            rows = numberOfRows;
+            cols = numberOfCols;
+            sr.Close();
+        }
+        static void FillCharArray (string filename, char[,] soup)
+        {
+            StreamReader sr = new StreamReader(filename);
+            int row = 0;
+            string line;
+
+            while (!sr.EndOfStream)
+            {
+                line = sr.ReadLine().Trim();
+
+                for (int i = 0; i < line.Length; i++)
+                {
+                    soup[row, i] = line[i];
+                }
+
+                row++;
+            }
+
+            sr.Close();
         }
     }
 }
