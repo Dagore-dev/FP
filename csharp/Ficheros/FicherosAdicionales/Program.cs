@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace FicherosAdicionales
 {
@@ -45,6 +47,20 @@ namespace FicherosAdicionales
 
         }
         #region utils
+        static string OnlyLettersAndSpaces(string s)
+        {
+            string result = "";
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (char.IsLetter(s[i]) || char.IsWhiteSpace(s[i]))
+                {
+                    result += s[i];
+                }
+            }
+
+            return result;
+        }
         static void EscribeArrayBiChar(char[,] a)
         {
             for (int i = 0; i < a.GetLength(0); i++)
@@ -290,6 +306,47 @@ namespace FicherosAdicionales
             }
 
             sr.Close();
+        }
+        static void CuatroVocales (string filename)
+        {
+            /*
+             Escribe la función CuatroVocales a la que le pasamos un nombre de fichero de texto y nos busca las palabras que haya en ese fichero con al menos cuatro vocales. La función nos creará otro fichero que se llamará “4vocales.txt” donde aparecerán las palabras que cumplan esa condición (una palabra en cada línea). En el fichero original podrán aparecer símbolos de puntuación, así que hay que tener cuidado con ellos. Como ejemplo, os incluyo el primer capítulo de “El Lazarillo de Tormes”.
+             */
+            StreamReader sr = new StreamReader(filename);
+
+            while (!sr.EndOfStream)
+            {
+                EscribePalabras4Vocales(sr.ReadLine());
+            }
+
+            sr.Close();
+        }
+        static void EscribePalabras4Vocales (string line)
+        {
+            string[] words = OnlyLettersAndSpaces(line).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            List<string> fourVowels = new List<string>();
+            fourVowels.FindAll(word => Has4Vowels(word));
+            //AHORA ESCRIBELO EN UN ARCHIVO
+        }
+        static bool Has4Vowels (string word)
+        {
+            int count = 0;
+
+            for (int i = 0; i < word.Length; i++)
+            {
+                if (IsVowel(word[i]))
+                {
+                    count++;
+                }
+            }
+
+            return count > 3;
+        }
+        static bool IsVowel (char c)
+        {
+            string vowels = "aeiouyáéíóúýa̋e̋i̋őűàèìòùỳầềồḕṑǜừằȁȅȉȍȕăĕĭŏŭy̆ắằẳẵặḝȃȇȋȏȗǎěǐǒǔy̌a̧ȩə̧ɛ̧i̧ɨ̧o̧u̧âêîôûŷḙṷẩểổấếốẫễỗậệộäëïöüÿṳḯǘǚṏǟȫǖṻȧėıȯẏǡạẹịọụỵậȩ̇ǡȱảẻỉỏủỷơướứờừởửỡữợựāǣēīōūȳḗṓȭǭąęįǫųy̨åi̊ůḁǻą̊ãẽĩõũỹаэыуояеёюийⱥɇɨøɵꝋʉᵿɏөӫұɨαεηιοωυάέήίόώύὰὲὴὶὸὼὺἀἐἠἰὀὠὐἁἑἡἱὁὡὑᾶῆῖῶῦἆἦἶὦὖἇἧἷὧὗᾳῃῳᾷῇῷᾴῄῴᾲῂῲᾀᾐᾠᾁᾑᾡᾆᾖᾦᾇᾗᾧϊϋΐΰῒῢῗῧἅἕἥἵὅὥὕἄἔἤἴὄὤὔἂἒἢἲὂὢὒἃἓἣἳὃὣὓᾅᾕᾥᾄᾔᾤᾂᾒᾢᾃᾓᾣæɯɪʏʊøɘɤəɛœɜɞʌɔɐɶɑɒιυ";
+
+            return vowels.Contains(c);
         }
     }
 }
