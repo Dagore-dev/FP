@@ -1,0 +1,14 @@
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\bin\Debug\netcoreapp3.1\EntregaBinarios.exe
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\bin\Debug\netcoreapp3.1\EntregaBinarios.deps.json
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\bin\Debug\netcoreapp3.1\EntregaBinarios.runtimeconfig.json
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\bin\Debug\netcoreapp3.1\EntregaBinarios.runtimeconfig.dev.json
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\bin\Debug\netcoreapp3.1\EntregaBinarios.dll
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\bin\Debug\netcoreapp3.1\EntregaBinarios.pdb
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\obj\Debug\netcoreapp3.1\EntregaBinarios.csproj.AssemblyReference.cache
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\obj\Debug\netcoreapp3.1\EntregaBinarios.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\obj\Debug\netcoreapp3.1\EntregaBinarios.AssemblyInfoInputs.cache
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\obj\Debug\netcoreapp3.1\EntregaBinarios.AssemblyInfo.cs
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\obj\Debug\netcoreapp3.1\EntregaBinarios.csproj.CoreCompileInputs.cache
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\obj\Debug\netcoreapp3.1\EntregaBinarios.dll
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\obj\Debug\netcoreapp3.1\EntregaBinarios.pdb
+G:\Repositorios\FP\csharp\Ficheros\EntregaBinarios\obj\Debug\netcoreapp3.1\EntregaBinarios.genruntimeconfig.cache
