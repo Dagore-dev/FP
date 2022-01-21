@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\david\\.nuget\\packages\\": {}
+    "C:\\Users\\Dagore\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\FicherosAdicionales.csproj",
       "projectName": "FicherosAdicionales",
       "projectPath": "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\FicherosAdicionales.csproj",
-      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
       "outputPath": "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-
 namespace FicherosAdicionales
 {
     class Program
@@ -39,6 +37,16 @@ namespace FicherosAdicionales
                         EscribeArrayBiChar(LeeSopaLetras("sopa2.txt"));
                         Console.WriteLine();
                         EscribeArrayBiChar(LeeSopaLetras("sopamal.txt"));
+                    }
+                    break;
+                case 4:
+                    {
+
+                        //ARREGLA LO DE QUE DEBE CREAR EL FICHERO DESDE EL PRINCIPIO PRIMERO.
+                        CuatroVocales("ficheros/texto/Ej04/lazarillo.txt");
+                        CuatroVocales("pruebaVocales.txt");
+                        LeeFicheroTexto("4vocales.txt");
+                        
                     }
                     break;
                 default:
@@ -323,14 +331,35 @@ namespace FicherosAdicionales
         }
         static void EscribePalabras4Vocales (string line)
         {
+            StreamWriter sr = new StreamWriter("4vocales.txt", true);//Introduce cada línea al final del documento.
             string[] words = OnlyLettersAndSpaces(line).Split(' ', StringSplitOptions.RemoveEmptyEntries);
-            List<string> fourVowels = new List<string>();
-            fourVowels.FindAll(word => Has4Vowels(word));
-            //AHORA ESCRIBELO EN UN ARCHIVO
+            string[] fourVowels = MoreThan4Vowels(words);
+
+            for (int i = 0; i < fourVowels.Length; i++)
+            {
+                sr.WriteLine(fourVowels[i]);
+            }
+
+            sr.Close();
+        }
+        static string[] MoreThan4Vowels (string[] a)
+        {
+            List<string> l = new List<string>();
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (Has4Vowels(a[i]))
+                {
+                    l.Add(a[i]);
+                }
+            }
+
+            return l.ToArray();
         }
         static bool Has4Vowels (string word)
         {
             int count = 0;
+            word = word.ToLower();
 
             for (int i = 0; i < word.Length; i++)
             {
