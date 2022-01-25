@@ -1,0 +1,14 @@
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\bin\Debug\netcoreapp3.1\ExplicacionRegistros.exe
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\bin\Debug\netcoreapp3.1\ExplicacionRegistros.deps.json
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\bin\Debug\netcoreapp3.1\ExplicacionRegistros.runtimeconfig.json
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\bin\Debug\netcoreapp3.1\ExplicacionRegistros.runtimeconfig.dev.json
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\bin\Debug\netcoreapp3.1\ExplicacionRegistros.dll
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\bin\Debug\netcoreapp3.1\ExplicacionRegistros.pdb
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\obj\Debug\netcoreapp3.1\ExplicacionRegistros.csproj.AssemblyReference.cache
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\obj\Debug\netcoreapp3.1\ExplicacionRegistros.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\obj\Debug\netcoreapp3.1\ExplicacionRegistros.AssemblyInfoInputs.cache
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\obj\Debug\netcoreapp3.1\ExplicacionRegistros.AssemblyInfo.cs
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\obj\Debug\netcoreapp3.1\ExplicacionRegistros.csproj.CoreCompileInputs.cache
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\obj\Debug\netcoreapp3.1\ExplicacionRegistros.dll
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\obj\Debug\netcoreapp3.1\ExplicacionRegistros.pdb
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionRegistros\obj\Debug\netcoreapp3.1\ExplicacionRegistros.genruntimeconfig.cache
