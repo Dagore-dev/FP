@@ -41,12 +41,22 @@ namespace FicherosAdicionales
                     break;
                 case 4:
                     {
-
-                        //ARREGLA LO DE QUE DEBE CREAR EL FICHERO DESDE EL PRINCIPIO PRIMERO.
                         CuatroVocales("ficheros/texto/Ej04/lazarillo.txt");
-                        CuatroVocales("pruebaVocales.txt");
                         LeeFicheroTexto("4vocales.txt");
                         
+                    }
+                    break;
+                case 5:
+                    {
+                        int[,] aa = { { 0, 1 }, { 1, 0 } };
+                        EscribeArrayBi("arrayBi.txt", aa);
+                        EscribeArrayBiInt(LeeArrayBi("arrayBi.txt"));
+                    }
+                    break;
+                case 6:
+                    {
+                        Console.WriteLine($"Palabras distintas en un capítulo del Lazarillo (Se espera 2139) = {PalabrasDistintas("ficheros/texto/Ej06/lazarillo.txt")}");
+                        Console.WriteLine($"Palabras distintas en un capítulo del Quijote (Se espera 718) = {PalabrasDistintas("ficheros/texto/Ej06/quijote.txt")}");
                     }
                     break;
                 default:
@@ -70,6 +80,17 @@ namespace FicherosAdicionales
             return result;
         }
         static void EscribeArrayBiChar(char[,] a)
+        {
+            for (int i = 0; i < a.GetLength(0); i++)
+            {
+                for (int j = 0; j < a.GetLength(1); j++)
+                {
+                    Console.Write($"{a[i, j]}\t");
+                }
+                Console.WriteLine();
+            }
+        }
+        static void EscribeArrayBiInt(int[,] a)
         {
             for (int i = 0; i < a.GetLength(0); i++)
             {
@@ -132,6 +153,28 @@ namespace FicherosAdicionales
 
             Console.WriteLine(result);
         }
+        static void EscribeArraysString(string[] a)
+        {
+            string result = "";
+
+            if (a.Length > 0)
+            {
+                result += "[";
+
+                for (int i = 0; i < a.Length - 1; i++)
+                {
+                    result += a[i] + ", ";
+                }
+
+                result += $"{a[a.Length - 1]}]";
+            }
+            else
+            {
+                result += "[]";
+            }
+
+            Console.WriteLine(result);
+        }
         #endregion
         static void ShowMenu ()
         {
@@ -139,6 +182,9 @@ namespace FicherosAdicionales
             Console.WriteLine(" 1 - CuentaVocalesFichero");
             Console.WriteLine(" 2 - EscribeSumasCSV");
             Console.WriteLine(" 3 - LeeSopaDeletras");
+            Console.WriteLine(" 4 - CuatroVocales");
+            Console.WriteLine(" 5 - EscribeArrayBi y LeeArrayBi");
+            Console.WriteLine(" 6 - PalabrasDistintas");
 
             Console.Write("Introduce la opción: ");
         }
@@ -320,6 +366,7 @@ namespace FicherosAdicionales
             /*
              Escribe la función CuatroVocales a la que le pasamos un nombre de fichero de texto y nos busca las palabras que haya en ese fichero con al menos cuatro vocales. La función nos creará otro fichero que se llamará “4vocales.txt” donde aparecerán las palabras que cumplan esa condición (una palabra en cada línea). En el fichero original podrán aparecer símbolos de puntuación, así que hay que tener cuidado con ellos. Como ejemplo, os incluyo el primer capítulo de “El Lazarillo de Tormes”.
              */
+            NewFile("4vocales.txt");
             StreamReader sr = new StreamReader(filename);
 
             while (!sr.EndOfStream)
@@ -328,6 +375,11 @@ namespace FicherosAdicionales
             }
 
             sr.Close();
+        }
+        static void NewFile (string filename)
+        {
+            StreamWriter sw = new StreamWriter(filename);
+            sw.Close();
         }
         static void EscribePalabras4Vocales (string line)
         {
@@ -376,6 +428,65 @@ namespace FicherosAdicionales
             string vowels = "aeiouyáéíóúýa̋e̋i̋őűàèìòùỳầềồḕṑǜừằȁȅȉȍȕăĕĭŏŭy̆ắằẳẵặḝȃȇȋȏȗǎěǐǒǔy̌a̧ȩə̧ɛ̧i̧ɨ̧o̧u̧âêîôûŷḙṷẩểổấếốẫễỗậệộäëïöüÿṳḯǘǚṏǟȫǖṻȧėıȯẏǡạẹịọụỵậȩ̇ǡȱảẻỉỏủỷơướứờừởửỡữợựāǣēīōūȳḗṓȭǭąęįǫųy̨åi̊ůḁǻą̊ãẽĩõũỹаэыуояеёюийⱥɇɨøɵꝋʉᵿɏөӫұɨαεηιοωυάέήίόώύὰὲὴὶὸὼὺἀἐἠἰὀὠὐἁἑἡἱὁὡὑᾶῆῖῶῦἆἦἶὦὖἇἧἷὧὗᾳῃῳᾷῇῷᾴῄῴᾲῂῲᾀᾐᾠᾁᾑᾡᾆᾖᾦᾇᾗᾧϊϋΐΰῒῢῗῧἅἕἥἵὅὥὕἄἔἤἴὄὤὔἂἒἢἲὂὢὒἃἓἣἳὃὣὓᾅᾕᾥᾄᾔᾤᾂᾒᾢᾃᾓᾣæɯɪʏʊøɘɤəɛœɜɞʌɔɐɶɑɒιυ";
 
             return vowels.Contains(c);
+        }
+        static void EscribeArrayBi (string filename, int[,] aa)
+        {
+            StreamWriter sw = new StreamWriter(filename);
+            int row = aa.GetLength(0), col= aa.GetLength(1);
+
+            sw.WriteLine($"{row}, {col}");
+
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < col; j++)
+                {
+                    sw.WriteLine(aa[i, j]);
+                }
+            }
+
+            sw.Close();
+        }
+        static int[,] LeeArrayBi (string filename)
+        {
+            StreamReader sr = new StreamReader(filename);
+            string[] firstLine = sr.ReadLine().Split(",");
+            int row = int.Parse(firstLine[0]), col = int.Parse(firstLine[1]);
+            int[,] aa = new int[row, col];
+
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < col; j++)
+                {
+                    aa[i, j] = int.Parse(sr.ReadLine());
+                }
+            }
+
+            sr.Close();
+            return aa;
+        }
+        static int PalabrasDistintas (string filename)
+        {
+            int counter = 0;
+            StreamReader sr = new StreamReader(filename);
+            string[] line;
+            List<string> differents = new List<string>();
+
+            while (!sr.EndOfStream)
+            {
+                line = OnlyLettersAndSpaces(sr.ReadLine()).ToLower().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+                for (int i = 0; i < line.Length; i++)
+                {
+                    if (!differents.Contains(line[i]))
+                    {
+                        differents.Add(line[i]);
+                        counter++;
+                    }
+                }
+            }
+
+            sr.Close();
+            return counter;
         }
     }
 }
