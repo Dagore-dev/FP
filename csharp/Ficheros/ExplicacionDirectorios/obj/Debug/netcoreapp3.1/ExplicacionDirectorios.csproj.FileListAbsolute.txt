@@ -1,0 +1,14 @@
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\bin\Debug\netcoreapp3.1\ExplicacionDirectorios.exe
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\bin\Debug\netcoreapp3.1\ExplicacionDirectorios.deps.json
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\bin\Debug\netcoreapp3.1\ExplicacionDirectorios.runtimeconfig.json
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\bin\Debug\netcoreapp3.1\ExplicacionDirectorios.runtimeconfig.dev.json
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\bin\Debug\netcoreapp3.1\ExplicacionDirectorios.dll
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\bin\Debug\netcoreapp3.1\ExplicacionDirectorios.pdb
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\obj\Debug\netcoreapp3.1\ExplicacionDirectorios.csproj.AssemblyReference.cache
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\obj\Debug\netcoreapp3.1\ExplicacionDirectorios.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\obj\Debug\netcoreapp3.1\ExplicacionDirectorios.AssemblyInfoInputs.cache
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\obj\Debug\netcoreapp3.1\ExplicacionDirectorios.AssemblyInfo.cs
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\obj\Debug\netcoreapp3.1\ExplicacionDirectorios.csproj.CoreCompileInputs.cache
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\obj\Debug\netcoreapp3.1\ExplicacionDirectorios.dll
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\obj\Debug\netcoreapp3.1\ExplicacionDirectorios.pdb
+G:\Repositorios\FP\csharp\Ficheros\ExplicacionDirectorios\obj\Debug\netcoreapp3.1\ExplicacionDirectorios.genruntimeconfig.cache
