@@ -59,6 +59,11 @@ namespace FicherosAdicionales
                         Console.WriteLine($"Palabras distintas en un capítulo del Quijote (Se espera 718) = {PalabrasDistintas("ficheros/texto/Ej06/quijote.txt")}");
                     }
                     break;
+                case 7:
+                    {
+                        DiasDeLluvia("ficheros/texto/Ej07/dias_de_lluvia.csv");
+                    }
+                    break;
                 default:
                     break;
             }
@@ -487,6 +492,54 @@ namespace FicherosAdicionales
 
             sr.Close();
             return counter;
+        }
+        static void DiasDeLluvia (string filename)
+        {
+            StreamReader sr = new StreamReader(filename);
+            Dictionary<string, int> dict = new Dictionary<string, int>();
+            string city, maxKey = "", minKey ="";
+            int precipitations, max = int.MinValue, min = int.MaxValue;
+            string[] record;
+
+            sr.ReadLine();//Lee la cabecera.
+
+            while (!sr.EndOfStream)
+            {
+                record = sr.ReadLine().Split(";");
+                city = record[0];
+                precipitations = GetPrecipitations(record);
+                dict.Add(city, precipitations);
+            }
+
+            foreach (KeyValuePair<string, int> pair in dict)
+            {
+                if (pair.Value > max)
+                {
+                    maxKey = pair.Key;
+                    max = pair.Value;
+                }
+                if (pair.Value < min)
+                {
+                    minKey = pair.Key;
+                    min = pair.Value;
+                }
+            }
+            
+            Console.WriteLine($"La ciudad más lluviosa es {maxKey} y la más seca es {minKey}");
+
+            sr.Close();
+        }
+        static int GetPrecipitations (string[] record)
+        {
+            int result = 0, current;
+
+            for (int i = 1; i < record.Length; i++)
+            {
+                current = int.Parse(record[i]);
+                result += current;
+            }
+
+            return result;
         }
     }
 }
