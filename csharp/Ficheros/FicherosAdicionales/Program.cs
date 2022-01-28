@@ -1,10 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
+
 namespace FicherosAdicionales
 {
     class Program
     {
+        public class Log
+        {
+            public string url;
+            public int visits;
+        }
         static void Main(string[] args)
         {
             int option;
@@ -62,6 +69,11 @@ namespace FicherosAdicionales
                 case 7:
                     {
                         DiasDeLluvia("ficheros/texto/Ej07/dias_de_lluvia.csv");
+                    }
+                    break;
+                case 8:
+                    {
+                        ProcesaLogs("ficheros/texto/Ej08/NASA_access_log_Jul95.txt");
                     }
                     break;
                 default:
@@ -190,6 +202,8 @@ namespace FicherosAdicionales
             Console.WriteLine(" 4 - CuatroVocales");
             Console.WriteLine(" 5 - EscribeArrayBi y LeeArrayBi");
             Console.WriteLine(" 6 - PalabrasDistintas");
+            Console.WriteLine(" 7 - DiasDeLluvia");
+            Console.WriteLine(" 8 - ProcesaLogs");
 
             Console.Write("Introduce la opción: ");
         }
@@ -541,5 +555,46 @@ namespace FicherosAdicionales
 
             return result;
         }
+        static void ProcesaLogs (string filename)
+        {
+            StreamReader sr = new StreamReader(filename);
+            List<Log> l = new List<Log>();
+            Log current;
+            string line, url;
+            int visits;
+
+            while (!sr.EndOfStream)
+            {
+                line = sr.ReadLine();
+                l.Add(GetLog(line));
+            }
+
+            for (int i = 0; i < l.Count; i++)
+            {
+                current = l[i];
+                url = current.url;
+                visits = current.visits;
+
+                Console.WriteLine($"{url} => {visits}");
+            }
+
+            sr.Close();
+        }
+        static Log GetLog (string line)
+        {
+            Log log = new Log();
+            Regex regex = new Regex("\\d{3} \\d+");
+            int endOfUrl = line.IndexOf("- -");
+            string url = line.Substring(0, endOfUrl).Trim();
+            string searchVisits = regex.Match(line).ToString().Substring(3);
+            Console.WriteLine(searchVisits);
+            int visits = int.Parse(searchVisits);
+
+            log.url = url;
+            log.visits = visits;
+
+            return log;
+        }
+
     }
 }
