@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\FicherosAdicionales.csproj",
-      "projectName": "FicherosAdicionales",
-      "projectPath": "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\FicherosAdicionales.csproj",
+      "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Programación orientada a objetos\\ExplicacionClases\\ExplicacionClases.csproj",
+      "projectName": "ExplicacionClases",
+      "projectPath": "G:\\Repositorios\\FP\\csharp\\Programación orientada a objetos\\ExplicacionClases\\ExplicacionClases.csproj",
       "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-      "outputPath": "G:\\Repositorios\\FP\\csharp\\Ficheros\\FicherosAdicionales\\obj\\",
+      "outputPath": "G:\\Repositorios\\FP\\csharp\\Programación orientada a objetos\\ExplicacionClases\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",

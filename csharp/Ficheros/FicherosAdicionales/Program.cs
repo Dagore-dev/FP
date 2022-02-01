@@ -9,7 +9,11 @@ namespace FicherosAdicionales
     {
         public class Log
         {
+            public bool correct = true;
             public string url;
+            public string date;
+            public string header;
+            public int status;
             public int visits;
         }
         static void Main(string[] args)
@@ -558,24 +562,54 @@ namespace FicherosAdicionales
         static void ProcesaLogs (string filename)
         {
             StreamReader sr = new StreamReader(filename);
-            List<Log> l = new List<Log>();
+            Dictionary<string, int> dict = new Dictionary<string, int>();
+            List<KeyValuePair<string, int>> l = new List<KeyValuePair<string, int>>();
+            Regex regexIp = new Regex("(\\d+\\.?){4}");
             Log current;
-            string line, url;
-            int visits;
+            int minIndex;
+            string line;
 
             while (!sr.EndOfStream)
             {
                 line = sr.ReadLine();
-                l.Add(GetLog(line));
+                current = GetLog(line);
+
+                if (current.correct && !regexIp.Match(current.url).Success)
+                {
+                    if (dict.ContainsKey(current.url))
+                    {
+                        dict[current.url]++;
+                    }
+                    else
+                    {
+                        dict[current.url] = 1;
+                    }
+                }
             }
+
+            foreach (KeyValuePair<string, int> item in dict)
+            {
+                if (l.Count < 20)
+                {
+                    l.Add(item);
+                }
+                else
+                {
+                    minIndex = GetMinIndex(l);
+
+                    if (item.Value > l[minIndex].Value)
+                    {
+                        l[minIndex] = item;
+                    }
+
+                }
+            }
+
+            OrdenaBurbuja(l);
 
             for (int i = 0; i < l.Count; i++)
             {
-                current = l[i];
-                url = current.url;
-                visits = current.visits;
-
-                Console.WriteLine($"{url} => {visits}");
+                Console.WriteLine($"{l[i].Key} => {l[i].Value}");
             }
 
             sr.Close();
@@ -583,18 +617,67 @@ namespace FicherosAdicionales
         static Log GetLog (string line)
         {
             Log log = new Log();
-            Regex regex = new Regex("\\d{3} \\d+");
-            int endOfUrl = line.IndexOf("- -");
-            string url = line.Substring(0, endOfUrl).Trim();
-            string searchVisits = regex.Match(line).ToString().Substring(3);
-            Console.WriteLine(searchVisits);
-            int visits = int.Parse(searchVisits);
+            string[] splittedLog = line.Split(" - - "), stats;
+            Regex regexDate = new Regex("\\[.+\\]"), regexHeader = new Regex("\".+\""), regexStats = new Regex("\\d{3} \\d+");
 
-            log.url = url;
-            log.visits = visits;
+            if (splittedLog.Length == 2)
+            {
+                stats = regexStats.Match(splittedLog[1]).Value.Split(' ');
+
+                if (stats.Length == 2)
+                {
+                    log.url = splittedLog[0];
+                    log.date = regexDate.Match(splittedLog[1]).Value;
+                    log.header = regexHeader.Match(splittedLog[1]).Value;
+                    log.status = int.Parse(stats[0].Trim());
+                    log.visits = int.Parse(stats[1].Trim());
+                }
+                else
+                {
+                    log.correct = false;
+                }
+            }
+            else
+            {
+                log.correct = false;
+            }
 
             return log;
         }
+        static int GetMinIndex (List<KeyValuePair<string,int>> l)
+        {
+            KeyValuePair<string, int> item;
+            int min = int.MaxValue, minIndex = -1;
 
+            for (int i = 0; i < l.Count; i++)
+            {
+                item = l[i];
+                
+                if (item.Value < min)
+                {
+                    min = item.Value;
+                    minIndex = i;
+                }
+            }
+
+            return minIndex;
+        }
+        static void OrdenaBurbuja (List<KeyValuePair<string, int>> l)
+        {
+            KeyValuePair<string, int> temp;
+
+            for (int i = 0; i < l.Count - 1; i++)
+            {
+                for (int j = 0; j < l.Count - 1; j++)
+                {
+                    if (l[j].Value < l[j + 1].Value)
+                    {
+                        temp = l[j + 1];
+                        l[j + 1] = l[j];
+                        l[j] = temp;
+                    }
+                }
+            }
+        }
     }
 }
