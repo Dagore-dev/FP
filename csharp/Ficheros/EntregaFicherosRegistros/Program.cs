@@ -211,6 +211,8 @@ namespace EntregaFicherosRegistros
             StreamWriter sw = new StreamWriter(filename);
             FichaAlumno alumno;
 
+            sw.WriteLine(l.Count);
+
             for (int i = 0; i < l.Count; i++)
             {
                 alumno = l[i];
@@ -226,8 +228,9 @@ namespace EntregaFicherosRegistros
         {
             StreamReader sr = new StreamReader(filename);
             FichaAlumno alumno;
+            int length = int.Parse(sr.ReadLine());
 
-            while (!sr.EndOfStream)
+            for (int i = 0; i < length; i++)
             {
                 alumno = new FichaAlumno();
 
