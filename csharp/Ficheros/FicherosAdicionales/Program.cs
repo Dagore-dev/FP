@@ -80,6 +80,16 @@ namespace FicherosAdicionales
                         ProcesaLogs("ficheros/texto/Ej08/NASA_access_log_Jul95.txt");
                     }
                     break;
+                case 14:
+                    {
+                        LeeColorinesConsola("ficheros/binarios/Ej2/colorines1.color");
+                    }
+                    break;
+                case 19:
+                    {
+                        NuevoFormatoBanco("ficheros/binarios/Ej7/datosantiguos.txt", "ficheros/binarios/Ej7/datosnuevos2.bin");
+                    }
+                    break;
                 default:
                     break;
             }
@@ -208,6 +218,8 @@ namespace FicherosAdicionales
             Console.WriteLine(" 6 - PalabrasDistintas");
             Console.WriteLine(" 7 - DiasDeLluvia");
             Console.WriteLine(" 8 - ProcesaLogs");
+            Console.WriteLine("14 - LeeColorinesConsola");
+            Console.WriteLine("19 - NuevoFormatoBanco");
 
             Console.Write("Introduce la opción: ");
         }
@@ -678,6 +690,55 @@ namespace FicherosAdicionales
                     }
                 }
             }
+        }
+        static void LeeColorinesConsola (string path)
+        {
+            FileStream fs = new FileStream(path, FileMode.Open);
+            BinaryReader br = new BinaryReader(fs);
+            int n;
+            ConsoleColor original = Console.BackgroundColor;
+
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    n = br.ReadInt32();
+                    Console.BackgroundColor = (ConsoleColor)n;
+                    Console.Write("  ");
+                }
+                Console.BackgroundColor = original;
+                Console.WriteLine();
+            }
+
+            br.Close();
+            fs.Close();
+        }
+        static void NuevoFormatoBanco (string path1, string path2)
+        {
+            StreamReader sr = new StreamReader(path1);
+            string[] fields;
+            string line;
+
+            for (int i = 0; i < 3; i++)
+            {
+                sr.ReadLine();
+            }
+
+            while (!sr.EndOfStream)
+            {
+                line = sr.ReadLine();
+
+                if (line.Contains('|'))
+                {
+                    fields = line.Split('|');
+                    Console.WriteLine(fields[1].Trim().Replace("-", ""));
+                    Console.WriteLine(fields[2].Trim().Replace("-", ""));
+                    Console.WriteLine(fields[3]);
+                    Console.WriteLine(fields[4]);
+                }
+            }
+
+            sr.Close();
         }
     }
 }
