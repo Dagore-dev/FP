@@ -16,6 +16,15 @@ namespace FicherosAdicionales
             public int status;
             public int visits;
         }
+        public class Transferencia
+        {
+            public string origin;
+            public string destiny;
+            public int day;
+            public int month;
+            public int year;
+            public decimal euros;
+        }
         static void Main(string[] args)
         {
             int option;
@@ -716,29 +725,63 @@ namespace FicherosAdicionales
         static void NuevoFormatoBanco (string path1, string path2)
         {
             StreamReader sr = new StreamReader(path1);
-            string[] fields;
+            FileStream fs = new FileStream(path2, FileMode.Create);
+            BinaryWriter bw = new BinaryWriter(fs);
+            Transferencia current;
             string line;
 
+            //Nos quitamos el header del fichero
             for (int i = 0; i < 3; i++)
             {
                 sr.ReadLine();
             }
 
+            //Obtenemos los registros y los escribimos en el archivo binario
             while (!sr.EndOfStream)
             {
                 line = sr.ReadLine();
 
-                if (line.Contains('|'))
+                if (line.StartsWith('|'))
                 {
-                    fields = line.Split('|');
-                    Console.WriteLine(fields[1].Trim().Replace("-", ""));
-                    Console.WriteLine(fields[2].Trim().Replace("-", ""));
-                    Console.WriteLine(fields[3]);
-                    Console.WriteLine(fields[4]);
+                    current = GetTransferencia(line);
+
+                    bw.Write(current.origin);
+                    bw.Write(current.destiny);
+                    bw.Write(current.day);
+                    bw.Write(current.month);
+                    bw.Write(current.year);
+                    bw.Write(current.euros);
                 }
             }
 
+            bw.Close();
+            fs.Close();
             sr.Close();
+        }
+        private static Transferencia GetTransferencia (string line)
+        {
+            Transferencia result = new Transferencia();
+            string[] fields = line.Split('|', StringSplitOptions.RemoveEmptyEntries);
+            string[] dateFields = fields[2].Trim().Split('/');
+
+            result.origin = GetAccount(fields[0]);
+            result.destiny = GetAccount(fields[1]);
+            result.day = int.Parse(dateFields[0]);
+            result.month = int.Parse(dateFields[1]);
+            result.year = int.Parse(dateFields[2]) + 1900;
+            result.euros = GetEuros(fields[3]);
+
+            return result;
+        }
+        private static decimal GetEuros (string s)
+        {
+            decimal pesetas = decimal.Parse(s.Trim());
+
+            return pesetas / 166.3860m;
+        }
+        private static string GetAccount (string s)
+        {
+            return s.Replace("-", "");
         }
     }
 }
