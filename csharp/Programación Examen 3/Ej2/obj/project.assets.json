@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej2\\Ej2.csproj",
+      "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej2\\Ej2.csproj",
       "projectName": "Ej2",
-      "projectPath": "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej2\\Ej2.csproj",
+      "projectPath": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej2\\Ej2.csproj",
       "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej2\\obj\\",
+      "outputPath": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",

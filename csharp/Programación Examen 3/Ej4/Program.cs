@@ -71,6 +71,22 @@ namespace Ej4
         }
         static bool Comprueba1Dama (int[,] aa, int row, int col)
         {
+            //for (int i = 0; i < 8; i++)
+            //{
+            //    for (int j = 0; j < 8; j++)
+            //    {
+            //        if (i == row || j == col || (i - j) == (row - col) || (i + j) == row + col)
+            //        {
+            //            if (i != row || j != col && aa[i, j] != 0)
+            //            {
+            //                return true;
+            //            }
+            //        }
+            //    }
+            //}
+
+            //return false;
+            
             bool result = false;
 
             if (CheckColUp(aa, row, col))

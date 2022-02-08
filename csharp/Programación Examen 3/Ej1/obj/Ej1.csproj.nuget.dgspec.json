@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej1\\Ej1.csproj": {}
+    "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej1\\Ej1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej1\\Ej1.csproj": {
+    "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej1\\Ej1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej1\\Ej1.csproj",
+        "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej1\\Ej1.csproj",
         "projectName": "Ej1",
-        "projectPath": "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej1\\Ej1.csproj",
+        "projectPath": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej1\\Ej1.csproj",
         "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej1\\obj\\",
+        "outputPath": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",

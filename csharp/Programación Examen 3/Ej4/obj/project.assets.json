@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej4\\Ej4.csproj",
+      "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej4\\Ej4.csproj",
       "projectName": "Ej4",
-      "projectPath": "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej4\\Ej4.csproj",
+      "projectPath": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej4\\Ej4.csproj",
       "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dagore\\Desktop\\David Gómez Redondo\\Ej4\\obj\\",
+      "outputPath": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",
