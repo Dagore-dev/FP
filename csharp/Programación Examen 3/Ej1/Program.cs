@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Ej1
@@ -7,61 +8,41 @@ namespace Ej1
     {
         static void Main(string[] args)
         {
-            GeneraServidorDHCP("dhcp.txt", 1000);
+            GeneraServidorDHCP("dhcp.txt", 1000000);
         }
         static void GeneraServidorDHCP (string path, int n)
         {
-            string[] ips = GenerateIps(n);
+            HashSet<string> ips = GenerateIps(n);
             StreamWriter sr = new StreamWriter(path);
 
             sr.WriteLine("subnet 10.0.0.0 netmask 255.0.0.0 {");
 
-            for (int i = 0; i < n; i++)
+            foreach (string ip in ips)
             {
-                sr.WriteLine($"\trange {ips[i]};");
+                sr.WriteLine($"\trange {ip};");
             }
 
             sr.WriteLine("}");
 
             sr.Close();
         }
-        static string[] GenerateIps (int n)
+        static HashSet<string> GenerateIps (int n)
         {
             Random r = new Random();
-            string[] ips = new string[n];
+            HashSet<string> ips = new HashSet<string>();
             string ip;
 
-            for (int i = 0; i < ips.Length; i++)
+            while (ips.Count < n)
             {
-                ip = $"10.{r.Next(0,256)}.{r.Next(0, 256)}.{r.Next(0, 256)}";
+                ip = $"10.{r.Next(0, 256)}.{r.Next(0, 256)}.{r.Next(0, 256)}";
 
-                if (!Contiene(ips, ip))
+                if (!ips.Contains(ip))
                 {
-                    ips[i] = ip;
-                }
-                else
-                {
-                    i--;
+                    ips.Add(ip);
                 }
             }
-
+            
             return ips;
-        }
-        static bool Contiene(string[] a, string s)
-        {
-            int i = 0;
-            bool result = false;
-
-            while (i < a.Length && result == false)
-            {
-                if (a[i] == s)
-                {
-                    result = true;
-                }
-                i++;
-            }
-
-            return result;
         }
     }
 }

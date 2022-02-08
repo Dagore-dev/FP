@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Dagore\\.nuget\\packages\\": {}
+    "C:\\Users\\dagor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej1\\Ej1.csproj",
+      "projectUniqueName": "C:\\Users\\dagor\\source\\FP\\csharp\\Programación Examen 3\\Ej1\\Ej1.csproj",
       "projectName": "Ej1",
-      "projectPath": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej1\\Ej1.csproj",
-      "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-      "outputPath": "G:\\Repositorios\\FP\\csharp\\Programación Examen 3\\Ej1\\obj\\",
+      "projectPath": "C:\\Users\\dagor\\source\\FP\\csharp\\Programación Examen 3\\Ej1\\Ej1.csproj",
+      "packagesPath": "C:\\Users\\dagor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dagor\\source\\FP\\csharp\\Programación Examen 3\\Ej1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dagor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
