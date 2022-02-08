@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Ej1
 {
@@ -35,11 +36,7 @@ namespace Ej1
             while (ips.Count < n)
             {
                 ip = $"10.{r.Next(0, 256)}.{r.Next(0, 256)}.{r.Next(0, 256)}";
-
-                if (!ips.Contains(ip))
-                {
-                    ips.Add(ip);
-                }
+                ips.Add(ip);
             }
             
             return ips;
